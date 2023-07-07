@@ -3,6 +3,7 @@ import clsx from "clsx"
 import Swiper, { SwiperSlide } from "../../components/swiper";
 import testimonialData from "../../data/testimonial/testimonial-one.json";
 import TestimonialOneSingle from "../../components/testimonial/TestimonialOneSingle.js";
+import SectionTitle from "../../components/section-title/SectionTitle";
 
 // swiper slider settings
 const settings = {
@@ -22,6 +23,11 @@ const TestimonialOne = ({
   return (
     <div className={clsx("testimonial-area", spaceTopClass, spaceBottomClass, spaceLeftClass, spaceRightClass, bgColorClass)}>
       <div className="container">
+      <SectionTitle
+          titleText="TESTIMONIALS"
+          positionClass="text-center"
+          spaceClass="mb-55"
+        />
         <div className="row">
           <div className="col-lg-10 mx-auto">
             <div className="testimonial-active nav-style-1 nav-testi-style">

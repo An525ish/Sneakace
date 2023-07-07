@@ -5,6 +5,9 @@ import BannerOne from "../../wrappers/banner/BannerOne";
 import BlogFeatured from "../../wrappers/blog-featured/BlogFeatured";
 import HeroSliderNine from "../../wrappers/hero-slider/HeroSliderNine";
 import TabProductFive from "../../wrappers/product/TabProductFive";
+import Newsletter from "../../wrappers/newsletter/Newsletter";
+import NewsletterTwo from "../../wrappers/newsletter/NewsletterTwo";
+import TestimonialOne from "../../wrappers/testimonial/TestimonialOne";
 
 const HomeFashionTwo = () => {
   return (
@@ -19,12 +22,24 @@ const HomeFashionTwo = () => {
       >
         {/* hero slider */}
         <HeroSliderNine spaceLeftClass="ml-70" spaceRightClass="mr-70" />
-        {/* banner */}
+        {/* Category */}
         <BannerOne spaceTopClass="pt-60" spaceBottomClass="pb-65" />
         {/* tab product */}
-        <TabProductFive spaceBottomClass="pb-60" category="accessories" />
-        {/* blog featured */}
-        <BlogFeatured spaceBottomClass="pb-55" />
+        <TabProductFive spaceBottomClass="pb-40" category="accessories" />
+        {/* testimonial */}
+        <TestimonialOne
+          spaceTopClass="pt-100"
+          spaceBottomClass="pb-95"
+          spaceLeftClass="ml-70"
+          spaceRightClass="mr-70"
+          bgColorClass="bg-gray-3"
+        />
+        {/* newsletter */}
+        <NewsletterTwo
+          spaceTopClass="pt-100"
+          spaceBottomClass="pb-100"
+          subscribeBtnClass="green-subscribe"
+        />
       </LayoutOne>
     </Fragment>
   );

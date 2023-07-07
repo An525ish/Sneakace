@@ -18,6 +18,7 @@ const TabProductFive = ({
           <Nav
             variant="pills"
             className={clsx("product-tab-list-2 mb-60", productTabClass)}
+            style={{display:'flex', alignItems:'center', justifyContent:'center'}}
           >
             <Nav.Item>
               <Nav.Link eventKey="newArrival">
