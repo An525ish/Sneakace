@@ -17,10 +17,12 @@ const OffcanvasMenu = ({ activeState, getActiveState }) => {
       </div>
       <div className="side-logo">
         <Link to={process.env.PUBLIC_URL + "/"}>
-          <img
+          {/* <img
             alt=""
             src={process.env.PUBLIC_URL + "/assets/img/logo/logo.png"}
-          />
+          /> */}
+
+          <h1 className="text-dark">SNEAKACE</h1>
         </Link>
       </div>
       {/* nav menu*/}
