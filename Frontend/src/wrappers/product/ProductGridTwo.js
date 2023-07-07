@@ -1,9 +1,36 @@
 
 import { Fragment } from "react";
 import PropTypes from "prop-types";
+import clsx from "clsx"
+import Swiper, { SwiperSlide } from "../../components/swiper";
 import { useSelector } from "react-redux";
 import { getProducts } from "../../helpers/product";
 import ProductGridSingleTwo from "../../components/product/ProductGridSingleTwo";
+// import Slider from "../../components/carousal";
+// import { slideData } from "../../components/carousal";
+import BrandLogoSliderFive from "../brand-logo/BrandLogoSliderFive";
+
+const settings = {
+  loop: true,
+  speed: 1000,
+  navigation: true,
+  grabCursor: true,
+  breakpoints: {
+    320: {
+      slidesPerView: 2
+    },
+    640: {
+      slidesPerView: 3
+    },
+    768: {
+      slidesPerView: 4
+    },
+    1024: {
+      slidesPerView: 3
+    }
+  }
+};
+
 
 const ProductGridTwo = ({
   spaceBottomClass,
@@ -22,32 +49,38 @@ const ProductGridTwo = ({
   
   return (
     <Fragment>
-      {prods?.map((product) => {
-        return (
-          <div className="col-xl-3 col-md-6 col-lg-4 col-sm-6" key={product.id}>
-            <ProductGridSingleTwo
-              spaceBottomClass={spaceBottomClass}
-              colorClass={colorClass}
-              product={product}
-              currency={currency}
-              cartItem={
-                cartItems.find((cartItem) => cartItem.id === product.id)
-              }
-              wishlistItem={
-                wishlistItems.find(
-                  (wishlistItem) => wishlistItem.id === product.id
-                )
-              }
-              compareItem={
-                compareItems.find(
-                  (compareItem) => compareItem.id === product.id
-                )
-              }
-              titlePriceClass={titlePriceClass}
-            />
-          </div>
-        );
-      })}
+          {prods && (
+            <Swiper options={settings}>
+              {prods.map((product, key) => (
+                <SwiperSlide key={key}>
+                    <div className="col-xl-9 col-md-12 col-lg-9 col-sm-12" style={{marginLeft:'15%'}} key={product.id}>
+                      <ProductGridSingleTwo
+                        spaceBottomClass={spaceBottomClass}
+                        colorClass={colorClass}
+                        product={product}
+                        currency={currency}
+                        cartItem={
+                          cartItems.find((cartItem) => cartItem.id === product.id)
+                        }
+                        wishlistItem={
+                          wishlistItems.find(
+                            (wishlistItem) => wishlistItem.id === product.id
+                          )
+                        }
+                        compareItem={
+                          compareItems.find(
+                            (compareItem) => compareItem.id === product.id
+                          )
+                        }
+                        titlePriceClass={titlePriceClass}
+                      />
+                    </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          )}
+      {/* {prods?.map((product) => {
+      })} */}
     </Fragment>
   );
 };
