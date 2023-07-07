@@ -1,8 +1,9 @@
 import PropTypes from "prop-types";
 import { Fragment } from "react";
-import HeaderOne from "../wrappers/header/HeaderOne";
+// import HeaderOne from "../wrappers/header/HeaderOne";
 import FooterOne from "../wrappers/footer/FooterOne";
 import ScrollToTop from "../components/scroll-to-top"
+import HeaderSix from "../wrappers/header/HeaderSix";
 
 const LayoutOne = ({
   children,
@@ -13,12 +14,7 @@ const LayoutOne = ({
 }) => {
   return (
     <Fragment>
-      <HeaderOne
-        layout={headerContainerClass}
-        top={headerTop}
-        headerPaddingClass={headerPaddingClass}
-        headerPositionClass={headerPositionClass}
-      />
+       <HeaderSix layout="container-fluid" />
       {children}
       <FooterOne
         backgroundColorClass="bg-gray"
