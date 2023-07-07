@@ -36,7 +36,7 @@
 
         content: "";
 
-        opacity: 0.5;
+        opacity: 1;
         background-color: #fff;
       }
     }
@@ -271,7 +271,7 @@
     left: 80px;
 
     display: inline-block;
-    visibility: hidden;
+    visibility: visible;
 
     width: 80px;
     height: 80px;
@@ -281,7 +281,7 @@
     transform: translateY(-50%);
     text-align: center;
 
-    opacity: 0;
+    opacity: 1;
     color: #999;
     border: none;
     background: none;
@@ -1159,7 +1159,7 @@
   top: 50%;
 
   display: inline-block;
-  visibility: hidden;
+  visibility: visible;
 
   width: 65px;
   height: 84px;
@@ -2337,7 +2337,7 @@
 
         content: "";
 
-        opacity: 0.5;
+        opacity: 1;
         background-color: #fff;
       }
     }
@@ -2375,11 +2375,11 @@
   .ht-swiper-button-nav {
     font-size: 40px;
 
-    visibility: hidden;
+    visibility: visible;
 
     padding: 0;
 
-    opacity: 0;
+    opacity: 1;
     color: #333;
     border: none;
     background: none;
