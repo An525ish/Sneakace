@@ -42,7 +42,7 @@ const TabProductFive = ({
                 <ProductGridTwo
                   category={category}
                   type="new"
-                  limit={8}
+                  limit={5}
                   spaceBottomClass="mb-25"
                 />
               </div>
@@ -52,7 +52,7 @@ const TabProductFive = ({
                 <ProductGridTwo
                   category={category}
                   type="bestSeller"
-                  limit={8}
+                  limit={5}
                   spaceBottomClass="mb-25"
                 />
               </div>
@@ -62,7 +62,7 @@ const TabProductFive = ({
                 <ProductGridTwo
                   category={category}
                   type="saleItems"
-                  limit={8}
+                  limit={5}
                   spaceBottomClass="mb-25"
                 />
               </div>

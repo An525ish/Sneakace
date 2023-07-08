@@ -2,12 +2,12 @@
 
 .single-banner {
   position: relative;
-
   overflow: hidden;
+  cursor: pointer !important;
   a {
     img {
+      border:2px solid black;
       width: 100%;
-
       transition: all 0.5s ease 0s;
       transform: scale(1);
     }
@@ -42,7 +42,7 @@
 
       margin: 0;
 
-      color: #915342;
+      color: rgb(195, 143, 11);
       @media #{$md-layout} {
         font-size: 27px;
       }
@@ -94,8 +94,8 @@
 
       text-align: center;
 
-      color: #97584a;
-      border: 2px solid #97584a;
+      color: rgb(195, 143, 11);
+      border: 2px solid rgb(195, 143, 11);
       border-radius: 100%;
       i {
         line-height: 25px;
@@ -1009,8 +1009,8 @@
 
       text-align: center;
 
-      color: #97584a;
-      border: 2px solid #97584a;
+      color: rgb(195, 143, 11);
+      border: 2px solid rgb(195, 143, 11);
       border-radius: 100%;
       &:hover {
         color: #000;

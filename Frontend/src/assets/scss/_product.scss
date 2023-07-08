@@ -5,7 +5,6 @@
     &.three-column {
       .col-xl-3 {
         flex: 1 0 33.3333%;
-
         max-width: 33.3333%;
 
         transition: 0.5s;
@@ -247,7 +246,6 @@
   position: relative;
   .product-img {
     position: relative;
-
     overflow: hidden;
     img {
       width: 100%;
@@ -265,7 +263,7 @@
         display: block;
 
         margin-bottom: 10px;
-        padding: 3px 11px;
+        // padding: 3px 11px;
 
         color: #fff;
         border-radius: 3px;
@@ -1406,7 +1404,9 @@
 
 .product-wrap-2 {
   position: relative;
-
+  margin-left: 2rem;
+  width:20rem;
+  justify-content: space-between;
   overflow: hidden;
   .product-img {
     position: relative;

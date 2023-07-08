@@ -1205,10 +1205,10 @@
   }
 
   &.swiper-button-prev {
-    left: 0;
+    left: 30%;
   }
   &.swiper-button-next {
-    right: 0;
+    right: 31%;
   }
 }
 
@@ -1216,7 +1216,6 @@
   &:hover .nav-style-2.owl-carousel > .owl-nav div,
   &:hover .nav-style-2 .ht-swiper-button-nav {
     visibility: visible;
-
     opacity: 1;
   }
   &.ml-10 {
