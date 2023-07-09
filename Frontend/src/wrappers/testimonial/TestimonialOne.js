@@ -9,7 +9,10 @@ import SectionTitle from "../../components/section-title/SectionTitle";
 const settings = {
   slidesPerView: 1,
   loop: true,
-  autoplay: true
+  autoplay:{
+    delay:15000,
+  },
+  speed:2000,
 };
 
 const TestimonialOne = ({

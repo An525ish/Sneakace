@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 const BreadcrumbWrap = ({pages}) => {
   return (
-    <div className="breadcrumb-area pt-35 pb-35 bg-gray-3">
+    <div className="breadcrumb-area pt-35 pb-50 bg-secondary">
       <div className="container">
-        <Breadcrumb>
+        {/* <Breadcrumb>
             {pages?.map(({ path, label }, i) => i !== pages.length - 1 ? (
                 <Breadcrumb.Item key={label} linkProps={{to: path}} linkAs={Link}>
                   {label}
@@ -16,7 +16,7 @@ const BreadcrumbWrap = ({pages}) => {
                 {label}
               </Breadcrumb.Item>
             ))}
-        </Breadcrumb>
+        </Breadcrumb> */}
       </div>
     </div>
   );

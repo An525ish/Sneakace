@@ -54,16 +54,16 @@ const ShopGridStandard = () => {
                 description="Shop page of flone react minimalist eCommerce template."
             />
 
-            <LayoutOne headerTop="visible">
+            <LayoutOne >
                 {/* breadcrumb */}
-                <Breadcrumb 
+                {/* <Breadcrumb 
                     pages={[
                         {label: "Home", path: process.env.PUBLIC_URL + "/" },
                         {label: "Shop", path: process.env.PUBLIC_URL + pathname }
                     ]} 
-                />
+                /> */}
 
-                <div className="shop-area pt-95 pb-100">
+                <div className="shop-area pt-120 pb-100">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-3 order-2 order-lg-1">

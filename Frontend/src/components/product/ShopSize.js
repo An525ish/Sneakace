@@ -5,7 +5,7 @@ import { setActiveSort } from "../../helpers/product";
 const ShopSize = ({ sizes, getSortParams }) => {
   return (
     <div className="sidebar-widget mt-40">
-      <h4 className="pro-sidebar-title">Size </h4>
+      <h4 className="pro-sidebar-title">Pattern</h4>
       <div className="sidebar-widget-list mt-20">
         {sizes ? (
           <ul>
@@ -17,7 +17,7 @@ const ShopSize = ({ sizes, getSortParams }) => {
                     setActiveSort(e);
                   }}
                 >
-                  <span className="checkmark" /> All Sizes{" "}
+                  <span className="checkmark" /> All Patterns{" "}
                 </button>
               </div>
             </li>
