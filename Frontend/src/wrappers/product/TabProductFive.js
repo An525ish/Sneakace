@@ -8,7 +8,7 @@ import ProductGridTwo from "./ProductGridTwo";
 const TabProductFive = ({
   spaceTopClass,
   spaceBottomClass,
-  category,
+  tag,
   productTabClass
 }) => {
   return (
@@ -40,9 +40,9 @@ const TabProductFive = ({
             <Tab.Pane eventKey="newArrival">
               <div className="row">
                 <ProductGridTwo
-                  category={category}
+                  tag={tag}
                   type="new"
-                  limit={8}
+                  limit={5}
                   spaceBottomClass="mb-25"
                 />
               </div>
@@ -50,9 +50,9 @@ const TabProductFive = ({
             <Tab.Pane eventKey="bestSeller">
               <div className="row">
                 <ProductGridTwo
-                  category={category}
+                  tag={tag}
                   type="bestSeller"
-                  limit={8}
+                  limit={5}
                   spaceBottomClass="mb-25"
                 />
               </div>
@@ -60,9 +60,9 @@ const TabProductFive = ({
             <Tab.Pane eventKey="saleItems">
               <div className="row">
                 <ProductGridTwo
-                  category={category}
+                  tag={tag}
                   type="saleItems"
-                  limit={8}
+                  limit={5}
                   spaceBottomClass="mb-25"
                 />
               </div>
@@ -83,7 +83,7 @@ const TabProductFive = ({
 };
 
 TabProductFive.propTypes = {
-  category: PropTypes.string,
+  tag: PropTypes.string,
   productTabClass: PropTypes.string,
   spaceBottomClass: PropTypes.string,
   spaceTopClass: PropTypes.string
