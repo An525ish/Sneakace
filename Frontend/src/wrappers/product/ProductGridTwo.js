@@ -36,7 +36,7 @@ const ProductGridTwo = ({
   spaceBottomClass,
   colorClass,
   titlePriceClass,
-  category,
+  tag,
   type,
   limit
 }) => {
@@ -45,8 +45,10 @@ const ProductGridTwo = ({
   const { cartItems } = useSelector((state) => state.cart);
   const { wishlistItems } = useSelector((state) => state.wishlist);
   const { compareItems } = useSelector((state) => state.compare);
-  const prods = getProducts(products, category, type, limit);
+  const prods = getProducts(products, tag, type, limit);
   
+  console.log(prods,"data")
+
   return (
     <Fragment>
       <div className={clsx("slider-area")}>
@@ -55,7 +57,7 @@ const ProductGridTwo = ({
             <Swiper options={settings}>
               {prods.map((product, key) => (
                 <SwiperSlide key={key}>
-                    <div className="col-xl-9 col-md-12 col-lg-9 col-sm-12" style={{marginLeft:'13%'}} key={product.id}>
+                    <div className="col-xl-9 col-md-12 col-lg-9 col-sm-12" key={product.id}>
                       <ProductGridSingleTwo
                         spaceBottomClass={spaceBottomClass}
                         colorClass={colorClass}
@@ -92,7 +94,7 @@ ProductGridTwo.propTypes = {
   spaceBottomClass: PropTypes.string,
   colorClass: PropTypes.string,
   titlePriceClass: PropTypes.string,
-  category: PropTypes.string,
+  tag: PropTypes.string,
   type: PropTypes.string,
   limit: PropTypes.number
 };

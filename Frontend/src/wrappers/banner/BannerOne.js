@@ -3,13 +3,14 @@ import clsx from "clsx";
 import bannerData from "../../data/banner/banner-one.json";
 import BannerOneSingle from "../../components/banner/BannerOneSingle.js";
 import SectionTitle from "../../components/section-title/SectionTitle";
+import { Link } from "react-router-dom";
 
 const BannerOne = ({ spaceTopClass, spaceBottomClass }) => {
   return (
     <div className={clsx("banner-area", spaceTopClass, spaceBottomClass)}>
       <div className="container">
       <SectionTitle
-          titleText="CATEGORIES"
+          titleText=" TOP CATEGORIES"
           positionClass="text-center"
           spaceClass="mb-55"
         />
@@ -22,6 +23,14 @@ const BannerOne = ({ spaceTopClass, spaceBottomClass }) => {
               />
             </div>
           ))}
+        </div>
+        <div className="view-more text-center mt-20 toggle-btn6 col-12">
+          <Link
+            className="loadMore6"
+            to={process.env.PUBLIC_URL + "/shop-grid-standard"}
+          >
+            VIEW ALL CATEGORIES
+          </Link>
         </div>
       </div>
     </div>

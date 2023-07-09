@@ -1195,20 +1195,16 @@
     width: 35px;
     height: 50px;
   }
-  &:hover {
-    color: #fff;
-    background-color: $theme-color;
-  }
   &.owl-next {
     right: 0;
     left: auto;
   }
 
   &.swiper-button-prev {
-    left: 0;
+    left: 30%;
   }
   &.swiper-button-next {
-    right: 0;
+    right: 31%;
   }
 }
 
@@ -1216,7 +1212,6 @@
   &:hover .nav-style-2.owl-carousel > .owl-nav div,
   &:hover .nav-style-2 .ht-swiper-button-nav {
     visibility: visible;
-
     opacity: 1;
   }
   &.ml-10 {
@@ -1632,7 +1627,7 @@
       border: 1px solid #333;
       &:hover {
         color: #fff;
-        border: 1px solid #a749ff;
+        // border: 1px solid #a749ff;
       }
       @media #{$md-layout} {
         padding: 15px 35px 15px;
@@ -1919,7 +1914,7 @@
       border: 1px solid #333;
       &:hover {
         color: #fff;
-        border: 1px solid #a749ff;
+        // border: 1px solid #a749ff;
       }
     }
   }

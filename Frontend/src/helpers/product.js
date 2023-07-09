@@ -1,8 +1,8 @@
 // get products
-export const getProducts = (products, category, type, limit) => {
-  const finalProducts = category
+export const getProducts = (products, tag, type, limit) => {
+  const finalProducts = tag
     ? products.filter(
-        product => product.category.filter(single => single === category)[0]
+        product => product.tag.filter(single => single === tag)[0]
       )
     : products;
 
