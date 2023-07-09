@@ -18,7 +18,7 @@ const FooterOne = ({
   return (
     <footer className={clsx("footer-area", backgroundColorClass, spaceTopClass, spaceBottomClass, extraFooterClass, spaceLeftClass, spaceRightClass )}>
       <div className={`${containerClass ? containerClass : "container"}`}>
-        <div className="row">
+        <div className="row align-items-center justfy-content-center">
           <div
             className={`${
               sideMenu ? "col-xl-2 col-sm-4" : "col-lg-2 col-sm-4"
@@ -28,6 +28,7 @@ const FooterOne = ({
             <FooterCopyright
               footerLogo="/assets/img/logo/logo.png"
               spaceBottomClass="mb-30"
+              spaceRightClass="mr-70"
             />
           </div>
           <div

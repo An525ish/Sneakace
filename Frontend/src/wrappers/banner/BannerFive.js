@@ -20,7 +20,7 @@ const BannerFive = () => {
                     />
                   </Link>
                   <div className="banner-content-3 banner-position-hm15-1">
-                    <h3>Green Apple </h3>
+                    <h3>Category 1 </h3>
                     <p>
                       Starting At <span>$99.00</span>
                     </p>
@@ -42,7 +42,7 @@ const BannerFive = () => {
                     />
                   </Link>
                   <div className="banner-content-3 banner-position-hm15-1">
-                    <h3>Ripe orange</h3>
+                    <h3>Category 2</h3>
                     <p>
                       Starting At <span>$99.00</span>
                     </p>
@@ -66,7 +66,7 @@ const BannerFive = () => {
               </Link>
               <div className="banner-content-4 banner-position-hm15-2">
                 <span>-20% Off</span>
-                <h2>New Fruits</h2>
+                <h2>Category</h2>
                 <h5>Best for your health</h5>
                 <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
                   SHOP NOW
@@ -88,7 +88,7 @@ const BannerFive = () => {
                     />
                   </Link>
                   <div className="banner-content-3 banner-position-hm15-2">
-                    <h3>Ripe Corn </h3>
+                    <h3>category 3</h3>
                     <p>
                       Starting At <span>$99.00</span>
                     </p>
@@ -110,7 +110,7 @@ const BannerFive = () => {
                     />
                   </Link>
                   <div className="banner-content-3 banner-position-hm15-2">
-                    <h3>Green guava </h3>
+                    <h3>=Category 4 </h3>
                     <p>
                       Starting At <span>$99.00</span>
                     </p>
