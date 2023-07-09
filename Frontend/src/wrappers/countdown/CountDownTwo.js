@@ -61,7 +61,7 @@ const CountDownTwo = ({ spaceTopClass, spaceBottomClass, dateTime }) => {
           positionClass="text-center"
           spaceClass="mb-10"
         />
-        <div className="row align-items-center funfact-content funfact-res">
+        <div className="row align-items-center ">
           {/* <h2 className="text-center">Get Your Own Customised laces</h2> */}
          
           <div className="col-md-6">
@@ -73,8 +73,8 @@ const CountDownTwo = ({ spaceTopClass, spaceBottomClass, dateTime }) => {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
-            <div className="fruits-deal-img">
+          <div className="col-md-6 mt-5">
+            <div className="fruits-deal-img row align-items-center">
               <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
                 <img
                   src={process.env.PUBLIC_URL + "/assets/img/banner/deal.png"}
