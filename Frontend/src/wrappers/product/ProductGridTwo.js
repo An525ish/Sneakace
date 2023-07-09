@@ -12,7 +12,7 @@ import BrandLogoSliderFive from "../brand-logo/BrandLogoSliderFive";
 
 const settings = {
   loop: true,
-  speed: 1000,
+  speed: 200,
   navigation: true,
   grabCursor: true,
   breakpoints: {
