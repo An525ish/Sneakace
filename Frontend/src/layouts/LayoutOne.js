@@ -14,14 +14,14 @@ const LayoutOne = ({
 }) => {
   return (
     <Fragment>
-       <HeaderSix layout="container-fluid" />
+      <HeaderSix layout="container-fluid" />
       {children}
       <FooterOne
-        backgroundColorClass="bg-gray"
+        backgroundColorClass="bg-black"
         spaceTopClass="pt-100"
         spaceBottomClass="pb-70"
       />
-      <ScrollToTop/>
+      <ScrollToTop />
     </Fragment>
   );
 };
