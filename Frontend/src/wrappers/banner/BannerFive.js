@@ -109,7 +109,7 @@ const BannerFive = () => {
                     />
                   </Link>
                   <div className="banner-content-3 banner-position-hm15-2">
-                    <h3>=Category 4 </h3>
+                    <h3>Category 4 </h3>
                     <p>
                       Starting At <span>$99.00</span>
                     </p>
