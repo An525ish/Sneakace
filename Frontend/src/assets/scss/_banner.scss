@@ -242,7 +242,7 @@
 
       text-transform: uppercase;
 
-      color: #111111;
+      color: white;
       @media #{$xl-layout} {
         font-size: 25px;
       }
@@ -261,7 +261,7 @@
 
       margin: 11px 0 20px;
 
-      color: #010101;
+      color: white;
       @media #{$xl-layout} {
         margin: 5px 0 12px;
       }
@@ -275,7 +275,7 @@
         margin: 5px 0 10px;
       }
       span {
-        color: #6eab49;
+        color: white;
       }
     }
     > a {
