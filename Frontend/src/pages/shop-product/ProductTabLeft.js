@@ -6,8 +6,6 @@ import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import RelatedProductSlider from "../../wrappers/product/RelatedProductSlider";
 import ProductDescriptionTab from "../../wrappers/product/ProductDescriptionTab";
-import ProductImageDescription from "../../wrappers/product/ProductImageDescription";
-
 const ProductTabLeft = () => {
   let { pathname } = useLocation();
   let { id } = useParams();
@@ -31,12 +29,12 @@ const ProductTabLeft = () => {
         />
 
         {/* product description with image */}
-        <ProductImageDescription
+        {/* <ProductImageDescription
           spaceTopClass="pt-100"
           spaceBottomClass="pb-100"
           product={product}
           galleryType="leftThumb"
-        />
+        /> */}
 
         {/* product description tab */}
         <ProductDescriptionTab

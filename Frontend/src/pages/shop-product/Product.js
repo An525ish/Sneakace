@@ -6,7 +6,6 @@ import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import RelatedProductSlider from "../../wrappers/product/RelatedProductSlider";
 import ProductDescriptionTab from "../../wrappers/product/ProductDescriptionTab";
-import ProductImageDescription from "../../wrappers/product/ProductImageDescription";
 import { getDiscountPrice } from "../../helpers/product";
 import ProductDescriptionInfo from "../../components/product/ProductDescriptionInfo";
 
