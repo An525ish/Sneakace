@@ -12,14 +12,15 @@ const params = {
   loop: true,
   speed: 1000,
   pagination: true,
-  autoHeight: false
+  autoHeight: false,
+  navigation: true
 };
 
 const HeroSliderEleven = () => {
   return (
     <div className="slider-area">
       <div className="container">
-        <div className="slider-active-3 slider-hm8">
+        <div className="slider-active slider-hm8 nav-style-2">
           {sliderData && (
             <Swiper options={params}>
               {sliderData.map((single, key) => (

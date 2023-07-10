@@ -42,6 +42,7 @@ const HeaderSix = ({ layout, headerPaddingClass, headerBgClass }) => {
           <div className="col-xl-5 col-lg-6 d-none d-lg-block">
             <div className="clickable-menu clickable-mainmenu-active">
               <button
+              className={`${scroll > headerTop ? 'text-warning' : 'text-dark'}`}
                 onClick={() => {
                   setOffcanvasActive(true);
                 }}
@@ -59,13 +60,13 @@ const HeaderSix = ({ layout, headerPaddingClass, headerBgClass }) => {
               </Link>
               <Link className="sticky-block" to={process.env.PUBLIC_URL + "/"}>
                 {/* <img alt="" src="assets/img/logo/logo.png" /> */}
-                <h1>SNEAKACE</h1>
+                <h1 style={{color: 'gold'}}>SNEAKACE</h1>
               </Link>
             </div>
           </div>
           <div className="col-xl-5 col-lg-4 col-md-6 col-6">
             {/* Icon group */}
-            <IconGroup iconWhiteClass="header-right-wrap-white" />
+            {scroll > headerTop ? <IconGroup iconWhiteClass="header-right-wrap-white" /> : <IconGroup/>}
           </div>
         </div>
       </div>
