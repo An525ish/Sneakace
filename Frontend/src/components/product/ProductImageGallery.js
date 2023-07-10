@@ -7,10 +7,11 @@ import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
 import Swiper, { SwiperSlide } from "../../components/swiper";
 
-const ProductImageGallery = ({ product }) => {
+const ProductImageGallery = ({ product, id, pattern }) => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   const [index, setIndex] = useState(-1);
-  const slides = product?.image.map((img, i) => ({
+  console.log(product.variation[id].image)
+  const slides = product.variation[id].size[pattern].image.map((img, i) => ({
       src: process.env.PUBLIC_URL + img,
       key: i,
   }));
@@ -38,6 +39,7 @@ const ProductImageGallery = ({ product }) => {
     navigation: true
   };
 
+
   return (
     <Fragment>
       <div className="product-large-image-wrapper">
@@ -53,9 +55,9 @@ const ProductImageGallery = ({ product }) => {
         ) : (
           ""
         )}
-        {product?.image?.length ? (
+        {product.variation[id].size[pattern].image?.length ? (
           <Swiper options={gallerySwiperParams}>
-            {product.image.map((single, key) => (
+            {product.variation[id].size[pattern].image.map((single, key) => (
               <SwiperSlide key={key}>
                 <button className="lightgallery-button" onClick={() => setIndex(key)}>
                   <i className="pe-7s-expand1"></i>
@@ -81,9 +83,9 @@ const ProductImageGallery = ({ product }) => {
 
       </div>
       <div className="product-small-image-wrapper mt-15">
-        {product?.image?.length ? (
+        {product.variation[id].size[pattern].image.length ? (
           <Swiper options={thumbnailSwiperParams}>
-            {product.image.map((single, key) => (
+            {product.variation[id].size[pattern].image.map((single, key) => (
               <SwiperSlide key={key}>
                 <div className="single-image">
                   <img

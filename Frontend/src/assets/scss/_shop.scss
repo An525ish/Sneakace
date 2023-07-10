@@ -424,6 +424,7 @@
 }
 
 .shop-area {
+  display: flex;
   .container-fluid {
     padding: 0 70px;
     @media #{$xl-layout} {
