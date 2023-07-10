@@ -4,12 +4,15 @@
   position: relative;
   overflow: hidden;
   cursor: pointer !important;
-  a {
+  
+  a { 
     img {
-      border:2px solid black;
+      border:2px solid rgb(0, 0, 0);
       width: 100%;
+      filter: brightness(55%);
       transition: all 0.5s ease 0s;
       transform: scale(1);
+   
     }
   }
   &:hover img {
@@ -1223,6 +1226,7 @@
 @media #{$xs-layout} {
   .banner-area.pt-80 {
     padding-top: 60px;
+    // margin-top: 40px;
   }
   .save-money-area {
     .pt-100 {

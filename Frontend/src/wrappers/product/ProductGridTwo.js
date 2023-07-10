@@ -52,12 +52,12 @@ const ProductGridTwo = ({
   return (
     <Fragment>
       <div className={clsx("slider-area")}>
-      <div className="slider-active nav-style-2">
+      <div className="slider-active row align-items-center nav-style-2">
           {prods && (
             <Swiper options={settings}>
               {prods.map((product, key) => (
                 <SwiperSlide key={key}>
-                    <div className="col-xl-9 col-md-12 col-lg-9 col-sm-12" key={product.id}>
+                    <div className="col-xl-9 col-md-6 col-lg-9 col-sm-12" key={product.id}>
                       <ProductGridSingleTwo
                         spaceBottomClass={spaceBottomClass}
                         colorClass={colorClass}

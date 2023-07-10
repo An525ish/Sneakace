@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 
 const BannerFive = () => {
   return (
-    <div className="banner-area hm9-section-padding">
+    <div className="banner-area hm9-section-padding mt-5">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-lg-4 col-md-6">
+          <div className="col-lg-4 col-md-6 ">
             <div className="row">
               <div className="col-lg-12">
-                <div className="single-banner mb-20">
+                <div className="single-banner mb-20 " >
                   <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
                     <img
                       src={
