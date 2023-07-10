@@ -3,7 +3,8 @@ import SEO from "../../components/seo";
 import LayoutOne from "../../layouts/LayoutOne";
 import BannerOne from "../../wrappers/banner/BannerOne";
 import BlogFeatured from "../../wrappers/blog-featured/BlogFeatured";
-import HeroSliderNine from "../../wrappers/hero-slider/HeroSliderNine";
+// import HeroSliderNine from "../../wrappers/hero-slider/HeroSliderNine";
+import HeroSliderEleven from '../../wrappers/hero-slider/HeroSliderEleven';
 import TabProductFive from "../../wrappers/product/TabProductFive";
 import Newsletter from "../../wrappers/newsletter/Newsletter";
 import NewsletterTwo from "../../wrappers/newsletter/NewsletterTwo";
@@ -23,19 +24,21 @@ const HomeFashionTwo = () => {
         headerPaddingClass="header-padding-2"
       >
         {/* hero slider */}
-        <HeroSliderNine spaceLeftClass="ml-70" spaceRightClass="mr-70" spaceBottomClass="mb-10"/>
+        {/* <HeroSliderNine spaceLeftClass="ml-70" spaceRightClass="mr-70" spaceBottomClass="mb-10" />
+         */}
+         <HeroSliderEleven />
 
-{/* {all categories} */}
+        {/* {all categories} */}
         <BannerFive />
 
         {/* Category */}
         <BannerOne spaceTopClass="pt-60" spaceBottomClass="pb-65" />
 
-        
+
         {/* tab product */}
         <TabProductFive spaceBottomClass="pb-40" tag="accessories" />
-       
-       
+
+
 
         {/* cutomized */}
         <CountDownTwo
