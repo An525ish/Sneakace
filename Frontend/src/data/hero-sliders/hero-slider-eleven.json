@@ -4,7 +4,7 @@
     "title": "New Arrival",
     "subtitle": "Final Sale",
     "text": "30% off Summer Vacation",
-    "image": "/assets/img/slider/slider-6.jpg",
+    "image": "/assets/img/banner/lace-1.png",
     "url": "/shop-grid-standard"
   },
   {
@@ -12,7 +12,7 @@
     "title": "New Arrival",
     "subtitle": "Final Sale",
     "text": "40% off Summer Vacation",
-    "image": "/assets/img/slider/slider-6-1.jpg",
+    "image": "/assets/img/banner/lace-2.png",
     "url": "/shop-grid-standard"
   },
   {
@@ -20,7 +20,7 @@
     "title": "New Arrival",
     "subtitle": "Final Sale",
     "text": "40% off Summer Vacation",
-    "image": "/assets/img/slider/slider-6-2.jpg",
+    "image": "/assets/img/banner/lace-3.png",
     "url": "/shop-grid-standard"
   }
 ]
