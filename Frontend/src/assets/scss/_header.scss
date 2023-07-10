@@ -1,3 +1,18 @@
+.animated-gucci {
+  animation: gucciLogoAnimation 1.5s linear;
+}
+
+@keyframes gucciLogoAnimation {
+  0% {
+    transform: scale(2);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 /*----- 2. Header style ----*/
 
 .header-area {
@@ -5,7 +20,6 @@
   &.header-absolute {
     position: absolute;
     z-index: 99;
-
     width: 100%;
 
     @media #{$md-layout,
@@ -29,7 +43,7 @@
   animation: 700ms ease-in-out 0s normal none 1 running fadeInDown;
 
   border-bottom: 0 solid #4a90e2;
-  background-color: #fff;
+  background-color: rgb(60, 9, 108);
   box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.06);
 
   .center-menu-logo {
@@ -43,6 +57,7 @@
   }
 
   .header-right-wrap-white {
+   
     .same-style {
       > a {
         color: #000;
@@ -55,7 +70,7 @@
       &.header-search {
         > button,
         & > a {
-          color: #000;
+           color: gold !important;
           span {
             &.count-style {
               color: #fff;

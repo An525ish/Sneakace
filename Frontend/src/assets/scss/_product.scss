@@ -1,3 +1,12 @@
+
+// .left-card {
+//   margin-left: -60px; /* Adjust this value as per your requirement */
+// }
+
+// .right-card {
+//   margin-right: -100px; /* Adjust this value as per your requirement */
+// }
+
 /*------- 6. Product style  --------*/
 .product-area {
   position: relative;
@@ -1404,8 +1413,9 @@
 
 .product-wrap-2 {
   position: relative;
-  margin-left: 2rem;
-  width:20rem;
+  // margin-left: 2rem;
+  gap : 1rem;
+  width:24rem;
   justify-content: space-between;
   overflow: hidden;
   .product-img {

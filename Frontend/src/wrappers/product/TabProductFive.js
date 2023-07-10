@@ -13,12 +13,12 @@ const TabProductFive = ({
 }) => {
   return (
     <div className={clsx("product-area", spaceTopClass, spaceBottomClass)}>
-      <div className="container">
+      <div className="p-5">
         <Tab.Container defaultActiveKey="bestSeller">
           <Nav
             variant="pills"
             className={clsx("product-tab-list-2 mb-60", productTabClass)}
-            style={{display:'flex', alignItems:'center', justifyContent:'center'}}
+            style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
           >
             <Nav.Item>
               <Nav.Link eventKey="newArrival">
@@ -36,38 +36,43 @@ const TabProductFive = ({
               </Nav.Link>
             </Nav.Item>
           </Nav>
-          <Tab.Content>
-            <Tab.Pane eventKey="newArrival">
-              <div className="row">
-                <ProductGridTwo
-                  tag={tag}
-                  type="new"
-                  limit={5}
-                  spaceBottomClass="mb-25"
-                />
-              </div>
-            </Tab.Pane>
-            <Tab.Pane eventKey="bestSeller">
-              <div className="row">
-                <ProductGridTwo
-                  tag={tag}
-                  type="bestSeller"
-                  limit={5}
-                  spaceBottomClass="mb-25"
-                />
-              </div>
-            </Tab.Pane>
-            <Tab.Pane eventKey="saleItems">
-              <div className="row">
-                <ProductGridTwo
-                  tag={tag}
-                  type="saleItems"
-                  limit={5}
-                  spaceBottomClass="mb-25"
-                />
-              </div>
-            </Tab.Pane>
-          </Tab.Content>
+          <div className="ms-70 ">
+            <Tab.Content>
+
+              <Tab.Pane eventKey="newArrival">
+                <div className="row">
+                  <ProductGridTwo
+                    tag={tag}
+                    type="new"
+                    limit={5}
+                    spaceBottomClass="mb-25"
+                  />
+                </div>
+              </Tab.Pane>
+              <Tab.Pane eventKey="bestSeller">
+                <div className="row">
+                  <ProductGridTwo
+                    tag={tag}
+                    type="bestSeller"
+                    limit={5}
+                    spaceBottomClass="mb-25"
+                  />
+                </div>
+              </Tab.Pane>
+              <Tab.Pane eventKey="saleItems">
+                <div className="row">
+                  <ProductGridTwo
+                    tag={tag}
+                    type="saleItems"
+                    limit={5}
+                    spaceBottomClass="mb-25"
+                  />
+                </div>
+              </Tab.Pane>
+
+            </Tab.Content>
+          </div>
+
         </Tab.Container>
         <div className="view-more text-center mt-20 toggle-btn6 col-12">
           <Link

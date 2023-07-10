@@ -1,3 +1,19 @@
+
+.centered-slides .swiper-slide {
+  width: 80%; /* Adjust this value as per your requirement */
+  opacity: 0.5; /* Adjust this value as per your requirement */
+}
+
+.centered-slides .swiper-slide-active {
+  width: 100%; /* Adjust this value as per your requirement */
+  opacity: 1;
+}
+
+.centered-slides .swiper-slide-prev,
+.centered-slides .swiper-slide-next {
+  width: 60%; /* Adjust this value as per your requirement */
+  opacity: 0.3; /* Adjust this value as per your requirement */
+}
 /*----- 3. Slider style  ------*/
 
 .slider-height-1 {
@@ -1204,7 +1220,7 @@
     left: 30%;
   }
   &.swiper-button-next {
-    right: 31%;
+    right: 25%;
   }
 }
 

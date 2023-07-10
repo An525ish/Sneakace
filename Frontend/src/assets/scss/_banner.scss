@@ -3,24 +3,27 @@
 .single-banner {
   position: relative;
   overflow: hidden;
-  cursor: pointer !important;
+  cursor: pointer;
+
   a {
     img {
-      border:2px solid black;
+      border: 2px solid rgb(0, 0, 0);
       width: 100%;
+      filter: blur(3px);
       transition: all 0.5s ease 0s;
       transform: scale(1);
     }
   }
   &:hover img {
     transform: scale(1.2);
+    filter: blur(0px);
   }
   .banner-content {
     position: absolute;
     top: 40px;
     left: 36px;
 
-    content: "";
+    content: '';
     @media #{$lg-layout} {
       top: 20px;
       left: 20px;
@@ -36,7 +39,7 @@
       transform: translateY(-50%);
     }
     h3 {
-      font-family: "Cormorant Garamond";
+      font-family: 'Cormorant Garamond';
       font-size: 36px;
       font-weight: 600;
 
@@ -51,7 +54,7 @@
       }
     }
     h4 {
-      font-family: "Cormorant Garamond";
+      font-family: 'Cormorant Garamond';
       font-size: 18px;
       font-weight: 600;
 
@@ -965,7 +968,7 @@
       left: 20px;
     }
     h3 {
-      font-family: "Cormorant Garamond";
+      font-family: 'Cormorant Garamond';
       font-size: 48px;
 
       margin: 0;
@@ -979,7 +982,7 @@
       }
     }
     h4 {
-      font-family: "Cormorant Garamond";
+      font-family: 'Cormorant Garamond';
       font-size: 24px;
       font-weight: 500;
 
@@ -1193,7 +1196,7 @@
         width: 30px;
         height: 1px;
 
-        content: "";
+        content: '';
 
         background-color: $black;
       }
@@ -1223,6 +1226,7 @@
 @media #{$xs-layout} {
   .banner-area.pt-80 {
     padding-top: 60px;
+    // margin-top: 40px;
   }
   .save-money-area {
     .pt-100 {
@@ -1352,7 +1356,6 @@
     }
   }
 }
-
 
 .col-width-banner33-1 {
   position: relative;
