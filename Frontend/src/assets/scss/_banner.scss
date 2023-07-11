@@ -944,6 +944,36 @@
   }
 }
 
+.extra-banner{
+  display: flex;
+
+  .extra-banner-single1{
+    width:49%;
+  }
+
+  .extra-banner-single2{
+    width:49%;
+    margin-left: auto;
+    margin-right: 0%;
+  }
+}
+@media (max-width:768px) {
+    .extra-banner{
+      display: flex;
+      flex-direction: column;
+
+    .extra-banner-single1{
+      width:100%;
+    }
+  
+    .extra-banner-single2{
+      width:100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+}
+
 /* banner hm9 */
 
 .single-banner-2 {

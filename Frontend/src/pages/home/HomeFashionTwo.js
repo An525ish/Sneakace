@@ -28,9 +28,6 @@ const HomeFashionTwo = () => {
 
         {/* banner */}
         <BannerFive />
-        
-        {/* Category */}
-        <BannerOne spaceTopClass='pt-60' spaceBottomClass='pb-65' />
 
         {/* tab product */}
         <TabProductFive spaceBottomClass='pb-40' tag='accessories' />
