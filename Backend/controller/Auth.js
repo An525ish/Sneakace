@@ -4,8 +4,9 @@ const { sanitizeUser, sendMail } = require('../services/common');
 const jwt = require('jsonwebtoken');
 
 exports.createUser = async (req, res) => {
-  const {email, password} = req.body
-  if (!email || !password) return res.status(401).json({error: 'All fields are required'})
+  const { email, password } = req.body;
+  if (!email || !password)
+    return res.status(401).json({ error: 'All fields are required' });
 
   try {
     const existingUser = await User.findOne({ email: req.body.email });
@@ -35,11 +36,26 @@ exports.createUser = async (req, res) => {
             );
             res
               .cookie('jwt', token, {
-                expires: new Date(Date.now() + 3600000), 
+                expires: new Date(Date.now() + 3600000),
                 httpOnly: true,
               })
               .status(201)
               .json({ id: doc.id, role: doc.role });
+
+            // Send verification email
+            const verificationLink = 'https://example.com/verify'; // Replace with your actual verification link
+            const emailContent = `
+              <p>Please click the following link to verify your email:</p>
+              <a href="${verificationLink}">${verificationLink}</a>
+              <p>If you did not create an account, please ignore this email.</p>`;
+
+              sendMail({
+                to: doc.email,
+                subject: 'Email Verification',
+                html: emailContent,
+              }).catch((error) => {
+                console.error('Failed to send verification email:', error);
+              });
           }
         });
       }
@@ -66,7 +82,7 @@ exports.logout = async (req, res) => {
       expires: new Date(Date.now()),
       httpOnly: true,
     })
-    .sendStatus(200)
+    .sendStatus(200);
 };
 
 exports.checkAuth = async (req, res) => {
@@ -93,11 +109,9 @@ exports.refreshToken = async (req, res) => {
       return res.status(404).json({ message: 'User not found' });
     }
 
-    const token = jwt.sign(
-      sanitizeUser(user),
-      process.env.JWT_SECRET_KEY,
-      { expiresIn: '1h' }
-    );
+    const token = jwt.sign(sanitizeUser(user), process.env.JWT_SECRET_KEY, {
+      expiresIn: '1h',
+    });
 
     return res
       .cookie('jwt', token, {
@@ -109,7 +123,7 @@ exports.refreshToken = async (req, res) => {
   } catch (error) {
     return res.status(401).json({ message: 'Invalid refresh token' });
   }
-}
+};
 
 exports.resetPasswordRequest = async (req, res) => {
   const email = req.body.email;
