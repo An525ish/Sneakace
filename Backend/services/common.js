@@ -1,4 +1,15 @@
 const passport = require('passport');
+const nodemailer = require('nodemailer');
+
+let transporter = nodemailer.createTransport({
+  host: "smtp.gmail.com",
+  port: 587,
+  secure: false, // true for 465, false for other ports
+  auth: {
+    user: '<harshitalakh124@gmail.com>', // gmail
+    pass: process.env.MAIL_PASSWORD, // pass
+  },
+});
 
 exports.isAuth = (req, res, done) => {
   return passport.authenticate('jwt');
