@@ -15,3 +15,14 @@ exports.cookieExtractor = function (req) {
   }
   return token;
 };
+
+exports.sendMail = async function ({to, subject, text, html}){
+  let info = await transporter.sendMail({
+      from: '"E-commerce" <harshitalakh124@gmail.com>', // sender address
+      to,
+      subject,
+      text,
+      html
+    });
+  return info;  
+}
