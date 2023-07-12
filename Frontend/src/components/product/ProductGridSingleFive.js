@@ -134,20 +134,6 @@ const ProductGridSingleFive = ({
                   )}
                 </div>
 
-                <div className="pro-same-action pro-compare">
-                  <button
-                    className={compareItem !== undefined ? "active" : ""}
-                    disabled={compareItem !== undefined}
-                    title={
-                      compareItem !== undefined
-                        ? "Added to compare"
-                        : "Add to compare"
-                    }
-                    onClick={() => dispatch(addToCompare(product))}
-                  >
-                    <i className="fa fa-retweet"></i>
-                  </button>
-                </div>
 
                 <div className="pro-same-action pro-quickview">
                   <button

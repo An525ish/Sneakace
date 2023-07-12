@@ -7,14 +7,14 @@ import { getDiscountPrice } from "../../helpers/product";
 import ProductModal from "./ProductModal";
 import { addToCart } from "../../store/slices/cart-slice";
 import { addToWishlist } from "../../store/slices/wishlist-slice";
-import { addToCompare } from "../../store/slices/compare-slice";
+// import { addToCompare } from "../../store/slices/compare-slice";
 
 const ProductGridSingleTwo = ({
   product,
   currency,
   cartItem,
   wishlistItem,
-  compareItem,
+  // compareItem,
   spaceBottomClass,
   colorClass,
   titlePriceClass
@@ -104,7 +104,7 @@ const ProductGridSingleTwo = ({
               <i className="fa fa-eye"></i>
             </button>
 
-            <button
+            {/* <button
               className={compareItem !== undefined ? "active" : ""}
               disabled={compareItem !== undefined}
               title={
@@ -115,7 +115,7 @@ const ProductGridSingleTwo = ({
               onClick={() => dispatch(addToCompare(product))}
             >
               <i className="fa fa-retweet"></i>
-            </button>
+            </button> */}
           </div>
         </div>
         <div className="product-content-2">
@@ -170,7 +170,7 @@ const ProductGridSingleTwo = ({
         finalProductPrice={finalProductPrice}
         finalDiscountedPrice={finalDiscountedPrice}
         wishlistItem={wishlistItem}
-        compareItem={compareItem}
+        // compareItem={compareItem}
       />
     </Fragment>
   );
@@ -178,7 +178,7 @@ const ProductGridSingleTwo = ({
 
 ProductGridSingleTwo.propTypes = {
   cartItem: PropTypes.shape({}),
-  compareItem: PropTypes.shape({}),
+  // compareItem: PropTypes.shape({}),
   wishlistItem: PropTypes.shape({}),
   currency: PropTypes.shape({}),
   product: PropTypes.shape({}),

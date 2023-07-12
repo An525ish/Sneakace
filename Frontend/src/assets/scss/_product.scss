@@ -607,6 +607,12 @@
   }
   .pro-details-size-color {
     display: flex;
+    flex-direction: column;
+
+    .pro-variation{
+      margin-bottom:1rem;
+    }
+
     @media #{$xs-layout} {
       display: block;
     }
@@ -1844,8 +1850,7 @@
 }
 
 .product-wrap-3 {
-  position: relative;
-
+  margin-right: 2rem;
   .product-img {
     position: relative;
     a {

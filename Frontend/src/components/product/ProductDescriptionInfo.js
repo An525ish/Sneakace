@@ -96,7 +96,7 @@ const ProductDescriptionInfo = ({
 
         {product.variation ? (
           <div className="pro-details-size-color">
-            <div className="pro-details-color-wrap">
+            <div className="pro-details-color-wrap pro-variation">
               <span>Color</span>
               <div className="pro-details-color-content">
                 {product.variation.map((single, key) => {
@@ -126,7 +126,7 @@ const ProductDescriptionInfo = ({
                 })}
               </div>
             </div>
-            <div className="pro-details-size">
+            <div className="pro-details-size pro-variation">
               <span>Pattern</span>
               <div className="pro-details-size-content">
                 {product.variation &&
@@ -241,7 +241,7 @@ const ProductDescriptionInfo = ({
                 <i className="pe-7s-like" />
               </button>
             </div>
-            <div className="pro-details-compare">
+            {/* <div className="pro-details-compare">
               <button
                 className={compareItem !== undefined ? "active" : ""}
                 disabled={compareItem !== undefined}
@@ -254,7 +254,7 @@ const ProductDescriptionInfo = ({
               >
                 <i className="pe-7s-shuffle" />
               </button>
-            </div>
+            </div> */}
           </div>
         )}
         {product.category ? (
