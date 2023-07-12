@@ -121,6 +121,52 @@ const BannerFive = () => {
               </div>
             </div>
           </div>
+          <div className="extra-banner">
+          <div className="col-lg-12 col-md-6 extra-banner-single1">
+            <div className="single-banner mb-20">
+              <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
+                <img
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/img/banner/banner-25.jpg"
+                  }
+                  alt=""
+                />
+              </Link>
+              <div className="banner-content-3 banner-position-hm15-2">
+                <h3>category 5</h3>
+                <p>
+                  Starting At <span>$39.00</span>
+                </p>
+                <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
+                  <i className="fa fa-long-arrow-right" />
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-12 col-md-6 extra-banner-single2">
+            <div className="single-banner mb-20">
+              <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
+                <img
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/img/banner/banner-24.jpg"
+                  }
+                  alt=""
+                />
+              </Link>
+              <div className="banner-content-3 banner-position-hm15-2">
+                <h3>category 6</h3>
+                <p>
+                  Starting At <span>$79.00</span>
+                </p>
+                <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
+                  <i className="fa fa-long-arrow-right" />
+                </Link>
+              </div>
+            </div>
+          </div>
+          </div>
         </div>
       </div>
     </div>
