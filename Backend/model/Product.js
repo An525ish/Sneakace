@@ -14,10 +14,11 @@ const productSchema = new Schema({
     thumbnail: { type : String, required: true},
     images:{ type : [String], required: true},
     colors:{ type : [Schema.Types.Mixed] },
-    sizes:{ type : [Schema.Types.Mixed]},
+    pattern:{ type : String, required: true},
     highlights:{ type : [String] },
     discountPrice: { type: Number},
     deleted: { type : Boolean, default: false},
+    new : { type : Boolean, default: false},
 })
 
 const virtualId  = productSchema.virtual('id');

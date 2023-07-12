@@ -31,7 +31,7 @@ server.get('/', (req, res) => {
 
 //middlewares
 
-server.use(express.static(path.resolve(__dirname, 'build')));
+// server.use(express.static(path.resolve(__dirname, 'build')));
 server.use(cookieParser());
 server.use(
   session({
@@ -92,19 +92,37 @@ passport.use(
 
 passport.use(
   'jwt',
-  new JwtStrategy(opts, async function (jwt_payload, done) {
-    try {
-      const user = await User.findById(jwt_payload.id);
-      if (user) {
-        return done(null, sanitizeUser(user)); // this calls serializer
-      } else {
-        return done(null, false);
+  new JwtStrategy(
+    {
+      jwtFromRequest: ExtractJwt.fromExtractors([
+        ExtractJwt.fromAuthHeaderAsBearerToken(),
+        ExtractJwt.fromExtractors([
+          (req) => {
+            let token = null;
+            if (req && req.cookies) {
+              token = req.cookies.jwt;
+            }
+            return token;
+          },
+        ]),
+      ]),
+      secretOrKey: process.env.JWT_SECRET_KEY,
+    },
+    async function (jwt_payload, done) {
+      try {
+        const user = await User.findById(jwt_payload.id);
+        if (user) {
+          return done(null, sanitizeUser(user));
+        } else {
+          return done(null, false);
+        }
+      } catch (err) {
+        return done(err, false);
       }
-    } catch (err) {
-      return done(err, false);
     }
-  })
+  )
 );
+
 
 // this creates session variable req.user on being called from callbacks
 passport.serializeUser(function (user, cb) {
@@ -117,7 +135,7 @@ passport.serializeUser(function (user, cb) {
 
 passport.deserializeUser(function (user, cb) {
   process.nextTick(function () {
-    return cb(null, user);
+    return cb(null, { id: user.id, role: user.role, token: user.token });
   });
 });
 
