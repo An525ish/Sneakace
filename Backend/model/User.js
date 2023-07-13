@@ -4,13 +4,16 @@ const { Schema } = mongoose;
 const userSchema = new Schema({
   email: { type: String, required: true, unique: true },
   password: { type: Buffer, required: true },
-  role: { type: String, required: true, default:'user' },
-  addresses: { type: [Schema.Types.Mixed] }, 
-  // for addresses, we can make a separate Schema like orders. but in this case we are fine
-  name: { type: String },
+  role: { type: String, required: true, default: 'user' },
+  address: { type: String },
+  zipcode: { type: String },
+  state: { type: String },
+  city: { type: String },
+  firstName: { type: String },
+  lastName: { type: String },
   salt: Buffer,
-  resetPasswordToken: {type: String, default:''}
-},{timestamps: true});
+  resetPasswordToken: { type: String, default: '' }
+}, { timestamps: true });
 
 const virtual = userSchema.virtual('id');
 virtual.get(function () {

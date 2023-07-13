@@ -88,6 +88,8 @@ passport.use(
   })
 );
 
+// console.log(process.env.JWT_SECRET_KEY,"hello")
+
 passport.use(
   'jwt',
   new JwtStrategy(

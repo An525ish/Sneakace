@@ -607,10 +607,9 @@
   }
   .pro-details-size-color {
     display: flex;
-    flex-direction: column;
 
     .pro-variation{
-      margin-bottom:1rem;
+      padding-right:2rem;
     }
 
     @media #{$xs-layout} {
