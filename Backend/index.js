@@ -13,7 +13,8 @@ const authRouter = require('./routes/AuthRoutes');
 const { User } = require('./model/User');
 const { isAuth, sanitizeUser, cookieExtractor } = require('./services/common');
 const path = require('path');
-const connectDB = require("./database/db");
+const connectDB = require('./database/db');
+const CLIENT_URL=process.env.CLIENT_URL
 
 const opts = {};
 opts.jwtFromRequest = cookieExtractor;
@@ -21,21 +22,16 @@ opts.secretOrKey = process.env.JWT_SECRET_KEY;
 
 connectDB();
 const server = express();
-
 server.get('/', (req, res) => {
   res.send('success');
-
 });
-
-
 
 //middlewares
 
 // server.use(express.static(path.resolve(__dirname, 'build')));
-server.use(cookieParser());
 server.use(
   session({
-    secret: "session-secret",
+    secret: 'session-secret',
     resave: false, // don't save session if unmodified
     saveUninitialized: false, // don't create session until something stored
   })
@@ -44,12 +40,14 @@ server.use(passport.authenticate('session'));
 server.use(
   cors({
     exposedHeaders: ['X-Total-Count'],
+    credentials: true,
+    origin: [CLIENT_URL],
   })
 );
+server.use(cookieParser());
+
 server.use(express.json()); // to parse req.body
 server.use('/auth', authRouter.router);
-
-
 
 // Passport Strategies
 passport.use(
@@ -123,7 +121,6 @@ passport.use(
   )
 );
 
-
 // this creates session variable req.user on being called from callbacks
 passport.serializeUser(function (user, cb) {
   process.nextTick(function () {
@@ -139,6 +136,5 @@ passport.deserializeUser(function (user, cb) {
   });
 });
 
-
-const PORT = process.env.PORT || 8000
+const PORT = process.env.PORT || 8000;
 server.listen(PORT, () => console.log(`server is listening on ${PORT}`));
