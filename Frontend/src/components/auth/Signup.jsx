@@ -19,7 +19,9 @@ const Signup = () => {
     return (
         <div className='login-form-container'>
             <div className='login-register-form'>
-                <form onSubmit={handleSubmit(onSubmit)}>
+                <form 
+                onSubmit={handleSubmit(onSubmit)}
+                >
                     <div>
                         <input
                             type='text'
