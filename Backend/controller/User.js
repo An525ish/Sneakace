@@ -1,4 +1,4 @@
-const { Category } = require('../model/Category');
+// const { Category } = require('../model/Category');
 const { User } = require('../model/User');
 
 exports.fetchUserById = async (req, res) => {
@@ -14,10 +14,15 @@ exports.fetchUserById = async (req, res) => {
 
 exports.updateUser = async (req, res) => {
   const { id } = req.params;
+  const user= await User.find({email:id})
+  // console.log(req.params)
+  
   try {
-    const user = await User.findByIdAndUpdate(id, req.body, { new: true });
-    res.status(200).json(user);
+    const findUser = await User.findByIdAndUpdate(user[0]._id, req.body, { new: true });
+    // console.log(findUser)
+    res.status(200).json(findUser);
   } catch (err) {
-    res.status(400).json(err);
+    console.log(err)
+    // res.status(400).json(err);
   }
 };

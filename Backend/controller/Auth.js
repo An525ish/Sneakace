@@ -93,6 +93,7 @@ exports.checkAuth = async (req, res) => {
   }
 };
 
+
 exports.refreshToken = async (req, res) => {
   const refreshToken = req.cookies.refreshToken;
 

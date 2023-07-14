@@ -253,6 +253,27 @@ h3.cart-page-title {
   }
 }
 
+.cart-coupon-container{
+  margin-top: 2rem;
+  border-radius: 2rem !important;
+  width:18rem;
+}
+
+.cart-coupon{
+  border-radius: 1rem;
+  margin-top: 1rem;
+  font-size:1rem;
+  display: flex;
+  padding:0.5rem;
+  background-color: white !important;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+
+  h4{
+    margin-left: 1rem;
+    margin-top: 0.3rem;
+  }
+}
+
 .cart-tax,
 .discount-code-wrapper {
   padding: 45px 30px 50px;
@@ -286,10 +307,11 @@ h3.cart-page-title {
       font-size: 18px;
       font-weight: 500;
 
-      display: inline-block;
+      // display: inline-block;
+      text-align: center;
 
       margin: 0;
-      padding-right: 18px;
+      // padding-right: 18px;
       @media #{$lg-layout} {
         font-size: 16px;
       }

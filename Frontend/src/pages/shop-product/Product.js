@@ -71,7 +71,9 @@ const Product = () => {
         {/* related product slider */}
         <RelatedProductSlider
           spaceBottomClass="pb-95"
-          category={product.category[0]}
+          tag={product.tag[0]}
+          type="bestSeller"
+          limit={4}
         />
       </LayoutOne>
     </Fragment>

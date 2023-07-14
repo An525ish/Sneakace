@@ -7,14 +7,14 @@ import { getDiscountPrice } from "../../helpers/product";
 import ProductModal from "./ProductModal";
 import { addToCart } from "../../store/slices/cart-slice";
 import { addToWishlist } from "../../store/slices/wishlist-slice";
-import { addToCompare } from "../../store/slices/compare-slice";
+// import { addToCompare } from "../../store/slices/compare-slice";
 
 const ProductGridSingleTwo = ({
   product,
   currency,
   cartItem,
   wishlistItem,
-  compareItem,
+  // compareItem,
   spaceBottomClass,
   colorClass,
   titlePriceClass
@@ -74,9 +74,13 @@ const ProductGridSingleTwo = ({
             ) : product.variation && product.variation.length >= 1 ? (
               <Link
                 to={`${process.env.PUBLIC_URL}/product/${product.id}`}
-                title="Select options"
+                title="View Product"
               >
-                <i className="fa fa-cog"></i>
+                {/* <i className="fa fa-cog"></i> */}
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z" />
+                  <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
+                </svg>
               </Link>
             ) : product.stock && product.stock > 0 ? (
               <button
@@ -104,7 +108,7 @@ const ProductGridSingleTwo = ({
               <i className="fa fa-eye"></i>
             </button>
 
-            <button
+            {/* <button
               className={compareItem !== undefined ? "active" : ""}
               disabled={compareItem !== undefined}
               title={
@@ -115,14 +119,13 @@ const ProductGridSingleTwo = ({
               onClick={() => dispatch(addToCompare(product))}
             >
               <i className="fa fa-retweet"></i>
-            </button>
+            </button> */}
           </div>
         </div>
         <div className="product-content-2">
           <div
-            className={`title-price-wrap-2 ${
-              titlePriceClass ? titlePriceClass : ""
-            }`}
+            className={`title-price-wrap-2 ${titlePriceClass ? titlePriceClass : ""
+              }`}
           >
             <h3>
               <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
@@ -170,7 +173,7 @@ const ProductGridSingleTwo = ({
         finalProductPrice={finalProductPrice}
         finalDiscountedPrice={finalDiscountedPrice}
         wishlistItem={wishlistItem}
-        compareItem={compareItem}
+      // compareItem={compareItem}
       />
     </Fragment>
   );
@@ -178,7 +181,7 @@ const ProductGridSingleTwo = ({
 
 ProductGridSingleTwo.propTypes = {
   cartItem: PropTypes.shape({}),
-  compareItem: PropTypes.shape({}),
+  // compareItem: PropTypes.shape({}),
   wishlistItem: PropTypes.shape({}),
   currency: PropTypes.shape({}),
   product: PropTypes.shape({}),

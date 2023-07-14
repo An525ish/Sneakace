@@ -29,11 +29,6 @@ const ProductGridList = ({
                   wishlistItem => wishlistItem.id === product.id
                 )
               }
-              compareItem={
-                compareItems.find(
-                  compareItem => compareItem.id === product.id
-                )
-              }
             />
           </div>
         );
