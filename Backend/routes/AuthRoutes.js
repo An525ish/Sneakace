@@ -10,7 +10,7 @@ router
 .post('/login', passport.authenticate('local'), loginUser)
 .post('/refresh-token', refreshToken)
 .get('/check',passport.authenticate('jwt'), checkAuth)
-.get('/own', fetchUserById)
+.get('/own/:email', fetchUserById)
 .patch('/:id', updateUser)
 .get('/logout', logout)
 
