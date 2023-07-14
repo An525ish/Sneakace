@@ -38,40 +38,6 @@ const MyAccount = () => {
                       </Accordion.Body>
                     </Accordion.Item>
 
-{/* 
-                    <Accordion.Item eventKey="1" className="single-my-account mb-20">
-                      <Accordion.Header className="panel-heading">
-                        <span>2 .</span> Change your password
-                      </Accordion.Header>
-                      <Accordion.Body>
-                        <div className="myaccount-info-wrapper">
-                          <div className="account-info-wrapper">
-                            <h4>Change Password</h4>
-                            <h5>Your Password</h5>
-                          </div>
-                          <div className="row">
-                            <div className="col-lg-12 col-md-12">
-                              <div className="billing-info">
-                                <label>Password</label>
-                                <input type="password" />
-                              </div>
-                            </div>
-                            <div className="col-lg-12 col-md-12">
-                              <div className="billing-info">
-                                <label>Password Confirm</label>
-                                <input type="password" />
-                              </div>
-                            </div>
-                          </div>
-                          <div className="billing-back-btn">
-                            <div className="billing-btn">
-                              <button type="submit">Continue</button>
-                            </div>
-                          </div>
-                        </div>
-                      </Accordion.Body>
-                    </Accordion.Item> */}
-
                     <Accordion.Item eventKey="2" className="single-my-account mb-20">
                       <Accordion.Header className="panel-heading">
                         <span>2 .</span> Add your address book entries
