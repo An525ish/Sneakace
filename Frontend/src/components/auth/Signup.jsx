@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { postApi } from '../../utils/api';
 import { useForm } from 'react-hook-form';
 import GoogleSignIn from '../GoogleOath/GoogleSignIn';
@@ -27,6 +27,12 @@ const Signup = () => {
         })
     }
 
+    const [email,setEmail]=useState("");
+
+    const userDetails = { email:email}
+    localStorage.setItem('userDetails', JSON.stringify(userDetails));
+
+
     return (
         <div className='login-form-container'>
             <div className='login-register-form'>
@@ -42,6 +48,7 @@ const Signup = () => {
                                 },
                             })}
                             placeholder='Email'
+                            onChange={(e)=>setEmail(e.target.value)}
                         />
                         {errors.email && (
                             <p className='text-danger'>

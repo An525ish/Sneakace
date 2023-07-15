@@ -12,7 +12,8 @@ const AddressDetails = () => {
     const [zipcode, setZipcode] = useState("");
     const [state, setState] = useState("");
     const [city, setCity] = useState("");
-    const email = "hersheys@gmail.com"
+    const {email} = JSON.parse(localStorage.getItem( 'userDetails'));    
+
 
     useEffect(() => {
         const fetchData = async () => {
@@ -36,7 +37,7 @@ const AddressDetails = () => {
 
     const addressSubmit = async (addressData) => {
         console.log(addressData, "address")
-
+        console.log(email)
         const { data } = await patchApi(`/auth/` + email, addressData);
         console.log(data, "address");
         cogoToast.success("Edited address", {position: "top-left"});

@@ -3,6 +3,7 @@ import { postApi } from '../../utils/api';
 import { useForm } from 'react-hook-form';
 import { Link } from 'react-router-dom';
 import GoogleSignIn from '../GoogleOath/GoogleSignIn';
+import { useState } from 'react';
 
 const Login = () => {
 
@@ -10,12 +11,18 @@ const Login = () => {
         register,
         handleSubmit,
         formState: { errors },
-      } = useForm();
+    } = useForm();
 
     const onLoginSubmit = async (formData) => {
-         const {data} = await postApi('/auth/login', formData)
+        const { data } = await postApi('/auth/login', formData)
         console.log(data);
-      };
+    };
+
+    const [email,setEmail]=useState("");
+
+    const userDetails = { email:email }
+    localStorage.setItem('userDetails', JSON.stringify(userDetails));
+    console.log(userDetails)
 
     return (
         <div className='login-form-container'>
@@ -34,6 +41,7 @@ const Login = () => {
                                 },
                             })}
                             placeholder='Email'
+                            onChange={(e)=>setEmail(e.target.value)}
                         />
                         {errors.loginemail && (
                             <p className='text-danger'>
