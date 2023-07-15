@@ -101,6 +101,13 @@
   }
 }
 
+.related-products{
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
 .description-review-topbar {
   display: flex;
   justify-content: center;

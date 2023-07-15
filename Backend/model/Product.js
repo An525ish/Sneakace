@@ -1,30 +1,93 @@
 const mongoose = require('mongoose');
-const {Schema} = mongoose;
-
+const { Schema } = mongoose;
 
 const productSchema = new Schema({
-    title: { type : String, required: true, unique: true},
-    description: { type : String, required: true},
-    price: { type: Number, min:[1, 'wrong min price'], max:[10000, 'wrong max price']},
-    discountPercentage: { type: Number, min:[1, 'wrong min discount'], max:[99, 'wrong max discount']},
-    rating: { type: Number, min:[0, 'wrong min rating'], max:[5, 'wrong max price'], default:0},
-    stock: { type: Number, min:[0, 'wrong min stock'], default:0},
-    brand: { type : String, required: true},
-    category: { type : String, required: true},
-    thumbnail: { type : String, required: true},
-    images:{ type : [String], required: true},
-    colors:{ type : [Schema.Types.Mixed] },
-    pattern:{ type : String, required: true},
-    highlights:{ type : [String] },
-    discountPrice: { type: Number},
-    deleted: { type : Boolean, default: false},
-    new : { type : Boolean, default: false},
-})
+  sku: {
+    type: String,
+    required: true,
+  },
+  name: {
+    type: String,
+    required: true,
+  },
+  price: {
+    type: Number,
+    required: true,
+  },
+  discount: {
+    type: Number,
+    required: true,
+  },
+  new: {
+    type: Boolean,
+    required: true,
+  },
+  rating: {
+    type: Number,
+    required: true,
+  },
+  saleCount: {
+    type: Number,
+    required: true,
+  },
+  category: {
+    type: [String],
+    required: true,
+  },
+  tag: {
+    type: [String],
+    required: true,
+  },
+  stock: {
+    type: Number,
+    required: true,
+  },
+  variation: [
+    {
+      id: {
+        type: String,
+        required: true,
+      },
+      color: {
+        type: String,
+        required: true,
+      },
+      size: [
+        {
+          name: {
+            type: String,
+            required: true,
+          },
+          stock: {
+            type: Number,
+            required: true,
+          },
+          image: {
+            type: [String],
+            required: true,
+          },
+        },
+      ],
+    },
+  ],
+  image: {
+    type: [String],
+    required: true,
+  },
+  shortDescription: {
+    type: String,
+    required: true,
+  },
+  fullDescription: {
+    type: String,
+    required: true,
+  },
+});
 
-const virtualId  = productSchema.virtual('id');
-virtualId.get(function(){
-    return this._id;
-})
+const virtualId = productSchema.virtual('id');
+virtualId.get(function () {
+  return this._id;
+});
 
 // we can't sort using the virtual fields. better to make this field at time of doc creation
 // const virtualDiscountPrice =  productSchema.virtual('discountPrice');
@@ -32,11 +95,12 @@ virtualId.get(function(){
 //     return Math.round(this.price*(1-this.discountPercentage/100));
 // })
 
-productSchema.set('toJSON',{
-    virtuals: true,
-    versionKey: false,
-    transform: function (doc,ret) { delete ret._id}
-})
+productSchema.set('toJSON', {
+  virtuals: true,
+  versionKey: false,
+  transform: function (doc, ret) {
+    delete ret._id;
+  },
+});
 
-
-exports.Product = mongoose.model('Product',productSchema)
+exports.Product = mongoose.model('Product', productSchema);

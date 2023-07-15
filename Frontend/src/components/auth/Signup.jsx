@@ -2,8 +2,12 @@ import React from 'react'
 import { postApi } from '../../utils/api';
 import { useForm } from 'react-hook-form';
 import GoogleSignIn from '../GoogleOath/GoogleSignIn';
+import { Link, useNavigate, createSearchParams } from 'react-router-dom';
+import MyAccount from '../../pages/other/MyAccount';
 
 const Signup = () => {
+
+    const navigate=useNavigate();
 
     const {
         register,
@@ -13,8 +17,15 @@ const Signup = () => {
 
     const onSubmit = async (formData) => {
         const { data } = await postApi('/auth/signup', formData);
-        console.log(data);
+        changePage(formData.email);
     };
+
+    const changePage=(data)=>{
+        navigate({
+            pathname:'/my-account',
+            search:createSearchParams({email:data}).toString()
+        })
+    }
 
     return (
         <div className='login-form-container'>

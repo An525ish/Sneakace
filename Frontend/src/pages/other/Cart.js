@@ -26,6 +26,13 @@ const Cart = () => {
       />
 
       <LayoutOne headerTop="visible">
+        {/* breadcrumb */}
+        <Breadcrumb 
+          pages={[
+            {label: "Home", path: process.env.PUBLIC_URL + "/" },
+            {label: "Cart", path: process.env.PUBLIC_URL + pathname }
+          ]} 
+        />
         <div className="cart-main-area pt-90 pb-100">
           <div className="container">
             {cartItems && cartItems.length >= 1 ? (

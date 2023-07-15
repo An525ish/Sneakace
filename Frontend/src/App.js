@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Logout from "./components/auth/Logout";
 import ResetPassword from "./components/auth/ResetPassword";
 import ForgotPassword from "./components/auth/ForgotPassword";
+import Profile from "./pages/other/Profile";
 
 // home pages
 const HomeFashion = lazy(() => import("./pages/home/HomeFashion"));
@@ -375,6 +376,10 @@ const App = () => {
               <Route
                 path={process.env.PUBLIC_URL + "/my-account"}
                 element={<MyAccount/>}
+              />
+              <Route 
+              path={process.env.PUBLIC_URL + "/profile"}
+              element={<Profile/>}
               />
               <Route
                 path={process.env.PUBLIC_URL + "/login-register"}

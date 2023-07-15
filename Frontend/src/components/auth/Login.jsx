@@ -68,7 +68,7 @@ const Login = () => {
                                 </p>
                             )}
                         </div>
-                        {error && <p className="text-danger">{error.message || error.toString()}</p>}
+                        {/* {error && <p className="text-danger">{error.message || error.toString()}</p>} */}
                         <div className='button-box'>
                             <div className='login-toggle-btn'>
                                 <input type='checkbox' />
