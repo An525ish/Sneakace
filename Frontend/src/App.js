@@ -1,6 +1,9 @@
 import { Suspense, lazy } from "react";
 import ScrollToTop from "./helpers/scroll-top";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Logout from "./components/auth/Logout";
+import ResetPassword from "./components/auth/ResetPassword";
+import ForgotPassword from "./components/auth/ForgotPassword";
 import Profile from "./pages/other/Profile";
 
 // home pages
@@ -381,6 +384,18 @@ const App = () => {
               <Route
                 path={process.env.PUBLIC_URL + "/login-register"}
                 element={<LoginRegister/>}
+              />
+              <Route
+                path={process.env.PUBLIC_URL + "/logout"}
+                element={<Logout/>}
+              />
+              <Route
+                path={process.env.PUBLIC_URL + "/reset-password"}
+                element={<ResetPassword/>}
+              />
+              <Route
+                path={process.env.PUBLIC_URL + "/forgot-password"}
+                element={<ForgotPassword/>}
               />
 
               <Route

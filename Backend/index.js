@@ -9,11 +9,16 @@ const jwt = require('jsonwebtoken');
 const JwtStrategy = require('passport-jwt').Strategy;
 const ExtractJwt = require('passport-jwt').ExtractJwt;
 const cookieParser = require('cookie-parser');
-const authRouter = require('./routes/AuthRoutes');
 const { User } = require('./model/User');
 const { isAuth, sanitizeUser, cookieExtractor } = require('./services/common');
 const path = require('path');
 const connectDB = require('./database/db');
+const cartRouter = require('./routes/Cart');
+const productsRouter = require('./routes/Products');
+const categoriesRouter = require('./routes/Categories');
+const authRouter = require('./routes/AuthRoutes');
+const ordersRouter = require('./routes/Order');
+const usersRouter = require('./routes/Users');
 const CLIENT_URL=process.env.CLIENT_URL
 
 const opts = {};
@@ -48,6 +53,11 @@ server.use(cookieParser());
 
 server.use(express.json()); // to parse req.body
 server.use('/auth', authRouter.router);
+server.use('/products', isAuth(), productsRouter.router);
+server.use('/users', isAuth(), usersRouter.router);
+server.use('/cart', isAuth(), cartRouter.router);
+server.use('/orders', isAuth(), ordersRouter.router);
+server.use('/categories', isAuth(), categoriesRouter.router);
 
 // Passport Strategies
 passport.use(

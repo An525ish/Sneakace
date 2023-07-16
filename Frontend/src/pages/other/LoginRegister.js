@@ -16,7 +16,6 @@ const LoginRegister = () => {
         description='Login page of flone react minimalist eCommerce template.'
       />
       <LayoutOne headerTop='visible'>
-        
         <div className='login-register-area pt-100 pb-100 mt-5'>
           <div className='container'>
             <div className='row'>
