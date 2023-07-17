@@ -5,7 +5,9 @@ import Logout from "./components/auth/Logout";
 import ResetPassword from "./components/auth/ResetPassword";
 import ForgotPassword from "./components/auth/ForgotPassword";
 import Profile from "./pages/other/Profile";
-
+const Admin =lazy(()=>import("./admin/admin"));
+const AdminUser =lazy(()=>import("./admin/screens/AdminUser"));
+const AdminCreate=lazy(()=>import("./admin/screens/AdminCreate"));
 // home pages
 const HomeFashion = lazy(() => import("./pages/home/HomeFashion"));
 const HomeFashionTwo = lazy(() => import("./pages/home/HomeFashionTwo"));
@@ -106,6 +108,7 @@ const Wishlist = lazy(() => import("./pages/other/Wishlist"));
 const Compare = lazy(() => import("./pages/other/Compare"));
 const Checkout = lazy(() => import("./pages/other/Checkout"));
 
+
 const NotFound = lazy(() => import("./pages/other/NotFound"));
 
 const App = () => {
@@ -126,6 +129,18 @@ const App = () => {
               <Route
                 path={process.env.PUBLIC_URL + "/"}
                 element={<HomeFashionTwo/>}
+              />
+              <Route
+                path={process.env.PUBLIC_URL + "/admin"}
+                element={<Admin/>}
+              />
+                <Route
+                path={process.env.PUBLIC_URL + "/admin/users"}
+                element={<AdminUser/>}
+              />
+                 <Route
+                path={process.env.PUBLIC_URL + "/admin/create"}
+                element={<AdminCreate/>}
               />
 
               {/* Homepages */}
