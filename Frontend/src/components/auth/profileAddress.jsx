@@ -4,9 +4,10 @@ import { useForm } from 'react-hook-form';
 import cogoToast from "cogo-toast";
 import { useNavigate } from 'react-router-dom';
 
-const ProfileAddress = (email) => {
+const ProfileAddress = () => {
 
     const navigate=useNavigate();
+    const {email} = JSON.parse(localStorage.getItem( 'userDetails'));    
 
     const {
         register,
@@ -20,7 +21,7 @@ const ProfileAddress = (email) => {
     const addressSubmit = async (addressData) => {
         console.log(addressData, "address")
         
-        const { data } = await patchApi(`/auth/` + email.email, addressData);
+        const { data } = await patchApi(`/auth/` + email, addressData);
         console.log(data,"address");
         data && cogoToast.success("Added the address", { position: "top-left" });
         navigate('/')

@@ -8,12 +8,7 @@ import ProfileAddress from "../../components/auth/profileAddress";
 
 
 const MyAccount = () => {
-  let { pathname } = useLocation();
-
-  const [search] = useSearchParams();
-  const email = search.get("email");
-
-  
+  let { pathname } = useLocation();  
 
   return (
     <Fragment>
@@ -34,7 +29,7 @@ const MyAccount = () => {
                         <span>1 .</span> Add your account information{" "}
                       </Accordion.Header>
                       <Accordion.Body>
-                        <ProfileName email={email}/>
+                        <ProfileName />
                       </Accordion.Body>
                     </Accordion.Item>
 
@@ -43,7 +38,7 @@ const MyAccount = () => {
                         <span>2 .</span> Add your address book entries
                       </Accordion.Header>
                       <Accordion.Body>
-                        <ProfileAddress email={email}/>
+                        <ProfileAddress />
                       </Accordion.Body>
                     </Accordion.Item>
                   </Accordion>

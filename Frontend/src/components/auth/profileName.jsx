@@ -3,7 +3,9 @@ import { patchApi } from "../../utils/api";
 import { useForm } from 'react-hook-form';
 import cogoToast from "cogo-toast";
 
-const ProfileName = (email) => {
+const ProfileName = () => {
+
+    const {email} = JSON.parse(localStorage.getItem( 'userDetails'));    
 
     const {
         register,
@@ -14,7 +16,7 @@ const ProfileName = (email) => {
       const personalDetailsSubmit = async (formData) => {
         // console.log(formData,"mail")
         console.log(email)
-        const { data } = await patchApi(`/auth/`+email.email, formData);
+        const { data } = await patchApi(`/auth/`+email, formData);
         console.log(data,"name");
         cogoToast.success("Added the name", {position: "top-left"});
       };

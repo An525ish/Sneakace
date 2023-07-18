@@ -3,6 +3,7 @@ import React from 'react'
 import { useForm } from 'react-hook-form';
 import { Link, Navigate } from 'react-router-dom';
 import GoogleSignIn from '../GoogleOath/GoogleSignIn';
+import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { loginUserAsync, selectError, selectLoggedInUser } from '../../store/slices/auth-slice';
 
@@ -18,6 +19,12 @@ const Login = () => {
         handleSubmit,
         formState: { errors },
     } = useForm();
+
+    const [email,setEmail]=useState("");
+
+    const userDetails = { email:email }
+    localStorage.setItem('userDetails', JSON.stringify(userDetails));
+    // console.log(userDetails)
 
     const onLoginSubmit = async (data) => {
         // const { data } = await postApi('/auth/login', formData)
