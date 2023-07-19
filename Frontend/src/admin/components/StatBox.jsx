@@ -7,33 +7,44 @@ const StatBox = ({ title, subtitle, icon, progress, increase }) => {
   const colors = tokens(theme.palette.mode);
 
   return (
-    <Box width="100%" m="0 30px">
+    <Box width="100%" m="20px" p={".2rem"}>
       <Box display="flex" justifyContent="space-between">
-        <Box>
+        <Box marginTop={"6px"}>
           {icon}
-          <Typography
+          {/* <Typography
             variant="h4"
             fontWeight="bold"
             sx={{ color: colors.grey[100] }}
-          >
-            {title}
-          </Typography>
+          > */}
+          <h1 style={{
+            fontSize: "25px",
+            fontWeight: "bold",
+            color: colors.grey[100],
+            marginTop:"2px"
+          }}>
+            {title}</h1>
+          {/* </Typography> */}
         </Box>
-        <Box>
-          <ProgressCircle progress={progress} />
-        </Box>
+        {/* <Box> */}
+        {/* <ProgressCircle progress={progress} /> */}
+        {/* </Box> */}
       </Box>
-      <Box display="flex" justifyContent="space-between" mt="2px">
-        <Typography variant="h5" sx={{ color: colors.greenAccent[500] }}>
-          {subtitle}
-        </Typography>
-        <Typography
+      <Box display="flex" justifyContent="space-between">
+        {/*       
+        <Typography variant="h5" sx={{ color: colors.greenAccent[500] }}> */}
+        <h2 style={{
+          fontSize: "23px",
+        fontWeight:"bold",
+          color: colors.greenAccent[600]
+        }}>{subtitle}</h2>
+        {/* </Typography> */}
+        {/* <Typography
           variant="h5"
           fontStyle="italic"
           sx={{ color: colors.greenAccent[600] }}
         >
           {increase}
-        </Typography>
+        </Typography> */}
       </Box>
     </Box>
   );

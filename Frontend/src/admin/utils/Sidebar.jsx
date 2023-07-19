@@ -94,7 +94,7 @@ const Sidebar = () => {
             </Box>
           )}
 
-          <Box paddingLeft={isCollapsed ? undefined : "5%"}>
+          <Box  padding={"0 20px 0 0px"}>
             <Item
               title="Dashboard"
               to="/admin"
@@ -106,7 +106,9 @@ const Sidebar = () => {
             <Typography
               variant="h6"
               color={colors.grey[300]}
-              sx={{ m: "15px 0 5px 20px" }}
+              sx={{ m: "15px 30px 5px 10px" }}
+              fontSize={"1rem"}
+              fontWeight={"bold"}
             >
               Product
             </Typography>
@@ -136,7 +138,9 @@ const Sidebar = () => {
             <Typography
               variant="h6"
               color={colors.grey[300]}
-              sx={{ m: "15px 0 5px 20px" }}
+              fontWeight={"bold"}
+              sx={{ m: "15px 30px 5px 10px" }}
+              fontSize={"1rem"}
             >
               Users
             </Typography>
@@ -152,13 +156,15 @@ const Sidebar = () => {
             <Typography
               variant="h6"
               color={colors.grey[300]}
-              sx={{ m: "15px 0 5px 20px" }}
+              sx={{ m: "15px 30px 5px 10px" }}
+               fontWeight={"bold"}
+              fontSize={"1rem"}
             >
               Cupons
             </Typography>
             <Item
               title="Discount Cupons"
-              to="/bar"
+              to="/admin/cupon"
               icon={<ReceiptOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
