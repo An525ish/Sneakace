@@ -10,25 +10,30 @@ import { addToCart } from "../../store/slices/cart-slice";
 import { addToWishlist } from "../../store/slices/wishlist-slice";
 // import { addToCompare } from "../../store/slices/compare-slice";
 
-function ProductModal({ product, currency, discountedPrice, finalProductPrice, finalDiscountedPrice, show, onHide, wishlistItem, compareItem }) {
+function ProductModal({ product, currency, discountedPrice, finalProductPrice, finalDiscountedPrice, show, onHide, wishlistItem }) {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   const dispatch = useDispatch();
   const { cartItems } = useSelector((state) => state.cart);
 
+  console.log(product,"check")
   const [selectedProductColor, setSelectedProductColor] = useState(
     product.variation ? product.variation[0].color : ""
   );
+  const [selectedProductPattern, setSelectedProductPattern] = useState(
+    product.variation ? product.variation[0].pattern[0].name : ""
+  );
   const [selectedProductSize, setSelectedProductSize] = useState(
-    product.variation ? product.variation[0].size[0].name : ""
+    product.variation ? product.variation[0].pattern[0].size[0].name : ""
   );
   const [productStock, setProductStock] = useState(
-    product.variation ? product.variation[0].size[0].stock : product.stock
+    product.variation ? product.variation[0].pattern[0].size[0].stock : product.stock
   );
   const [quantityCount, setQuantityCount] = useState(1);
   const productCartQty = getProductCartQuantity(
     cartItems,
     product,
     selectedProductColor,
+    selectedProductPattern,
     selectedProductSize
   );
 
@@ -136,7 +141,7 @@ function ProductModal({ product, currency, discountedPrice, finalProductPrice, f
 
             {product.variation ? (
               <div className="pro-details-size-color">
-                <div className="pro-details-color-wrap">
+                <div className="pro-details-color-wrap pro-variation">
                   <span>Color</span>
                   <div className="pro-details-color-content">
                     {product.variation.map((single, key) => {
@@ -156,8 +161,8 @@ function ProductModal({ product, currency, discountedPrice, finalProductPrice, f
                             }
                             onChange={() => {
                               setSelectedProductColor(single.color);
-                              setSelectedProductSize(single.size[0].name);
-                              setProductStock(single.size[0].stock);
+                              setSelectedProductPattern(single.pattern[0].name);
+                              setProductStock(single.pattern[0].stock);
                               setQuantityCount(1);
                             }}
                           />
@@ -168,12 +173,12 @@ function ProductModal({ product, currency, discountedPrice, finalProductPrice, f
                   </div>
                 </div>
                 <div className="pro-details-size">
-                  <span>Size</span>
-                  <div className="pro-details-size-content">
+                  <span>Pattern</span>
+                  <div className="pro-details-size-content pro-variation">
                     {product.variation &&
                       product.variation.map(single => {
                         return single.color === selectedProductColor
-                          ? single.size.map((singleSize, key) => {
+                          ? single.pattern.map((singlePattern, key) => {
                               return (
                                 <label
                                   className={`pro-details-size-content--single`}
@@ -181,27 +186,68 @@ function ProductModal({ product, currency, discountedPrice, finalProductPrice, f
                                 >
                                   <input
                                     type="radio"
-                                    value={singleSize.name}
+                                    value={singlePattern.name}
                                     checked={
-                                      singleSize.name ===
-                                      selectedProductSize
+                                      singlePattern.name ===
+                                      selectedProductPattern
                                         ? "checked"
                                         : ""
                                     }
                                     onChange={() => {
-                                      setSelectedProductSize(
-                                        singleSize.name
+                                      setSelectedProductPattern(
+                                        singlePattern.name
                                       );
-                                      setProductStock(singleSize.stock);
+                                      setProductStock(singlePattern.stock);
                                       setQuantityCount(1);
                                     }}
                                   />
                                   <span className="size-name">
-                                    {singleSize.name}
+                                    {singlePattern.name}
                                   </span>
                                 </label>
                               );
                             })
+                          : "";
+                      })}
+                  </div>
+                </div>
+                <div className="pro-details-size pro-variation">
+                  <span>Size</span>
+                  <div className="pro-details-size-content">
+                    {/* {console.log("check")} */}
+                    {product.variation &&
+                      product.variation.map(single => {
+                        return single.color === selectedProductColor
+                          ? single.pattern.map(singlePattern => {
+                            return singlePattern.name===selectedProductPattern
+                            ? singlePattern.size.map((singleSize,key)=>{
+                              {console.log(singleSize,selectedProductSize)}
+                              // {console.log("yes")}
+                            return (
+                              <label
+                                className={`pro-details-size-content--single`}
+                                key={key}
+                              >
+                                <input
+                                  type="radio"
+                                  value={singleSize.name}
+                                  checked={
+                                    singleSize.name === selectedProductSize
+                                      ? "checked"
+                                      : ""
+                                  }
+                                  onChange={() => {
+                                    setSelectedProductSize(singleSize.name);
+                                    setProductStock(singleSize.stock);
+                                    setQuantityCount(1);
+                                  }}
+                                />
+                                <span className="size-name">{singleSize.name}</span>
+                              </label>
+                            );
+                          })
+                          :""
+                        })
                           : "";
                       })}
                   </div>
@@ -262,7 +308,7 @@ function ProductModal({ product, currency, discountedPrice, finalProductPrice, f
                           ...product,
                           quantity: quantityCount,
                           selectedProductColor: selectedProductColor ? selectedProductColor : product.selectedProductColor ? product.selectedProductColor : null,
-                          selectedProductSize: selectedProductSize ? selectedProductSize : product.selectedProductSize ? product.selectedProductSize : null
+                          selectedProductPattern: selectedProductPattern ? selectedProductPattern : product.selectedProductPattern ? product.selectedProductPattern : null
                         }))
                       }
                       disabled={productCartQty >= productStock}
@@ -288,20 +334,6 @@ function ProductModal({ product, currency, discountedPrice, finalProductPrice, f
                     <i className="pe-7s-like" />
                   </button>
                 </div>
-                {/* <div className="pro-details-compare">
-                  <button
-                    className={compareItem !== undefined ? "active" : ""}
-                    disabled={compareItem !== undefined}
-                    title={
-                      compareItem !== undefined
-                        ? "Added to compare"
-                        : "Add to compare"
-                    }
-                    onClick={() => dispatch(addToCompare(product))}
-                  >
-                    <i className="pe-7s-shuffle" />
-                  </button>
-                </div> */}
               </div>
             )}
           </div>

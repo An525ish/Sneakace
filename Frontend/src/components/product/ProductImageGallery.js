@@ -11,7 +11,7 @@ const ProductImageGallery = ({ product, id, pattern }) => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   const [index, setIndex] = useState(-1);
   console.log(product.variation[id].image)
-  const slides = product.variation[id].size[pattern].image.map((img, i) => ({
+  const slides = product.variation[id].pattern[pattern].image.map((img, i) => ({
       src: process.env.PUBLIC_URL + img,
       key: i,
   }));
@@ -55,9 +55,9 @@ const ProductImageGallery = ({ product, id, pattern }) => {
         ) : (
           ""
         )}
-        {product.variation[id].size[pattern].image?.length ? (
+        {product.variation[id].pattern[pattern].image?.length ? (
           <Swiper options={gallerySwiperParams}>
-            {product.variation[id].size[pattern].image.map((single, key) => (
+            {product.variation[id].pattern[pattern].image.map((single, key) => (
               <SwiperSlide key={key}>
                 <button className="lightgallery-button" onClick={() => setIndex(key)}>
                   <i className="pe-7s-expand1"></i>
@@ -83,9 +83,9 @@ const ProductImageGallery = ({ product, id, pattern }) => {
 
       </div>
       <div className="product-small-image-wrapper mt-15">
-        {product.variation[id].size[pattern].image.length ? (
+        {product.variation[id].pattern[pattern].image.length ? (
           <Swiper options={thumbnailSwiperParams}>
-            {product.variation[id].size[pattern].image.map((single, key) => (
+            {product.variation[id].pattern[pattern].image.map((single, key) => (
               <SwiperSlide key={key}>
                 <div className="single-image">
                   <img

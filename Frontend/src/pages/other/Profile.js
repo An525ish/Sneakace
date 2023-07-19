@@ -1,18 +1,17 @@
-import { Fragment, useEffect, useState } from "react";
-import { useLocation, useSearchParams } from "react-router-dom";
+import { Fragment} from "react";
 import Accordion from "react-bootstrap/Accordion";
 import SEO from "../../components/seo";
 import LayoutOne from "../../layouts/LayoutOne";
-import ProfileName from "../../components/auth/profileName";
-import ProfileAddress from "../../components/auth/profileAddress";
-import { useForm } from "react-hook-form";
 import PersonalDetails from "../../components/profile/PersonalDetails";
-import { fetchApi } from "../../utils/api";
 import AddressDetails from "../../components/profile/AddressDetails";
-// import EditModal from "../../components/EditModal";
+import { useSelector } from "react-redux";
+import { selectLoggedInUser } from "../../store/slices/auth-slice";
 
 
 const Profile = () => {
+
+    const user=useSelector(selectLoggedInUser);
+    console.log(user,"user-data")
     
     return (
         <Fragment>
