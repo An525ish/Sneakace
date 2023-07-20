@@ -41,6 +41,14 @@ const AdminCupon = () => {
                                     name="discount percent"
                                     sx={{ gridColumn: "span 2" }}
                                 />
+                                  <TextField
+                                    fullWidth
+                                    variant="filled"
+                                    type="text"
+                                    label="Category"
+                                    name="category"
+                                    sx={{ gridColumn: "span 2" }}
+                                />
                             </Box>
                             <Box display="flex" justifyContent="end" mt="20px">
                                 <Button

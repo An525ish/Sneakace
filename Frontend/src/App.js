@@ -7,11 +7,14 @@ import ForgotPassword from "./components/auth/ForgotPassword";
 import Profile from "./pages/other/Profile";
 
 //Admin Panel
-const Admin = lazy(() => import("./admin/admin"));
+const Admin = lazy(() => import("./admin/screens/admin"));
 const AdminUser = lazy(() => import("./admin/screens/AdminUser"));
 const AdminCreate = lazy(() => import("./admin/screens/AdminCreate"));
 const ProductEdit = lazy(() => import("./admin/screens/EditProduct"));
 const AdminCupon = lazy(() => import("./admin/screens/AdminCupon"))
+const AdminOrder=lazy(()=>import("./admin/screens/AdminOrders"));
+const AdminInvoice=lazy(()=>import("./admin/screens/AdminInvoice"));
+const AdminProduct=lazy(()=>import("./admin/screens/AdminProduct"));
 // home pages
 const HomeFashion = lazy(() => import("./pages/home/HomeFashion"));
 const HomeFashionTwo = lazy(() => import("./pages/home/HomeFashionTwo"));
@@ -153,6 +156,18 @@ const App = () => {
             <Route
               path={process.env.PUBLIC_URL + "/admin/cupon"}
               element={<AdminCupon />}
+            />
+             <Route
+              path={process.env.PUBLIC_URL + "/admin/orders"}
+              element={<AdminOrder />}
+            />
+             <Route
+              path={process.env.PUBLIC_URL + "/admin/invoice"}
+              element={<AdminInvoice />}
+            />
+             <Route
+              path={process.env.PUBLIC_URL + "/admin/product"}
+              element={<AdminProduct />}
             />
 
             {/* Homepages */}
