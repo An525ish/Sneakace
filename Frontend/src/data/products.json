@@ -58,15 +58,15 @@
             "size":[
               {
                 "name":"s",
-                "stock":"3"
-              },
-              {
-                "name":"M",
-                "stock":"1"
+                "stock":"0"
               },
               {
                 "name":"L",
-                "stock":"0"
+                "stock":"1"
+              },
+              {
+                "name":"XL",
+                "stock":"3"
               }
             ]
           },

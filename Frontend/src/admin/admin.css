@@ -1,13 +1,60 @@
-
-
 .content {
-    height: 100%;
-    width: 100%;
-    font-family: "Source Sans Pro", sans-serif;
-  }
-  
-  .admin {
-    display: flex;
-    position: relative;
-  }
-  
+  height: 100%;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.admin {
+  display: flex;
+  position: relative;
+}
+
+.admin-product-heading{
+  font-size: 1.75rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.login-form-container {
+  background: transparent none repeat scroll 0 0;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  padding: 80px;
+  text-align: left;
+}
+
+.login-register-form form div {
+  margin-bottom: 30px;
+}
+
+.login-register-form form input {
+  background-color: transparent;
+  border: 1px solid #ebebeb;
+  color: #333;
+  font-size: 14px;
+  height: 45px;
+  padding: 0 15px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.button-box-admin button {
+  background-color: #f2f2f2;
+  border: medium none;
+  color: #333;
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1;
+  padding: 11px 30px;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+}
+
+.button-box-admin button:hover {
+  background-color: #3C096C;
+  color: #fff;
+}

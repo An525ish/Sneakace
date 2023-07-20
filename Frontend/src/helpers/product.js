@@ -190,8 +190,8 @@ export const getProductsIndividualPattern = products => {
         })
       );
     });
-  const individualProductSizes = getIndividualItemArray(productPattern);
-  return individualProductSizes;
+  const individualProductPattern = getIndividualItemArray(productPattern);
+  return individualProductPattern;
 };
 
 // get individual sizes

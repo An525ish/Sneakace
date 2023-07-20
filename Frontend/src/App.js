@@ -10,6 +10,7 @@ import Profile from "./pages/other/Profile";
 const Admin = lazy(() => import("./admin/admin"));
 const AdminUser = lazy(() => import("./admin/screens/AdminUser"));
 const AdminCreate = lazy(() => import("./admin/screens/AdminCreate"));
+const ProductEdit = lazy(() => import("./admin/screens/EditProduct"));
 const AdminCupon = lazy(() => import("./admin/screens/AdminCupon"))
 // home pages
 const HomeFashion = lazy(() => import("./pages/home/HomeFashion"));
@@ -144,6 +145,10 @@ const App = () => {
             <Route
               path={process.env.PUBLIC_URL + "/admin/create"}
               element={<AdminCreate />}
+            />
+            <Route 
+            path={process.env.PUBLIC_URL+"/product/edit"}
+            element={<ProductEdit/>}
             />
             <Route
               path={process.env.PUBLIC_URL + "/admin/cupon"}

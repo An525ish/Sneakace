@@ -47,6 +47,8 @@ const ProductDescriptionInfo = ({
   );
   const [quantityCount, setQuantityCount] = useState(1);
 
+  console.log(product,'check');
+
   const productCartQty = getProductCartQuantity(
     cartItems,
     product,
@@ -195,8 +197,7 @@ const ProductDescriptionInfo = ({
                                       ? "checked"
                                       : ""
                                   }
-                                  onChange={() => {
-                                    setSelectPattern(key)
+                                  onChange={() => { 
                                     setSelectedProductSize(singleSize.name);
                                     setProductStock(singleSize.stock);
                                     setQuantityCount(1);
