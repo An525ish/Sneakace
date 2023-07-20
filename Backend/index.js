@@ -54,7 +54,7 @@ server.use(cookieParser());
 server.use(express.json()); // to parse req.body
 server.use('/auth', authRouter.router);
 server.use('/products', isAuth(), productsRouter.router);
-server.use('/users', isAuth(), usersRouter.router);
+server.use('/users', usersRouter.router);
 server.use('/cart', isAuth(), cartRouter.router);
 server.use('/orders', isAuth(), ordersRouter.router);
 server.use('/categories', isAuth(), categoriesRouter.router);

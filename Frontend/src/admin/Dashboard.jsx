@@ -16,10 +16,23 @@ import PieChart from "./components/PieChart";
 import Pie2 from "./components/Pie2";
 import { Bar } from "@nivo/bar";
 import Bar2 from "./components/Bar2";
+import { useEffect, useState } from "react";
+import { fetchApi } from "../utils/api";
 const Dashboard = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   const isNonMediumScreens = useMediaQuery("(min-width: 1200px)");
+
+  const [totalUsers, setTotalUsers] = useState()
+  useEffect(() => {
+    fetchAllUsersLength()
+  }, [])
+
+  const fetchAllUsersLength = async () => {
+    const {data} = await fetchApi('/users')
+    const usersLength = Object.keys(data).length
+    setTotalUsers(usersLength)
+  }
 
   return (
     <Container>
@@ -67,7 +80,7 @@ const Dashboard = () => {
             justifyContent="center"
           >
             <StatBox
-              title="431,225"
+              title={totalUsers}
               subtitle="Total users"
               // progress="0.50"
               // increase="+21%"
