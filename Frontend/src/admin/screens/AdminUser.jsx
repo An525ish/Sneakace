@@ -6,33 +6,42 @@ import Header from "../components/Header";
 import { useTheme } from "@mui/material";
 import Sidebar from "../utils/Sidebar"
 import "../admin.css"
-import { useState } from "react";
+import { fetchApi } from '../../utils/api'
+import { useEffect, useState } from "react";
 const AdminUser = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   const [isSidebar, setIsSidebar] = useState(true);
 
+  const [userData, setUserData] = useState('')
+
   const columns = [
     { field: "id", headerName: "ID", flex: 0.5 },
-    { field: "registrarId", headerName: "Registrar ID" },
+    // { field: "registrarId", headerName: "Registrar ID" },
     {
-      field: "name",
-      headerName: "Name",
+      field: "firstName",
+      headerName: "First Name",
       flex: 1,
       cellClassName: "name-column--cell",
     },
     {
-      field: "age",
-      headerName: "Age",
-      type: "number",
-      headerAlign: "left",
-      align: "left",
-    },
-    {
-      field: "phone",
-      headerName: "Phone Number",
+      field: "lastName",
+      headerName: "Last Name",
       flex: 1,
+      cellClassName: "name-column--cell",
     },
+    // {
+    //   field: "age",
+    //   headerName: "Age",
+    //   type: "number",
+    //   headerAlign: "left",
+    //   align: "left",
+    // },
+    // {
+    //   field: "phone",
+    //   headerName: "Phone Number",
+    //   flex: 1,
+    // },
     {
       field: "email",
       headerName: "Email",
@@ -49,11 +58,25 @@ const AdminUser = () => {
       flex: 1,
     },
     {
-      field: "zipCode",
+      field: "state",
+      headerName: "State",
+      flex: 1,
+    },
+    {
+      field: "zipcode",
       headerName: "Zip Code",
       flex: 1,
     },
   ];
+
+  useEffect(() => {
+    fetchAllUsers()
+  }, [])
+
+  const fetchAllUsers = async () => {
+    const {data} = await fetchApi('/users')
+    setUserData(data)
+  }
 
   return (
     <div className="admin">
@@ -99,7 +122,7 @@ const AdminUser = () => {
         }}
       >
         <DataGrid
-          rows={mockDataContacts}
+          rows={userData}
           columns={columns}
           components={{ Toolbar: GridToolbar }}
         />
