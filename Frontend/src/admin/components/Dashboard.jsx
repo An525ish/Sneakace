@@ -1,38 +1,25 @@
 import { Box, Button, Container, IconButton, Typography, useMediaQuery, useTheme } from "@mui/material";
-import { tokens } from "./theme";
-import { mockTransactions } from "./data/mockData";
+import { tokens } from "../theme";
+import { mockTransactions } from "../data/mockData";
 import DownloadOutlinedIcon from "@mui/icons-material/DownloadOutlined";
 import EmailIcon from "@mui/icons-material/Email";
 import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
 import PersonAddIcon from "@mui/icons-material/PersonAdd";
 import TrafficIcon from "@mui/icons-material/Traffic";
-import Header from "./components/Header";
-import LineChart from "./components/LineChart";
+import Header from "./Header";
+import LineChart from "./LineChart";
 // import GeographyChart from "./components/GeographyChart";
-import BarChart from "./components/BarChart";
-import StatBox from "./components/StatBox";
-import ProgressCircle from "./components/ProgressCircle";
-import PieChart from "./components/PieChart";
-import Pie2 from "./components/Pie2";
+import BarChart from "./BarChart";
+import StatBox from "./StatBox";
+import ProgressCircle from "./ProgressCircle";
+import PieChart from "./PieChart";
+import Pie2 from "./Pie2";
 import { Bar } from "@nivo/bar";
-import Bar2 from "./components/Bar2";
-import { useEffect, useState } from "react";
-import { fetchApi } from "../utils/api";
+import Bar2 from "./Bar2";
 const Dashboard = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   const isNonMediumScreens = useMediaQuery("(min-width: 1200px)");
-
-  const [totalUsers, setTotalUsers] = useState()
-  useEffect(() => {
-    fetchAllUsersLength()
-  }, [])
-
-  const fetchAllUsersLength = async () => {
-    const {data} = await fetchApi('/users')
-    const usersLength = Object.keys(data).length
-    setTotalUsers(usersLength)
-  }
 
   return (
     <Container>
@@ -80,7 +67,7 @@ const Dashboard = () => {
             justifyContent="center"
           >
             <StatBox
-              title={totalUsers}
+              title="431,225"
               subtitle="Total users"
               // progress="0.50"
               // increase="+21%"

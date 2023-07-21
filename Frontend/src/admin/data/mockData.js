@@ -1,5 +1,21 @@
 import { tokens } from "../theme";
 
+
+export const mockprod=[
+  {
+    
+id:64,
+sku:"asdf190",
+name:"Lorem ipsum accessories one",
+price:3.1,
+discount:10,
+rating:4,
+saleCount:29,
+category:"Designer laces",
+stock:20,
+  }
+]
+
 export const mockDataTeam = [
   {
     id: 1,
@@ -328,124 +344,220 @@ export const mockTransactions = [
   },
 ];
 
+export const mockorder = [
+  {
+    "_id": 8258,
+    "time": "Jan 28, 2024",
+    "address": "P.O. Box 729, 8767 Dapibus Street",
+    "mobile": "(383) 194-4548",
+    "price": "$42.55",
+    "orderStatus": "pending",
+    "invoice": "62707"
+  },
+  {
+    "_id": 6482,
+    "time": "Jan 28, 2024",
+    "address": "P.O. Box 792, 9789 Fusce Road",
+    "mobile": "(880) 457-1546",
+    "price": "$65.86",
+    "orderStatus": "pending",
+    "invoice": "8931"
+  },
+  {
+    "_id": 2064,
+    "time":"Jan 28, 2024",
+    "address": "514-4147 Non Street",
+    "mobile": "(321) 739-0868",
+    "price": "$58.96",
+    "orderStatus": "delivered",
+    "invoice": "62748"
+  },
+  {
+    "_id": 7949,
+    "time": "Jan 28, 2024",
+    "address": "486 Magna, Avenue",
+    "mobile": "(848) 621-2268",
+    "price": "$87.35",
+    "orderStatus": "processing",
+    "invoice": "5083 BU"
+  },
+  {
+    "_id": 2282,
+    "time": "Jan 28, 2024",
+    "address": "545-5024 Non, Rd.",
+    "mobile": "(943) 678-1917",
+    "price": "$97.69",
+    "orderStatus": "processing",
+    "invoice": "436007"
+  },
+
+  {
+		"_id": 8258,
+		"time": "Nov 24, 2022",
+		"address": "P.O. Box 729, 8767 Dapibus Street",
+		"mobile": "04 50 66 72 64",
+		"price": "$42.55",
+		"orderStatus": "pending ",
+		"invoice": "6970"
+	},
+	{
+		"_id": 6482,
+		"time": "Dec 1, 2022",
+		"address": "P.O. Box 792, 9789 Fusce Road",
+		"mobile": "08 08 48 31 04",
+		"price": "$65.86",
+		"orderStatus": "pending ",
+		"invoice": "7604 UC"
+	},
+	{
+		"_id": 2064,
+		"time": "Oct 10, 2022",
+		"address": "514-4147 Non Street",
+		"mobile": "04 22 48 26 31",
+		"price": "$58.96",
+		"orderStatus": "pending ",
+		"invoice": "P3T 5V6"
+	},
+	{
+		"_id": 7949,
+		"time": "Oct 23, 2022",
+		"address": "486 Magna, Avenue",
+		"mobile": "04 27 79 47 57",
+		"price": "$87.35",
+		"orderStatus": "pending ",
+		"invoice": "55558"
+	},
+	{
+		"_id": 2282,
+		"time": "Jul 13, 2023",
+		"address": "545-5024 Non, Rd.",
+		"mobile": "08 08 24 49 63",
+		"price": "$97.69",
+		"orderStatus": "pending ",
+		"invoice": "251838"
+	},
+  
+
+]
+
 export const mockBarData = [
   {
     Month: "Jan",
-    
+
     revenue: "137",
     revenueColor: "hsl(110, 70%, 50%)",
 
 
-   
+
   },
-{
-  Month: "Feb",
+  {
+    Month: "Feb",
     "revenue": 55,
-      "revenueColor": "hsl(307, 70%, 50%)",
+    "revenueColor": "hsl(307, 70%, 50%)",
   },
-{
-  Month: "March",
+  {
+    Month: "March",
     "revenue": 109,
-      "revenueColor": "hsl(72, 70%, 50%)",
+    "revenueColor": "hsl(72, 70%, 50%)",
 
   },
-{
-  Month: "April",
+  {
+    Month: "April",
     "revenue": 133,
-      "revenueColor": "hsl(239, 71%, 50%)",
+    "revenueColor": "hsl(239, 71%, 50%)",
 
   },
-{
-  Month: "May",
+  {
+    Month: "May",
     revenue: 201,
-      revenueColor: "#4CCEAC"
+    revenueColor: "#4CCEAC"
 
-},
-{
-  Month: "June",
+  },
+  {
+    Month: "June",
     "revenue": 66,
-      "revenueColor": "hsl(208, 70%, 50%)",
-   
+    "revenueColor": "hsl(208, 70%, 50%)",
+
   },
-{
-  Month: "July",
+  {
+    Month: "July",
     "revenue": 80,
-      "revenueColor": "hsl(87, 70%, 50%)",
-  
+    "revenueColor": "hsl(87, 70%, 50%)",
+
   },
-{
-  Month: "Aug",
+  {
+    Month: "Aug",
     "revenue": 80,
-      "revenueColor": "hsl(87, 70%, 50%)",
-  
+    "revenueColor": "hsl(87, 70%, 50%)",
+
   },
-{
-  Month: "Sept",
+  {
+    Month: "Sept",
     "revenue": 80,
-      "revenueColor": "hsl(87, 70%, 50%)",
-  
+    "revenueColor": "hsl(87, 70%, 50%)",
+
   },
-{
-  Month: "Oct",
+  {
+    Month: "Oct",
     "revenue": 80,
-      "revenueColor": "hsl(87, 70%, 50%)",
-  
+    "revenueColor": "hsl(87, 70%, 50%)",
+
   },
-{
-  Month: "Nov",
+  {
+    Month: "Nov",
     "revenue": 80,
-      "revenueColor": "hsl(87, 70%, 50%)",
-  
+    "revenueColor": "hsl(87, 70%, 50%)",
+
   },
-{
-  Month: "Dec",
+  {
+    Month: "Dec",
     "revenue": 80,
-      "revenueColor": "hsl(87, 70%, 50%)",
-  
+    "revenueColor": "hsl(87, 70%, 50%)",
+
   },
 ];
 export const mockBarData2 = [
   {
     Category: "Cat1",
-    
+
     revenue: "137",
     revenueColor: "hsl(110, 70%, 50%)",
-   
+
   },
-{
-  Category: "cat2",
+  {
+    Category: "cat2",
     "revenue": 55,
-      "revenueColor": "hsl(307, 70%, 50%)",
+    "revenueColor": "hsl(307, 70%, 50%)",
   },
-{
-  Category: "cat3",
+  {
+    Category: "cat3",
     "revenue": 109,
-      "revenueColor": "hsl(72, 70%, 50%)",
+    "revenueColor": "hsl(72, 70%, 50%)",
 
   },
-{
-  Category: "cat4",
+  {
+    Category: "cat4",
     "revenue": 133,
-      "revenueColor": "hsl(239, 71%, 50%)",
+    "revenueColor": "hsl(239, 71%, 50%)",
 
   },
-{
-  Category: "caT5",
+  {
+    Category: "caT5",
     revenue: 201,
-      revenueColor: "#4CCEAC"
+    revenueColor: "#4CCEAC"
 
-},
-{
-  Category: "CAT6",
-    "revenue": 66,
-      "revenueColor": "hsl(208, 70%, 50%)",
-   
   },
-{
-  Category: "cat7",
+  {
+    Category: "CAT6",
+    "revenue": 66,
+    "revenueColor": "hsl(208, 70%, 50%)",
+
+  },
+  {
+    Category: "cat7",
     "revenue": 80,
-      "revenueColor": "hsl(87, 70%, 50%)",
-  
+    "revenueColor": "hsl(87, 70%, 50%)",
+
   },
 ];
 export const mockPieData = [
@@ -461,7 +573,7 @@ export const mockPieData = [
     value: 170,
     color: "hsl(162, 70%, 50%)",
   },
-  
+
 ];
 export const mockPieData2 = [
   {
@@ -476,7 +588,7 @@ export const mockPieData2 = [
     value: 2720,
     color: "hsl(162, 70%, 50%)",
   },
-  
+
 ];
 
 export const mockLineData = [

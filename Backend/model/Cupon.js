@@ -4,6 +4,7 @@ const { Schema } = mongoose;
 const cuponSchema = new Schema({
     code: { type: String, required: true, unique: true },
     discount: { type: Number, required: true },
+    category: { type: String, required: true, }
 
 }, { timestamps: true });
 
