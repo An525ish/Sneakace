@@ -49,7 +49,7 @@ label
     color: teal;
   }
 `
-const ImagePreview = styled.img`
+const ImagePreview = styled.image`
   width: 100%;
   margin: 0.5rem 0;
 `
@@ -123,34 +123,32 @@ const Tag = styled.div`
 
 `
 
-function EditProducts({ isOpen, setIsOpen, EditProductInfo, title, desc }) {
-    const DefaultValues = { title: "", productno: "", size: [], color: [], pattern: [], shortDesc: "", longDesc: "", categories: [], quantity: "", price: "", img: null }
+function EditProduct
+    ({ isOpen, setIsOpen, EditProductInfo, title, desc }) {
+    const DefaultValues = { title: "", productno: "", size: [], color: [], pattern: [], shortDesc: "", longDesc: "", categories: [], quantity: "", price: "", image: [] }
 
     //   const dispatch = useDispatch();
     const [Product, setProduct] = useState(DefaultValues)
 
-    useEffect(() => {
-        if (!EditProductInfo) return
-        setProduct({ ...EditProductInfo })
-    }, [EditProductInfo])
-
     const handleChange = (e, type) => {
-        const { name, value } = e.target;
+        var { name, value } = e.target;
         const property = type || name
         console.log("input changed on " + title)
-
-        if (name === "img") {
+        const prev = Product[property]; //we ddnt used Product.property bcz iw will find a field where the key is property but in this cal it will find the value of property
+        
+        if (name === "image") {
+            value=e.target.files[0].name;
+            console.log(value, "image")
             const file = e.target.files[0];
             const filereader = new FileReader();
             filereader.readAsDataURL(file);
             filereader.onload = () => {
                 console.log("image changed on " + title)
-                setProduct(p => ({ ...p, img: filereader.result }))
+                setProduct(p => ({ ...p, image: Array.isArray(prev) ? [...prev, value] : value }))
             }
             return
         }
 
-        const prev = Product[property]; //we ddnt used Product.property bcz iw will find a field where the key is property but in this cal it will find the value of property
         if (Array.isArray(prev)) {
             const exist = prev.filter(i => i === value.toUpperCase())
             if (exist?.length) return //TODO: add Errors
@@ -161,14 +159,8 @@ function EditProducts({ isOpen, setIsOpen, EditProductInfo, title, desc }) {
         e.target.value = "";
     }
 
-    const handleSubmit = async () => {
-        if (!EditProductInfo) {
-            console.log("editProduct")
-            //   addProductapi(dispatch, Product, setIsOpen)
-        } else {
-            console.log("no editProduct")
-            //   editProductapi(dispatch,Product, setIsOpen)
-        }
+    const onSubmit = async () => {
+
     }
 
     const handleDelete = (property, value) => {
@@ -179,129 +171,137 @@ function EditProducts({ isOpen, setIsOpen, EditProductInfo, title, desc }) {
         console.log(Product)
     }, [Product])
 
+
     const [isSidebar, setIsSidebar] = useState(true);
-    const ifForImf = Math.random() * 1000 //this is used Because Img id was chasing bcz this component was rendered 2 time 1 for add and another for update
+    const ifForImf = Math.random() * 1000 //this is used Because image id was chasing bcz this component was rendered 2 time 1 for add and another for update
     return (
         // <EditModal isOpen={isOpen} setIsOpen={setIsOpen} action={handleSubmit} title={title} desc={desc}>
         <div style={{ display: 'flex' }}>
             <Sidebar isSidebar={isSidebar} />
             <Container>
-                <Header title={"Edit Product"} subtitle={"Edit your product"}/>
-                    <Section>
-                        <Left>
-                            <label>Product Image</label>
-                        </Left>
-                        <Right>
+                <Header title={"Edit Product"} subtitle={"Edit product here"} />
+                <Section>
+                    <Left>
+                        <label>Product Image</label>
+                    </Left>
+                    <Right>
 
-                            <input accept="image/jpeg, image/png" name='img' type="file" style={{ display: "none" }} id={ifForImf} onChange={e => handleChange(e)} />
-                            <label htmlFor={ifForImf}>
-                                <UploadImage>
-                                    <CloudUploadOutlinedIcon />
-                                    <UploadTitle>Drag your image here</UploadTitle>
-                                    <UploadDesc>(Only *.jpeg and *.png images will be accepted)</UploadDesc>
-                                </UploadImage>
-                            </label>
-                            <ImagePreview src={Product.img} />
-                        </Right>
-                    </Section>
+                        <input accept="image/jpeg, image/png" name='image' type="file" style={{ display: "none" }} id={ifForImf} onChange={e => handleChange(e,"image")} />
+                        <label htmlFor={ifForImf}>
+                            {Product?.image?.map((s) => {
+                                return <Tag key={s}>
+                                    <span>
+                                        <img src={s} alt={s}/>
+                                        </span><div onClick={() => handleDelete("image", s)}><CloseOutlinedIcon /></div>
+                                </Tag>
+                            })}
+                            <UploadImage>
+                                <CloudUploadOutlinedIcon />
+                                <UploadTitle>Drag your image here</UploadTitle>
+                                <UploadDesc>(Only *.jpeg and *.png images will be accepted)</UploadDesc>
+                            </UploadImage>
+                            
+                        </label>
+                    </Right>
+                </Section>
 
-                    <Section>
-                        <Left><label>Product Name/Title</label></Left>
-                        <Right><Input name="title" value={Product.title} onChange={e => handleChange(e)} /></Right>
-                    </Section>
+                <Section>
+                    <Left><label>Product Name/Title</label></Left>
+                    <Right><Input name="title" value={Product.title} onChange={e => handleChange(e)} /></Right>
+                </Section>
 
-                    <Section>
-                        <Left><label>Product Number</label></Left>
-                        <Right><Input name="productno" value={Product.productno} onChange={e => handleChange(e)} /></Right>
-                    </Section>
+                <Section>
+                    <Left><label>Product Number</label></Left>
+                    <Right><Input name="productno" value={Product.productno} onChange={e => handleChange(e)} /></Right>
+                </Section>
 
-                    <Section>
-                        <Left><label>Product Size</label></Left>
-                        <Right>
-                            <TagSection>
-                                {Product?.size?.map((s) => {
-                                    return <Tag key={s}>
-                                        <span>{s}</span><div onClick={() => handleDelete("size", s)}><CloseOutlinedIcon /></div>
-                                    </Tag>
-                                })}
-                                <Input placeholder='Sizes (Write and press Enter)' name="size" onKeyDown={e => { if (e.key === "Enter") handleChange(e, "size") }} />
-                            </TagSection>
-                        </Right>
-                    </Section>
+                <Section>
+                    <Left><label>Product Size</label></Left>
+                    <Right>
+                        <TagSection>
+                            {Product?.size?.map((s) => {
+                                return <Tag key={s}>
+                                    <span>{s}</span><div onClick={() => handleDelete("size", s)}><CloseOutlinedIcon /></div>
+                                </Tag>
+                            })}
+                            <Input placeholder='Sizes (Write and press Enter)' name="size" onKeyDown={e => { if (e.key === "Enter") handleChange(e, "size") }} />
+                        </TagSection>
+                    </Right>
+                </Section>
 
-                    <Section>
-                        <Left><label>Product Pattern</label></Left>
-                        <Right>
-                            <TagSection>
-                                {Product?.pattern?.map((s) => {
-                                    return <Tag key={s}>
-                                        <span>{s}</span><div onClick={() => handleDelete("pattern", s)}><CloseOutlinedIcon /></div>
-                                    </Tag>
-                                })}
-                                <Input placeholder='Pattern (Write and press Enter)' name="pattern" onKeyDown={e => { if (e.key === "Enter") handleChange(e, "pattern") }} />
-                            </TagSection>
-                        </Right>
-                    </Section>
+                <Section>
+                    <Left><label>Product Pattern</label></Left>
+                    <Right>
+                        <TagSection>
+                            {Product?.pattern?.map((s) => {
+                                return <Tag key={s}>
+                                    <span>{s}</span><div onClick={() => handleDelete("pattern", s)}><CloseOutlinedIcon /></div>
+                                </Tag>
+                            })}
+                            <Input placeholder='Pattern (Write and press Enter)' name="pattern" onKeyDown={e => { if (e.key === "Enter") handleChange(e, "pattern") }} />
+                        </TagSection>
+                    </Right>
+                </Section>
 
-                    <Section>
-                        <Left><label>Product Color(Choose and press Enter)</label></Left>
-                        <Right>
-                            <TagSection>
-                                {Product?.color?.map((s) => {
-                                    return <Tag key={s} color={s}>
-                                        <span >{s}</span><div onClick={() => handleDelete("color", s)}><CloseOutlinedIcon /></div>
-                                    </Tag>
-                                })}
-                                <Input style={{ height: "80px" }} type="color" placeholder='Sizes' name="color" onKeyDown={e => { if (e.key === "Enter") handleChange(e, "color") }} />
-                            </TagSection>
-                        </Right>
-                    </Section>
+                <Section>
+                    <Left><label>Product Color(Choose and press Enter)</label></Left>
+                    <Right>
+                        <TagSection>
+                            {Product?.color?.map((s) => {
+                                return <Tag key={s} color={s}>
+                                    <span >{s}</span><div onClick={() => handleDelete("color", s)}><CloseOutlinedIcon /></div>
+                                </Tag>
+                            })}
+                            <Input placeholder='Colour (Write and press Enter)' name="color" onKeyDown={e => { if (e.key === "Enter") handleChange(e, "color") }} />
+                        </TagSection>
+                    </Right>
+                </Section>
 
-                    <Section>
-                        <Left><label>Product Short Description</label></Left>
-                        <Right><Textarea name="shortDesc" value={Product.shortDesc || ""} onChange={e => handleChange(e)} /></Right>
-                    </Section>
+                <Section>
+                    <Left><label>Product Short Description</label></Left>
+                    <Right><Textarea name="shortDesc" value={Product.shortDesc || ""} onChange={e => handleChange(e)} /></Right>
+                </Section>
 
 
-                    <Section>
-                        <Left><label>Product Long Description</label></Left>
-                        <Right><Textarea name="longDesc" value={Product.longDesc || ""} onChange={e => handleChange(e)} /></Right>
-                    </Section>
+                <Section>
+                    <Left><label>Product Long Description</label></Left>
+                    <Right><Textarea name="longDesc" value={Product.longDesc || ""} onChange={e => handleChange(e)} /></Right>
+                </Section>
 
-                    <Section>
-                        <Left><label>Product Category</label></Left>
-                        <Right>
-                            <TagSection>
-                                {Product?.categories?.map((s) => {
-                                    return <Tag key={s}>
-                                        <span>{s}</span><div onClick={() => handleDelete("categories", s)}><CloseOutlinedIcon /></div>
-                                    </Tag>
-                                })}
-                                <Input placeholder='Categories (Write and press Enter)' name="categories" onKeyDown={e => { if (e.key === "Enter") handleChange(e, "categories") }} />
-                            </TagSection>
-                        </Right>
-                    </Section>
+                <Section>
+                    <Left><label>Product Category</label></Left>
+                    <Right>
+                        <TagSection>
+                            {Product?.categories?.map((s) => {
+                                return <Tag key={s}>
+                                    <span>{s}</span><div onClick={() => handleDelete("categories", s)}><CloseOutlinedIcon /></div>
+                                </Tag>
+                            })}
+                            <Input placeholder='Categories (Write and press Enter)' name="categories" onKeyDown={e => { if (e.key === "Enter") handleChange(e, "categories") }} />
+                        </TagSection>
+                    </Right>
+                </Section>
 
-                    <Section>
-                        <Left><label>Product Quantity</label></Left>
-                        <Right><Input type="number" name="quantity" value={Product.quantity} onChange={e => handleChange(e)} /></Right>
-                    </Section>
+                <Section>
+                    <Left><label>Product Quantity</label></Left>
+                    <Right><Input type="number" name="quantity" value={Product.quantity} onChange={e => handleChange(e)} /></Right>
+                </Section>
 
-                    <Section>
-                        <Left><label>Product Price</label></Left>
-                        <Right><Input type="number" name="price" value={Product.price} onChange={e => handleChange(e)} /></Right>
-                    </Section>
+                <Section>
+                    <Left><label>Product Price</label></Left>
+                    <Right><Input type="number" name="price" value={Product.price} onChange={e => handleChange(e)} /></Right>
+                </Section>
 
-                    <div className='button-box-admin' style={{marginTop:'2rem'}}>
-                        <button type='submit'>
-                            <span>Edit Product</span>
-                        </button>
-                    </div>
+                <div className='button-box-admin' style={{ marginTop: '2rem' }}>
+                    <button type='submit'>
+                        <span>Edit Product</span>
+                    </button>
+                </div>
 
-            
+
             </Container>
         </div>
     )
 }
 
-export default EditProducts
+export default EditProduct
