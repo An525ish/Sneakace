@@ -20,7 +20,13 @@ const AdminUser = () => {
     // { field: "registrarId", headerName: "Registrar ID" },
     {
       field: "firstName",
-      headerName: "Name",
+      headerName: "First Name",
+      flex: 1,
+      cellClassName: "name-column--cell",
+    },
+    {
+      field: "lastName",
+      headerName: "Last Name",
       flex: 1,
       cellClassName: "name-column--cell",
     },
@@ -31,11 +37,11 @@ const AdminUser = () => {
     //   headerAlign: "left",
     //   align: "left",
     // },
-    {
-      field: "phone",
-      headerName: "Phone Number",
-      flex: 1,
-    },
+    // {
+    //   field: "phone",
+    //   headerName: "Phone Number",
+    //   flex: 1,
+    // },
     {
       field: "email",
       headerName: "Email",
