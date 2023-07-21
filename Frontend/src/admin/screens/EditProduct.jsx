@@ -123,8 +123,7 @@ const Tag = styled.div`
 
 `
 
-function AdminCreate
-({ isOpen, setIsOpen, EditProductInfo, title, desc }) {
+function EditProducts({ isOpen, setIsOpen, EditProductInfo, title, desc }) {
     const DefaultValues = { title: "", productno: "", size: [], color: [], pattern: [], shortDesc: "", longDesc: "", categories: [], quantity: "", price: "", img: null }
 
     //   const dispatch = useDispatch();
@@ -187,7 +186,7 @@ function AdminCreate
         <div style={{ display: 'flex' }}>
             <Sidebar isSidebar={isSidebar} />
             <Container>
-                <Header title={"Add Product"} subtitle={"Create new product here"}/>
+                <Header title={"Edit Product"} subtitle={"Edit your product"}/>
                     <Section>
                         <Left>
                             <label>Product Image</label>
@@ -295,7 +294,7 @@ function AdminCreate
 
                     <div className='button-box-admin' style={{marginTop:'2rem'}}>
                         <button type='submit'>
-                            <span>Add Product</span>
+                            <span>Edit Product</span>
                         </button>
                     </div>
 
@@ -305,4 +304,4 @@ function AdminCreate
     )
 }
 
-export default AdminCreate
+export default EditProducts

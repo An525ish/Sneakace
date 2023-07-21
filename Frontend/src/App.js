@@ -10,7 +10,8 @@ import Profile from "./pages/other/Profile";
 const Admin = lazy(() => import("./admin/screens/admin"));
 const AdminUser = lazy(() => import("./admin/screens/AdminUser"));
 const AdminCreate = lazy(() => import("./admin/screens/AdminCreate"));
-const AdminCupon = lazy(() => import("./admin/screens/AdminCupon"));
+const ProductEdit = lazy(() => import("./admin/screens/EditProduct"));
+const AdminCupon = lazy(() => import("./admin/screens/AdminCupon"))
 const AdminOrder=lazy(()=>import("./admin/screens/AdminOrders"));
 const AdminInvoice=lazy(()=>import("./admin/screens/AdminInvoice"));
 const AdminProduct=lazy(()=>import("./admin/screens/AdminProduct"));
@@ -147,6 +148,10 @@ const App = () => {
             <Route
               path={process.env.PUBLIC_URL + "/admin/create"}
               element={<AdminCreate />}
+            />
+            <Route 
+            path={process.env.PUBLIC_URL+"/product/edit"}
+            element={<ProductEdit/>}
             />
             <Route
               path={process.env.PUBLIC_URL + "/admin/cupon"}
