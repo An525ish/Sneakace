@@ -74,7 +74,9 @@ const Sidebar = () => {
                 ml="10px"
               >
                 <Typography variant="h4" color="black">
-                  SNEAKACE
+                 <Link to={process.env.PUBLIC_URL + "/"}><h1 style={{
+                  color:'black'
+                 }}>SNEAKACE</h1></Link> 
                 </Typography>
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                   <MenuOutlinedIcon />
@@ -83,16 +85,6 @@ const Sidebar = () => {
             )}
           </MenuItem>
 
-          {!isCollapsed && (
-            <Box mb="25px">
-              <Box textAlign="center">
-            
-                <Typography variant="h5" color={colors.greenAccent[500]}>
-                 SNEAKACE Admin
-                </Typography>
-              </Box>
-            </Box>
-          )}
 
           <Box  padding={"0 20px 0 0px"}>
             <Item
