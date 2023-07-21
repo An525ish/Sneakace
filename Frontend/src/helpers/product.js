@@ -32,13 +32,16 @@ export const getDiscountPrice = (price, discount) => {
 };
 
 // get product cart quantity
-export const getProductCartQuantity = (cartItems, product, color, size) => {
+export const getProductCartQuantity = (cartItems, product, color, pattern, size) => {
+  console.log(color,pattern,size,"hello")
   let productInCart = cartItems.find(
     single =>
       single.id === product.id &&
       (single.selectedProductColor
         ? single.selectedProductColor === color
         : true) &&
+        (single.selectedProductPattern ? single.selectedProductPattern === pattern
+          : true) &&
       (single.selectedProductSize ? single.selectedProductSize === size : true)
   );
   if (cartItems.length >= 1 && productInCart) {
@@ -47,6 +50,7 @@ export const getProductCartQuantity = (cartItems, product, color, size) => {
         single =>
           single.id === product.id &&
           single.selectedProductColor === color &&
+          single.selectedProductPattern === pattern &&
           single.selectedProductSize === size
       ).quantity;
     } else {
@@ -92,7 +96,7 @@ export const getSortedProducts = (products, sortType, sortValue) => {
         product =>
           product.variation &&
           product.variation.filter(
-            single => single.size.filter(single => single.name === sortValue)[0]
+            single => single.pattern.size.filter(single => single.name === sortValue)[0]
           )[0]
       );
     }
@@ -172,6 +176,24 @@ export const getIndividualColors = products => {
   return individualProductColors;
 };
 
+// get individual pattern
+export const getProductsIndividualPattern = products => {
+  let productPattern = [];
+  products &&
+    products.map(product => {
+      return (
+        product.variation &&
+        product.variation.map(single => {
+          return single.pattern.map(single => {
+            return productPattern.push(single.name);
+          });
+        })
+      );
+    });
+  const individualProductPattern = getIndividualItemArray(productPattern);
+  return individualProductPattern;
+};
+
 // get individual sizes
 export const getProductsIndividualSizes = products => {
   let productSizes = [];
@@ -180,12 +202,12 @@ export const getProductsIndividualSizes = products => {
       return (
         product.variation &&
         product.variation.map(single => {
-          return single.size.map(single => {
+          return single.pattern.map(single => {
+            return single.size.map(single =>{
             return productSizes.push(single.name);
           });
         })
-      );
-    });
+    }))});
   const individualProductSizes = getIndividualItemArray(productSizes);
   return individualProductSizes;
 };
@@ -196,12 +218,11 @@ export const getIndividualSizes = product => {
   product.variation &&
     product.variation.map(singleVariation => {
       return (
-        singleVariation.size &&
-        singleVariation.size.map(singleSize => {
+        singleVariation.pattern &&
+        singleVariation.pattern.map(singlePattern => {
+          singlePattern.size.map(singleSize=>{
           return productSizes.push(singleSize.name);
-        })
-      );
-    });
+        })}))});
   const individualSizes = getIndividualItemArray(productSizes);
   return individualSizes;
 };

@@ -23,7 +23,7 @@ const ProfileAddress = () => {
         
         const { data } = await patchApi(`/auth/` + email, addressData);
         console.log(data,"address");
-        data && cogoToast.success("Added the address", { position: "top-left" });
+        data && cogoToast.success("Added the address, Profile completed", { position: "top-left" });
         navigate('/')
     };
 

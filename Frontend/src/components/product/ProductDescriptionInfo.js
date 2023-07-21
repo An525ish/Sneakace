@@ -32,25 +32,30 @@ const ProductDescriptionInfo = ({
   const [copied,setCopied]=useState(false)
   const [selectedID, setSelectedID] = useState(0);
   const [selectPattern, setSelectPattern] = useState(0);
+  
   const [selectedProductColor, setSelectedProductColor] = useState(
     product.variation ? product.variation[0].color : ""
   );
+  const [selectedProductPattern, setSelectedProductPattern] = useState(
+    product.variation ? product.variation[0].pattern[0].name : ""
+  );
   const [selectedProductSize, setSelectedProductSize] = useState(
-    product.variation ? product.variation[0].size[0].name : ""
+    product.variation ? product.variation[0].pattern[0].size[0].name : ""
   );
   const [productStock, setProductStock] = useState(
-    product.variation ? product.variation[0].size[0].stock : product.stock
+    product.variation ? product.variation[0].pattern[0].size[0].stock : product.stock
   );
   const [quantityCount, setQuantityCount] = useState(1);
+
+  console.log(product,'check');
 
   const productCartQty = getProductCartQuantity(
     cartItems,
     product,
     selectedProductColor,
+    selectedProductPattern,
     selectedProductSize
   );
-
-  console.log(selectPattern, "id");
 
   {copied && cogoToast.success("Copied Coupon Code to Clipboard", {position: "top-left"});}
 
@@ -121,8 +126,8 @@ const ProductDescriptionInfo = ({
                             onChange={() => {
                               setSelectedID(key);
                               setSelectedProductColor(single.color);
-                              setSelectedProductSize(single.size[0].name);
-                              setProductStock(single.size[0].stock);
+                              setSelectedProductPattern(single.pattern[0].name);
+                              setProductStock(single.pattern[0].stock);
                               setQuantityCount(1);
                             }}
                           />
@@ -138,7 +143,47 @@ const ProductDescriptionInfo = ({
                     {product.variation &&
                       product.variation.map(single => {
                         return single.color === selectedProductColor
-                          ? single.size.map((singleSize, key) => {
+                          ? single.pattern.map((singlePattern, key) => {
+                            return (
+                              <label
+                                className={`pro-details-size-content--single`}
+                                key={key}
+                              >
+                                <input
+                                  type="radio"
+                                  value={singlePattern.name}
+                                  checked={
+                                    singlePattern.name === selectedProductPattern
+                                      ? "checked"
+                                      : ""
+                                  }
+                                  onChange={() => {
+                                    setSelectPattern(key)
+                                    setSelectedProductPattern(singlePattern.name);
+                                    setProductStock(singlePattern.stock);
+                                    setQuantityCount(1);
+                                  }}
+                                />
+                                <span className="size-name">{singlePattern.name}</span>
+                              </label>
+                            );
+                          })
+                          : "";
+                      })}
+                  </div>
+                </div>
+                <div className="pro-details-size pro-variation">
+                  <span>Size</span>
+                  <div className="pro-details-size-content">
+                    {/* {console.log("check")} */}
+                    {product.variation &&
+                      product.variation.map(single => {
+                        return single.color === selectedProductColor
+                          ? single.pattern.map(singlePattern => {
+                            return singlePattern.name===selectedProductPattern
+                            ? singlePattern.size.map((singleSize,key)=>{
+                              {console.log(singleSize,selectedProductSize)}
+                              // {console.log("yes")}
                             return (
                               <label
                                 className={`pro-details-size-content--single`}
@@ -152,8 +197,7 @@ const ProductDescriptionInfo = ({
                                       ? "checked"
                                       : ""
                                   }
-                                  onChange={() => {
-                                    setSelectPattern(key)
+                                  onChange={() => { 
                                     setSelectedProductSize(singleSize.name);
                                     setProductStock(singleSize.stock);
                                     setQuantityCount(1);
@@ -163,6 +207,8 @@ const ProductDescriptionInfo = ({
                               </label>
                             );
                           })
+                          :""
+                        })
                           : "";
                       })}
                   </div>
@@ -172,10 +218,10 @@ const ProductDescriptionInfo = ({
               ""
             )}
             <div className="col-lg-4 col-md-6 cart-coupon-container">
-              <div className="discount-code-wrapper">
-                <div className="title-wrap">
-                  <h4 className="cart-bottom-title section-bg-gray" >
-                    Coupon Code
+              <div className="discount-code-wrapper" style={{height:'8rem'}}>
+                <div className="title-wrap" style={{marginTop:'-2rem'}}>
+                  <h4 className="cart-bottom-title section-bg-gray" style={{color:'red'}}>
+                    Redeem 10% discount
                   </h4>
                   <div className="cart-coupon">
                     <h4>
@@ -243,6 +289,7 @@ const ProductDescriptionInfo = ({
                           ...product,
                           quantity: quantityCount,
                           selectedProductColor: selectedProductColor ? selectedProductColor : product.selectedProductColor ? product.selectedProductColor : null,
+                          selectedProductPattern: selectedProductPattern ? selectedProductPattern : product.selectedProductPattern ? product.selectedProductPattern : null,
                           selectedProductSize: selectedProductSize ? selectedProductSize : product.selectedProductSize ? product.selectedProductSize : null
                         }))
                       }
@@ -269,20 +316,6 @@ const ProductDescriptionInfo = ({
                     <i className="pe-7s-like" />
                   </button>
                 </div>
-                {/* <div className="pro-details-compare">
-              <button
-                className={compareItem !== undefined ? "active" : ""}
-                disabled={compareItem !== undefined}
-                title={
-                  compareItem !== undefined
-                    ? "Added to compare"
-                    : "Add to compare"
-                }
-                onClick={() => dispatch(addToCompare(product))}
-              >
-                <i className="pe-7s-shuffle" />
-              </button>
-            </div> */}
               </div>
             )}
             {product.category ? (

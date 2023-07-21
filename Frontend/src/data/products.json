@@ -18,8 +18,8 @@
     "variation": [
       {
         "id": "1",
-        "color": "whte",
-        "size": [
+        "color": "white",
+        "pattern": [
           {
             "name": "wavy",
             "stock": 3,
@@ -29,6 +29,20 @@
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           },
           {
@@ -40,6 +54,20 @@
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"0"
+              },
+              {
+                "name":"L",
+                "stock":"1"
+              },
+              {
+                "name":"XL",
+                "stock":"3"
+              }
             ]
           },
           {
@@ -51,6 +79,20 @@
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           }
         ]
@@ -58,7 +100,7 @@
       {
         "id": "2",
         "color": "black",
-        "size": [
+        "pattern": [
           {
             "name": "wavy",
             "stock": 3,
@@ -68,6 +110,20 @@
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           },
           {
@@ -79,6 +135,20 @@
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           },
           {
@@ -90,6 +160,20 @@
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           }
         ]
@@ -97,7 +181,7 @@
       {
         "id": "3",
         "color": "brown",
-        "size": [
+        "pattern": [
           {
             "name": "wavy",
             "stock": 3,
@@ -107,6 +191,20 @@
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           },
           {
@@ -118,6 +216,20 @@
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           },
           {
@@ -129,6 +241,20 @@
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           }
         ]
@@ -171,7 +297,7 @@
       {
         "id": "1",
         "color": "white",
-        "size": [
+        "pattern": [
           {
             "name": "wavy",
             "stock": 3,
@@ -181,6 +307,20 @@
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           },
           {
@@ -192,6 +332,20 @@
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           },
           {
@@ -203,6 +357,20 @@
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           }
         ]
@@ -210,7 +378,7 @@
       {
         "id":"2",
         "color": "black",
-        "size": [
+        "pattern": [
           {
             "name": "wavy",
             "stock": 3,
@@ -220,6 +388,20 @@
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           },
           {
@@ -231,6 +413,20 @@
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           },
           {
@@ -242,6 +438,20 @@
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           }
         ]
@@ -249,7 +459,7 @@
       {
         "id": "3",
         "color": "brown",
-        "size": [
+        "pattern": [
           {
             "name": "wavy",
             "stock": 3,
@@ -259,6 +469,20 @@
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           },
           {
@@ -270,6 +494,20 @@
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           },
           {
@@ -281,6 +519,20 @@
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           }
         ]
@@ -291,1456 +543,6 @@
   },
   {
     "id": "3",
-    "sku": "asdf192",
-    "name": "Lorem ipsum accessories three",
-    "price": 12.5,
-    "discount": 0,
-    "new": true,
-    "rating": 5,
-    "saleCount": 30,
-    "category": [
-      "Glow in the dark laces"
-    ],
-    "tag": [
-      "accessories"
-    ],
-    "stock": 10,
-    "image": [
-      "/assets/img/product/accessories/3.jpg",
-      "/assets/img/product/accessories/4.jpg",
-      "/assets/img/product/accessories/5.jpg",
-      "/assets/img/product/accessories/6.jpg",
-      "/assets/img/product/accessories/7.jpg"
-    ],
-    "variation": [
-      {
-        "id": "1",
-        "color": "white",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/product/fashion/1.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "color": "black",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/product/accessories/1.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "3",
-        "color": "brown",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/banner/banner-23.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      }
-    ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-  },
-  {
-    "id": "4",
-    "sku": "asdf193",
-    "name": "Lorem ipsum accessories four",
-    "price": 19.33,
-    "discount": 20,
-    "new": false,
-    "rating": 5,
-    "saleCount": 20,
-    "category": [
-      "Statement laces"
-    ],
-    "tag": [
-      "accessories"
-    ],
-    "stock": 30,
-    "image": [
-      "/assets/img/product/accessories/4.jpg",
-      "/assets/img/product/accessories/5.jpg",
-      "/assets/img/product/accessories/6.jpg",
-      "/assets/img/product/accessories/7.jpg",
-      "/assets/img/product/accessories/8.jpg"
-    ],
-    "variation": [
-      {
-        "id": "1",
-        "color": "white",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/product/fashion/1.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "color": "black",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/product/accessories/1.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "3",
-        "color": "brown",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/banner/banner-23.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      }
-    ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-  },
-  {
-    "id": "5",
-    "sku": "asdf194",
-    "name": "Lorem ipsum accessories five",
-    "price": 12.35,
-    "discount": 20,
-    "new": true,
-    "rating": 5,
-    "saleCount": 20,
-    "category": [
-      "Solid laces"
-    ],
-    "tag": [
-      "accessories"
-    ],
-    "stock": 10,
-    "image": [
-      "/assets/img/product/accessories/5.jpg",
-      "/assets/img/product/accessories/6.jpg",
-      "/assets/img/product/accessories/7.jpg",
-      "/assets/img/product/accessories/8.jpg",
-      "/assets/img/product/accessories/9.jpg"
-    ],
-    "variation": [
-      {
-        "id": "1",
-        "color": "white",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/product/fashion/1.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "color": "black",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/product/accessories/1.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "3",
-        "color": "brown",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/banner/banner-23.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      }
-    ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-  },
-  {
-    "id": "6",
-    "sku": "asdf195",
-    "name": "Lorem ipsum accessories six",
-    "price": 12.45,
-    "discount": 20,
-    "new": true,
-    "rating": 5,
-    "saleCount": 19,
-    "category": [
-      "Rare wear laces"
-    ],
-    "tag": [
-      "accessories"
-    ],
-    "stock": 30,
-    "image": [
-      "/assets/img/product/accessories/6.jpg",
-      "/assets/img/product/accessories/7.jpg",
-      "/assets/img/product/accessories/8.jpg",
-      "/assets/img/product/accessories/9.jpg",
-      "/assets/img/product/accessories/10.jpg"
-    ],
-    "variation": [
-      {
-        "id": "1",
-        "color": "white",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/product/fashion/1.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "color": "black",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/product/accessories/1.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      },
-      {
-        "id": "3",
-        "color": "brown",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/banner/banner-23.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      }
-    ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-  },
-  {
-    "id": "7",
-    "sku": "asdf196",
-    "name": "Lorem ipsum accessories seven",
-    "price": 2.43,
-    "discount": 10,
-    "new": true,
-    "rating": 5,
-    "saleCount": 15,
-    "category": [
-      "Round laces"
-    ],
-    "tag": [
-      "accessories"
-    ],
-    "stock": 10,
-    "image": [
-      "/assets/img/product/accessories/7.jpg",
-      "/assets/img/product/accessories/8.jpg",
-      "/assets/img/product/accessories/9.jpg",
-      "/assets/img/product/accessories/10.jpg",
-      "/assets/img/product/accessories/11.jpg"
-    ],
-    "variation": [
-      {
-        "id": "1",
-        "color": "white",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/product/fashion/1.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "color": "black",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/product/accessories/1.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      },
-      {
-        "id": "3",
-        "color": "brown",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/banner/banner-23.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      }
-    ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-  },
-  {
-    "id": "8",
-    "sku": "asdf197",
-    "name": "Lorem ipsum accessories eight",
-    "price": 13.4,
-    "discount": 30,
-    "new": true,
-    "rating": 5,
-    "saleCount": 2,
-    "category": [
-      "Customised laces"
-    ],
-    "tag": [
-      "accessories"
-    ],
-    "stock": 10,
-    "image": [
-      "/assets/img/product/accessories/8.jpg",
-      "/assets/img/product/accessories/9.jpg",
-      "/assets/img/product/accessories/10.jpg",
-      "/assets/img/product/accessories/11.jpg",
-      "/assets/img/product/accessories/12.jpg"
-    ],
-    "variation": [
-      {
-        "id": "1",
-        "color": "white",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/product/fashion/1.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "color": "black",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/product/accessories/1.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      },
-      {
-        "id": "3",
-        "color": "brown",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/banner/banner-23.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      }
-    ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-  },
-  {
-    "id": "9",
-    "sku": "asdf198",
-    "name": "Lorem ipsum accessories nine",
-    "price": 5.24,
-    "discount": 30,
-    "new": true,
-    "rating": 5,
-    "saleCount": 34,
-    "category": [
-      "Customised laces"
-    ],
-    "tag": [
-      "accessories"
-    ],
-    "stock": 10,
-    "image": [
-      "/assets/img/product/accessories/9.jpg",
-      "/assets/img/product/accessories/10.jpg",
-      "/assets/img/product/accessories/11.jpg",
-      "/assets/img/product/accessories/12.jpg",
-      "/assets/img/product/accessories/1.jpg"
-    ],
-    "variation": [
-      {
-        "id": "1",
-        "color": "white",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/product/fashion/1.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "color": "black",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/product/accessories/1.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      },
-      {
-        "id": "3",
-        "color": "brown",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/banner/banner-23.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      }
-    ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-  },
-  {
-    "id": "10",
-    "sku": "asdf199",
-    "name": "Lorem ipsum accessories ten",
-    "price": 2.2,
-    "discount": 0,
-    "new": true,
-    "rating": 5,
-    "saleCount": 19,
-    "category": [
-      "Solid laces"
-    ],
-    "tag": [
-      "accessories"
-    ],
-    "stock": 30,
-    "image": [
-      "/assets/img/product/accessories/10.jpg",
-      "/assets/img/product/accessories/11.jpg",
-      "/assets/img/product/accessories/12.jpg",
-      "/assets/img/product/accessories/1.jpg",
-      "/assets/img/product/accessories/2.jpg"
-    ],
-    "variation": [
-      {
-        "id": "1",
-        "color": "white",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/product/fashion/1.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "color": "black",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/product/accessories/1.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      },
-      {
-        "id": "3",
-        "color": "brown",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/banner/banner-23.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      }
-    ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-  },
-  {
-    "id": "11",
-    "sku": "asdf200",
-    "name": "Lorem ipsum accessories eleven",
-    "price": 12.65,
-    "discount": 20,
-    "new": true,
-    "rating": 4,
-    "saleCount": 20,
-    "category": [
-      "Reflective laces"
-    ],
-    "tag": [
-      "accessories"
-    ],
-    "stock": 23,
-    "image": [
-      "/assets/img/product/accessories/11.jpg",
-      "/assets/img/product/accessories/12.jpg",
-      "/assets/img/product/accessories/1.jpg",
-      "/assets/img/product/accessories/2.jpg",
-      "/assets/img/product/accessories/3.jpg"
-    ],
-    "variation": [
-      {
-        "id": "1",
-        "color": "white",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/product/fashion/1.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "color": "black",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/product/accessories/1.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      },
-      {
-        "id": "3",
-        "color": "brown",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/banner/banner-23.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      }
-    ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-  },
-  {
-    "id": "12",
-    "sku": "asdf201",
-    "name": "Lorem ipsum accessories twelve",
-    "price": 9.52,
-    "discount": 0,
-    "new": true,
-    "rating": 5,
-    "saleCount": 19,
-    "category": [
-      "Glow in the dark laces"
-    ],
-    "tag": [
-      "accessories"
-    ],
-    "stock": 10,
-    "image": [
-      "/assets/img/product/accessories/12.jpg",
-      "/assets/img/product/accessories/1.jpg",
-      "/assets/img/product/accessories/2.jpg",
-      "/assets/img/product/accessories/3.jpg",
-      "/assets/img/product/accessories/4.jpg"
-    ],
-    "variation": [
-      {
-        "id": "1",
-        "color": "white",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/product/fashion/1.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "color": "black",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/product/accessories/1.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      },
-      {
-        "id": "3",
-        "color": "brown",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/banner/banner-23.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      }
-    ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-  },
-  {
-    "id": "13",
     "sku": "asdf190",
     "name": "Lorem ipsum accessories one",
     "price": 3.1,
@@ -1755,18 +557,11 @@
       "accessories"
     ],
     "stock": 20,
-    "image": [
-      "/assets/img/product/accessories/1.jpg",
-      "/assets/img/product/accessories/2.jpg",
-      "/assets/img/product/accessories/3.jpg",
-      "/assets/img/product/accessories/4.jpg",
-      "/assets/img/product/accessories/5.jpg"
-    ],
     "variation": [
       {
         "id": "1",
         "color": "white",
-        "size": [
+        "pattern": [
           {
             "name": "wavy",
             "stock": 3,
@@ -1776,6 +571,20 @@
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           },
           {
@@ -1787,6 +596,20 @@
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           },
           {
@@ -1798,6 +621,20 @@
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           }
         ]
@@ -1805,87 +642,178 @@
       {
         "id": "2",
         "color": "black",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/product/accessories/1.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
+        "pattern": [
+          {
+            "name": "wavy",
+            "stock": 3,
+            "image": [
+              "/assets/img/product/accessories/1.jpg",
+              "/assets/img/product/accessories/2.jpg",
+              "/assets/img/product/accessories/3.jpg",
+              "/assets/img/product/accessories/4.jpg",
+              "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
+            ]
+          },
+          {
+            "name": "curvy",
+            "stock": 2,
+            "image": [
+              "/assets/img/product/accessories/brown.jpg",
+              "/assets/img/product/accessories/2.jpg",
+              "/assets/img/product/accessories/3.jpg",
+              "/assets/img/product/accessories/4.jpg",
+              "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
+            ]
+          },
+          {
+            "name": "shiny",
+            "stock": 5,
+            "image": [
+              "/assets/img/product/accessories/black.jpg",
+              "/assets/img/product/accessories/2.jpg",
+              "/assets/img/product/accessories/3.jpg",
+              "/assets/img/product/accessories/4.jpg",
+              "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
+            ]
+          }
         ]
       },
       {
         "id": "3",
         "color": "brown",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/banner/banner-23.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
+        "pattern": [
+          {
+            "name": "wavy",
+            "stock": 3,
+            "image": [
+              "/assets/img/banner/banner-23.jpg",
+              "/assets/img/product/accessories/2.jpg",
+              "/assets/img/product/accessories/3.jpg",
+              "/assets/img/product/accessories/4.jpg",
+              "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
+            ]
+          },
+          {
+            "name": "curvy",
+            "stock": 2,
+            "image": [
+              "/assets/img/product/accessories/brown.jpg",
+              "/assets/img/product/accessories/2.jpg",
+              "/assets/img/product/accessories/3.jpg",
+              "/assets/img/product/accessories/4.jpg",
+              "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
+            ]
+          },
+          {
+            "name": "shiny",
+            "stock": 5,
+            "image": [
+              "/assets/img/product/accessories/black.jpg",
+              "/assets/img/product/accessories/2.jpg",
+              "/assets/img/product/accessories/3.jpg",
+              "/assets/img/product/accessories/4.jpg",
+              "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
+            ]
+          }
         ]
       }
+    ],
+    "image": [
+      "/assets/img/product/accessories/1.jpg",
+      "/assets/img/product/accessories/2.jpg",
+      "/assets/img/product/accessories/3.jpg",
+      "/assets/img/product/accessories/4.jpg",
+      "/assets/img/product/accessories/5.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
     "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
   },
   {
-    "id": "14",
+    "id": "4",
     "sku": "asdf191",
     "name": "Lorem ipsum accessories two",
     "price": 12.43,
@@ -1911,7 +839,7 @@
       {
         "id": "1",
         "color": "white",
-        "size": [
+        "pattern": [
           {
             "name": "wavy",
             "stock": 3,
@@ -1921,6 +849,20 @@
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           },
           {
@@ -1932,6 +874,20 @@
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           },
           {
@@ -1943,129 +899,51 @@
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           }
         ]
       },
       {
-        "id": "2",
+        "id":"2",
         "color": "black",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/product/accessories/1.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      },
-      {
-        "id": "3",
-        "color": "brown",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/banner/banner-23.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      }
-    ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-  },
-  {
-    "id": "15",
-    "sku": "asdf194",
-    "name": "Lorem ipsum accessories five",
-    "price": 12.35,
-    "discount": 20,
-    "new": true,
-    "rating": 5,
-    "saleCount": 20,
-    "category": [
-      "Solid laces"
-    ],
-    "tag": [
-      "accessories"
-    ],
-    "stock": 10,
-    "image": [
-      "/assets/img/product/accessories/3.jpg",
-      "/assets/img/product/accessories/4.jpg",
-      "/assets/img/product/accessories/5.jpg",
-      "/assets/img/product/accessories/6.jpg",
-      "/assets/img/product/accessories/7.jpg"
-    ],
-    "variation": [
-      {
-        "id": "1",
-        "color": "white",
-        "size": [
+        "pattern": [
           {
             "name": "wavy",
             "stock": 3,
             "image": [
-              "/assets/img/product/fashion/1.jpg",
+              "/assets/img/product/accessories/1.jpg",
               "/assets/img/product/accessories/2.jpg",
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           },
           {
@@ -2077,6 +955,20 @@
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           },
           {
@@ -2088,129 +980,51 @@
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           }
         ]
       },
       {
-        "id": "2",
-        "color": "black",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/product/accessories/1.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      },
-      {
         "id": "3",
         "color": "brown",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/banner/banner-23.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      }
-    ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-  },
-  {
-    "id": "16",
-    "sku": "asdf195",
-    "name": "Lorem ipsum accessories six",
-    "price": 12.45,
-    "discount": 20,
-    "new": true,
-    "rating": 5,
-    "saleCount": 19,
-    "category": [
-      "Rare wear laces"
-    ],
-    "tag": [
-      "accessories"
-    ],
-    "stock": 30,
-    "image": [
-      "/assets/img/product/accessories/4.jpg",
-      "/assets/img/product/accessories/5.jpg",
-      "/assets/img/product/accessories/6.jpg",
-      "/assets/img/product/accessories/7.jpg",
-      "/assets/img/product/accessories/8.jpg"
-    ],
-    "variation": [
-      {
-        "id": "1",
-        "color": "white",
-        "size": [
+        "pattern": [
           {
             "name": "wavy",
             "stock": 3,
             "image": [
-              "/assets/img/product/fashion/1.jpg",
+              "/assets/img/banner/banner-23.jpg",
               "/assets/img/product/accessories/2.jpg",
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           },
           {
@@ -2222,6 +1036,20 @@
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           },
           {
@@ -2233,2116 +1061,22 @@
               "/assets/img/product/accessories/3.jpg",
               "/assets/img/product/accessories/4.jpg",
               "/assets/img/product/accessories/5.jpg"
+            ],
+            "size":[
+              {
+                "name":"s",
+                "stock":"3"
+              },
+              {
+                "name":"M",
+                "stock":"1"
+              },
+              {
+                "name":"L",
+                "stock":"0"
+              }
             ]
           }
-        ]
-      },
-      {
-        "id": "2",
-        "color": "black",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/product/accessories/1.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      },
-      {
-        "id": "3",
-        "color": "brown",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/banner/banner-23.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      }
-    ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-  },
-  {
-    "id": "17",
-    "sku": "asdf196",
-    "name": "Lorem ipsum accessories seven",
-    "price": 2.43,
-    "discount": 10,
-    "new": true,
-    "rating": 5,
-    "saleCount": 15,
-    "category": [
-      "Round laces"
-    ],
-    "tag": [
-      "accessories"
-    ],
-    "stock": 10,
-    "image": [
-      "/assets/img/product/accessories/5.jpg",
-      "/assets/img/product/accessories/6.jpg",
-      "/assets/img/product/accessories/7.jpg",
-      "/assets/img/product/accessories/8.jpg",
-      "/assets/img/product/accessories/9.jpg"
-    ],
-    "variation": [
-      {
-        "id": "1",
-        "color": "white",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/product/fashion/1.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "color": "black",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/product/accessories/1.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      },
-      {
-        "id": "3",
-        "color": "brown",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/banner/banner-23.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      }
-    ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-  },
-  {
-    "id": "18",
-    "sku": "asdf197",
-    "name": "Lorem ipsum accessories eight",
-    "price": 13.4,
-    "discount": 30,
-    "new": true,
-    "rating": 5,
-    "saleCount": 2,
-    "category": [
-      "Customised laces"
-    ],
-    "tag": [
-      "accessories"
-    ],
-    "stock": 10,
-    "image": [
-      "/assets/img/product/accessories/6.jpg",
-      "/assets/img/product/accessories/7.jpg",
-      "/assets/img/product/accessories/8.jpg",
-      "/assets/img/product/accessories/9.jpg",
-      "/assets/img/product/accessories/10.jpg"
-    ],
-    "variation": [
-      {
-        "id": "1",
-        "color": "white",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/product/fashion/1.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "color": "black",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/product/accessories/1.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      },
-      {
-        "id": "3",
-        "color": "brown",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/banner/banner-23.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      }
-    ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-  },
-  {
-    "id": "19",
-    "sku": "asdf198",
-    "name": "Lorem ipsum accessories nine",
-    "price": 5.24,
-    "discount": 30,
-    "new": true,
-    "rating": 5,
-    "saleCount": 34,
-    "category": [
-      "Customised laces"
-    ],
-    "tag": [
-      "accessories"
-    ],
-    "stock": 10,
-    "image": [
-      "/assets/img/product/accessories/7.jpg",
-      "/assets/img/product/accessories/8.jpg",
-      "/assets/img/product/accessories/9.jpg",
-      "/assets/img/product/accessories/10.jpg",
-      "/assets/img/product/accessories/11.jpg"
-    ],
-    "variation": [
-      {
-        "id": "1",
-        "color": "white",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/product/fashion/1.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "color": "black",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/product/accessories/1.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      },
-      {
-        "id": "3",
-        "color": "brown",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/banner/banner-23.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      }
-    ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-  },
-  {
-    "id": "20",
-    "sku": "asdf199",
-    "name": "Lorem ipsum accessories ten",
-    "price": 2.2,
-    "discount": 0,
-    "new": true,
-    "rating": 5,
-    "saleCount": 19,
-    "category": [
-      "Solid laces"
-    ],
-    "tag": [
-      "accessories"
-    ],
-    "stock": 30,
-    "image": [
-      "/assets/img/product/accessories/8.jpg",
-      "/assets/img/product/accessories/9.jpg",
-      "/assets/img/product/accessories/10.jpg",
-      "/assets/img/product/accessories/11.jpg",
-      "/assets/img/product/accessories/12.jpg"
-    ],
-    "variation": [
-      {
-        "id": "1",
-        "color": "white",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/product/fashion/1.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "color": "black",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/product/accessories/1.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      },
-      {
-        "id": "3",
-        "color": "brown",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/banner/banner-23.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      }
-    ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-  },
-  {
-    "id": "21",
-    "sku": "asdf200",
-    "name": "Lorem ipsum accessories eleven",
-    "price": 12.65,
-    "discount": 20,
-    "new": true,
-    "rating": 4,
-    "saleCount": 20,
-    "category": [
-      "Reflective laces"
-    ],
-    "tag": [
-      "accessories"
-    ],
-    "stock": 23,
-    "image": [
-      "/assets/img/product/accessories/9.jpg",
-      "/assets/img/product/accessories/10.jpg",
-      "/assets/img/product/accessories/11.jpg",
-      "/assets/img/product/accessories/12.jpg",
-      "/assets/img/product/accessories/1.jpg"
-    ],
-    "variation": [
-      {
-        "id": "1",
-        "color": "white",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/product/fashion/1.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "color": "black",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/product/accessories/1.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      },
-      {
-        "id": "3",
-        "color": "brown",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/banner/banner-23.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      }
-    ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-  },
-  {
-    "id": "22",
-    "sku": "asdf201",
-    "name": "Lorem ipsum accessories twelve",
-    "price": 9.52,
-    "discount": 0,
-    "new": true,
-    "rating": 5,
-    "saleCount": 19,
-    "category": [
-      "Glow in the dark laces"
-    ],
-    "tag": [
-      "accessories"
-    ],
-    "stock": 10,
-    "image": [
-      "/assets/img/product/accessories/10.jpg",
-      "/assets/img/product/accessories/11.jpg",
-      "/assets/img/product/accessories/12.jpg",
-      "/assets/img/product/accessories/1.jpg",
-      "/assets/img/product/accessories/2.jpg"
-    ],
-    "variation": [
-      {
-        "id": "1",
-        "color": "white",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/product/fashion/1.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "color": "black",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/product/accessories/1.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      },
-      {
-        "id": "3",
-        "color": "brown",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/banner/banner-23.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      }
-    ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-  },
-  {
-    "id": "23",
-    "sku": "asdf192",
-    "name": "Lorem ipsum accessories three",
-    "price": 12.5,
-    "discount": 0,
-    "new": true,
-    "rating": 5,
-    "saleCount": 30,
-    "category": [
-      "Glow in the dark laces"
-    ],
-    "tag": [
-      "accessories"
-    ],
-    "stock": 10,
-    "image": [
-      "/assets/img/product/accessories/11.jpg",
-      "/assets/img/product/accessories/12.jpg",
-      "/assets/img/product/accessories/1.jpg",
-      "/assets/img/product/accessories/2.jpg",
-      "/assets/img/product/accessories/3.jpg"
-    ],
-    "variation": [
-      {
-        "id": "1",
-        "color": "white",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/product/fashion/1.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "color": "black",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/product/accessories/1.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      },
-      {
-        "id": "3",
-        "color": "brown",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/banner/banner-23.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      }
-    ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-  },
-  {
-    "id": "24",
-    "sku": "asdf193",
-    "name": "Lorem ipsum accessories four",
-    "price": 19.33,
-    "discount": 20,
-    "new": false,
-    "rating": 5,
-    "saleCount": 20,
-    "category": [
-      "Statement laces"
-    ],
-    "tag": [
-      "accessories"
-    ],
-    "stock": 30,
-    "image": [
-      "/assets/img/product/accessories/12.jpg",
-      "/assets/img/product/accessories/1.jpg",
-      "/assets/img/product/accessories/2.jpg",
-      "/assets/img/product/accessories/3.jpg",
-      "/assets/img/product/accessories/4.jpg"
-    ],
-    "variation": [
-      {
-        "id": "1",
-        "color": "white",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/product/fashion/1.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "color": "black",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/product/accessories/1.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      },
-      {
-        "id": "3",
-        "color": "brown",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/banner/banner-23.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      }
-    ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-  },
-  {
-    "id": "25",
-    "sku": "asdf194",
-    "name": "Lorem ipsum accessories five",
-    "price": 12.35,
-    "discount": 20,
-    "new": true,
-    "rating": 5,
-    "saleCount": 20,
-    "category": [
-      "Solid laces"
-    ],
-    "tag": [
-      "accessories"
-    ],
-    "stock": 10,
-    "image": [
-      "/assets/img/product/accessories/1.jpg",
-      "/assets/img/product/accessories/2.jpg",
-      "/assets/img/product/accessories/3.jpg",
-      "/assets/img/product/accessories/4.jpg",
-      "/assets/img/product/accessories/5.jpg"
-    ],
-    "variation": [
-      {
-        "id": "1",
-        "color": "white",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/product/fashion/1.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "color": "black",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/product/accessories/1.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      },
-      {
-        "id": "3",
-        "color": "brown",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/banner/banner-23.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      }
-    ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-  },
-  {
-    "id": "26",
-    "sku": "asdf195",
-    "name": "Lorem ipsum accessories six",
-    "price": 12.45,
-    "discount": 20,
-    "new": true,
-    "rating": 5,
-    "saleCount": 19,
-    "category": [
-      "Rare wear laces"
-    ],
-    "tag": [
-      "accessories"
-    ],
-    "stock": 30,
-    "image": [
-      "/assets/img/product/accessories/3.jpg",
-      "/assets/img/product/accessories/4.jpg",
-      "/assets/img/product/accessories/5.jpg",
-      "/assets/img/product/accessories/6.jpg",
-      "/assets/img/product/accessories/7.jpg"
-    ],
-    "variation": [
-      {
-        "id": "1",
-        "color": "white",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/product/fashion/1.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "color": "black",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/product/accessories/1.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      },
-      {
-        "id": "3",
-        "color": "brown",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/banner/banner-23.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      }
-    ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-  },
-  {
-    "id": "27",
-    "sku": "asdf196",
-    "name": "Lorem ipsum accessories seven",
-    "price": 2.43,
-    "discount": 10,
-    "new": true,
-    "rating": 5,
-    "saleCount": 15,
-    "category": [
-      "Round laces"
-    ],
-    "tag": [
-      "accessories"
-    ],
-    "stock": 10,
-    "image": [
-      "/assets/img/product/accessories/4.jpg",
-      "/assets/img/product/accessories/5.jpg",
-      "/assets/img/product/accessories/6.jpg",
-      "/assets/img/product/accessories/7.jpg",
-      "/assets/img/product/accessories/8.jpg"
-    ],
-    "variation": [
-      {
-        "id": "1",
-        "color": "white",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/product/fashion/1.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "color": "black",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/product/accessories/1.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      },
-      {
-        "id": "3",
-        "color": "brown",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/banner/banner-23.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      }
-    ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-  },
-  {
-    "id": "28",
-    "sku": "asdf197",
-    "name": "Lorem ipsum accessories eight",
-    "price": 13.4,
-    "discount": 30,
-    "new": true,
-    "rating": 5,
-    "saleCount": 2,
-    "category": [
-      "Customised laces"
-    ],
-    "tag": [
-      "accessories"
-    ],
-    "stock": 10,
-    "image": [
-      "/assets/img/product/accessories/5.jpg",
-      "/assets/img/product/accessories/6.jpg",
-      "/assets/img/product/accessories/7.jpg",
-      "/assets/img/product/accessories/8.jpg",
-      "/assets/img/product/accessories/9.jpg"
-    ],
-    "variation": [
-      {
-        "id": "1",
-        "color": "white",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/product/fashion/1.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "color": "black",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/product/accessories/1.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      },
-      {
-        "id": "3",
-        "color": "brown",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/banner/banner-23.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      }
-    ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-  },
-  {
-    "id": "29",
-    "sku": "asdf198",
-    "name": "Lorem ipsum accessories nine",
-    "price": 5.24,
-    "discount": 30,
-    "new": true,
-    "rating": 5,
-    "saleCount": 34,
-    "category": [
-      "Customised laces"
-    ],
-    "tag": [
-      "accessories"
-    ],
-    "stock": 10,
-    "image": [
-      "/assets/img/product/accessories/6.jpg",
-      "/assets/img/product/accessories/7.jpg",
-      "/assets/img/product/accessories/8.jpg",
-      "/assets/img/product/accessories/9.jpg",
-      "/assets/img/product/accessories/10.jpg"
-    ],
-    "variation": [
-      {
-        "id": "1",
-        "color": "white",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/product/fashion/1.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "color": "black",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/product/accessories/1.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      },
-      {
-        "id": "3",
-        "color": "brown",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/banner/banner-23.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      }
-    ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-  },
-  {
-    "id": "30",
-    "sku": "asdf199",
-    "name": "Lorem ipsum accessories ten",
-    "price": 2.2,
-    "discount": 0,
-    "new": true,
-    "rating": 5,
-    "saleCount": 19,
-    "category": [
-      "Solid laces"
-    ],
-    "tag": [
-      "accessories"
-    ],
-    "stock": 30,
-    "image": [
-      "/assets/img/product/accessories/7.jpg",
-      "/assets/img/product/accessories/8.jpg",
-      "/assets/img/product/accessories/9.jpg",
-      "/assets/img/product/accessories/10.jpg",
-      "/assets/img/product/accessories/11.jpg"
-    ],
-    "variation": [
-      {
-        "id": "1",
-        "color": "white",
-        "size": [
-          {
-            "name": "wavy",
-            "stock": 3,
-            "image": [
-              "/assets/img/product/fashion/1.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "curvy",
-            "stock": 2,
-            "image": [
-              "/assets/img/product/accessories/brown.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          },
-          {
-            "name": "shiny",
-            "stock": 5,
-            "image": [
-              "/assets/img/product/accessories/black.jpg",
-              "/assets/img/product/accessories/2.jpg",
-              "/assets/img/product/accessories/3.jpg",
-              "/assets/img/product/accessories/4.jpg",
-              "/assets/img/product/accessories/5.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "color": "black",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/product/accessories/1.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
-        ]
-      },
-      {
-        "id": "3",
-        "color": "brown",
-        "size": [
-            {
-              "name": "wavy",
-              "stock": 3,
-              "image": [
-                "/assets/img/banner/banner-23.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "curvy",
-              "stock": 2,
-              "image": [
-                "/assets/img/product/accessories/brown.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            },
-            {
-              "name": "shiny",
-              "stock": 5,
-              "image": [
-                "/assets/img/product/accessories/black.jpg",
-                "/assets/img/product/accessories/2.jpg",
-                "/assets/img/product/accessories/3.jpg",
-                "/assets/img/product/accessories/4.jpg",
-                "/assets/img/product/accessories/5.jpg"
-              ]
-            }
         ]
       }
     ],
