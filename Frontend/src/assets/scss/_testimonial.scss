@@ -1,45 +1,93 @@
 /*----- 13. Testimonial style  ------*/
-
+.testimonial-container{
+  border-radius: 75px;
+background: rgba(254, 254, 254, 0.60);
+padding: .75rem 0;
+}
+.title-cont{
+  display: flex;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}
+.title{
+  color: #000;
+text-align: center;
+font-family: Abel;
+font-size: 3rem;
+font-style: normal;
+font-weight: 400;
+line-height: 42px; /* 43.75% */
+padding-bottom: .5rem;
+@media #{$xs-layout} {
+      font-size: 2rem;
+    }
+}
 .single-testimonial {
+  padding-right: 1.25rem;
+  
   img {
     border-radius: 50%;
   }
-  p {
-    font-size: 16px;
-    font-weight: 500;
-    font-style: italic;
-    line-height: 32px;
+  // p {
+  //   font-size: 16px;
+  //   font-weight: 500;
+  //   font-style: italic;
+  //   line-height: 32px;
 
-    margin: 32px 0 0;
+  //   margin: 32px 0 0;
 
-    color: #575757;
-    @media #{$xs-layout} {
-      font-size: 15px;
-    }
+  //   color: #575757;
+  //   @media #{$xs-layout} {
+  //     font-size: 15px;
+  //   }
+  // }
+  .content{
+    color: #000;
+text-align: center;
+line-height: 32px;
+margin: 32px 0 0;
+font-size: 1.15rem;
+
+@media #{$md-layout} {
+  font-size: 1rem;
+}
+@media #{$xs-layout} {
+  font-size: 1.25rem;
+}
+@media #{$sm-layout} {
+  font-size: 1.5rem;
+}
+
   }
   .client-info {
     margin: 20px 0 0;
-    i {
-      font-size: 26px;
-
-      color: #666666;
-    }
     h5 {
       font-size: 14px;
-
+      // font-family: Abel;
       margin: 22px 0 3px;
 
       letter-spacing: 1.5px;
       text-transform: uppercase;
+      font-weight: 600;
+      color:black;
 
-      color: #010101;
+      @media #{$md-layout} {
+        font-size: 15px;
+      }
+      @media #{$xs-layout} {
+        font-size: 12px;
+      }
+      @media #{$sm-layout} {
+        font-size: 17px;
+      }
     }
     span {
       font-size: 14px;
-
+      font-weight: 500;
       letter-spacing: 1.5px;
-
-      color: #010101;
+      // font-family: Abel;
+      color: black;
     }
   }
 
@@ -79,28 +127,43 @@
 }
 
 .testimonial-area {
+ border-radius: 205px 203px 0px 0px;
+  background: #FFF9E4;
+  padding: 1.5rem 0;
+
+  
   &:hover .nav-style-1.owl-carousel > .owl-nav div {
     visibility: visible;
 
     opacity: 1;
   }
-  &.ml-70 {
-    @media #{$xl-layout} {
-      margin-left: 15px;
-    }
-    @media #{$lg-layout} {
-      margin-left: 30px;
-    }
-    @media #{$md-layout} {
-      margin-left: 40px;
-    }
-    @media #{$xs-layout} {
-      margin-left: 15px;
-    }
-    @media #{$sm-layout} {
-      margin-left: 30px;
-    }
+  @media #{$md-layout} {
+   border-radius: 100px 100px 0px 0px;
   }
+  @media #{$xs-layout} {
+    border-radius:  100px 100px 0px 0px;
+  }
+  @media #{$sm-layout} {
+    border-radius:  80px 80px 0px 0px;
+  }
+
+  // &.ml-70 {
+  //   @media #{$xl-layout} {
+  //     margin-left: 15px;
+  //   }
+  //   @media #{$lg-layout} {
+  //     margin-left: 30px;
+  //   }
+  //   @media #{$md-layout} {
+  //     margin-left: 40px;
+  //   }
+  //   @media #{$xs-layout} {
+  //     margin-left: 15px;
+  //   }
+  //   @media #{$sm-layout} {
+  //     margin-left: 30px;
+  //   }
+  // }
   &.mr-70 {
     @media #{$xl-layout} {
       margin-right: 15px;

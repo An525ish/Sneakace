@@ -7,7 +7,20 @@ import SectionTitle from "../../components/section-title/SectionTitle";
 
 // swiper slider settings
 const settings = {
-  slidesPerView: 1,
+  breakpoints: {
+    320: {
+      slidesPerView: 1
+    },
+    640: {
+      slidesPerView: 1
+    },
+    768: {
+      slidesPerView: 2
+    },
+    1024: {
+      slidesPerView: 3
+    }
+  },
   loop: true,
   autoplay:{
     delay:15000,
@@ -24,13 +37,20 @@ const TestimonialOne = ({
   testimonialClass,
 }) => {
   return (
-    <div className={clsx("testimonial-area", spaceTopClass, spaceBottomClass, spaceLeftClass, spaceRightClass, bgColorClass)}>
-      <div className="container">
-      <SectionTitle
-          titleText="TESTIMONIALS"
+    <div className={clsx("testimonial-area",  bgColorClass)}>
+      {/* <SectionTitle
+      className="title"
+          titleText="What our Customers Say"
           positionClass="text-center"
           spaceClass="mb-55"
-        />
+        /> */}
+        <div className="title-cont">
+          <h2 className="title">What our Customers Say</h2>
+        </div>
+
+        {/* <h1 className="title">What our customers say</h1> */}
+      <div className="container testimonial-container">
+    
         <div className="row">
           <div className="col-lg-10 mx-auto">
             <div className="testimonial-active nav-style-1 nav-testi-style">
