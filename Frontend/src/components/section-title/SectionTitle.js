@@ -7,7 +7,9 @@ const SectionTitle = ({
   subtitleColorClass,
   positionClass,
   spaceClass,
-  borderClass
+  borderClass,
+ 
+
 }) => {
   return (
     <div className={clsx("section-title", positionClass, spaceClass, borderClass)}>

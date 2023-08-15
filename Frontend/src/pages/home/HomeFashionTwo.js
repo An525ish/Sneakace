@@ -8,6 +8,10 @@ import TabProductFive from "../../wrappers/product/TabProductFive";
 import Newsletter from "../../wrappers/newsletter/Newsletter";
 import NewsletterTwo from "../../wrappers/newsletter/NewsletterTwo";
 import TestimonialOne from "../../wrappers/testimonial/TestimonialOne";
+import TestimonialThree from "../../wrappers/testimonial/TestimonialThree";
+import TestimonialTwo from "../../wrappers/testimonial/TestimonialTwo";
+import TestimonialFour from "../../wrappers/testimonial/TestimonialFour";
+
 import CountDownTwo from "../../wrappers/countdown/CountDownTwo";
 import BannerFive from "../../wrappers/banner/BannerFive";
 import HeroSliderEleven from "../../wrappers/hero-slider/HeroSliderEleven";
@@ -47,13 +51,15 @@ const HomeFashionTwo = () => {
           spaceRightClass="mr-70"
           bgColorClass="bg-gray-3"
         />
+      
+       
 
         {/* newsletter */}
-        <NewsletterTwo
+        {/* <NewsletterTwo
           spaceTopClass="pt-100"
           spaceBottomClass="pb-100"
           subscribeBtnClass="green-subscribe"
-        />
+        /> */}
       </LayoutOne>
     </Fragment>
   );
