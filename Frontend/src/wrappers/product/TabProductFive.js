@@ -13,8 +13,8 @@ const TabProductFive = ({
 }) => {
   return (
     <div className={clsx("product-area", spaceTopClass, spaceBottomClass)}>
-      <div className="p-5">
-        <Tab.Container defaultActiveKey="bestSeller">
+      <div className="p-5 inner-slider">
+        <Tab.Container defaultActiveKey="bestSeller" >
           <Nav
             variant="pills"
             className={clsx("product-tab-list-2 mb-60", productTabClass)}
