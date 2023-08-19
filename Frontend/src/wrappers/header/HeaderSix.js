@@ -1,15 +1,18 @@
 import { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import IconGroup from '../../components/header/IconGroup';
 import MobileMenu from '../../components/header/MobileMenu';
 import OffcanvasMenu from '../../components/header/OffcanvasMenu';
+import logo from '../../assets/img/logo 3.png'
 
 const HeaderSix = ({ layout, headerPaddingClass, headerBgClass }) => {
   const [scroll, setScroll] = useState(0);
   const [headerTop, setHeaderTop] = useState(0);
   const [offcanvasActive, setOffcanvasActive] = useState(false);
+
+  const location = useLocation()
 
   useEffect(() => {
     const header = document.querySelector('.sticky-bar');
@@ -34,7 +37,7 @@ const HeaderSix = ({ layout, headerPaddingClass, headerBgClass }) => {
         'header-area sticky-bar header-padding-3 header-res-padding clearfix transparent-bar header-hm-7',
         headerBgClass,
         headerPaddingClass,
-        scroll > headerTop && 'stick'
+        location.pathname === '/' ? scroll > headerTop && 'stick' : 'stick'
       )}
     >
       <div className={layout === 'container-fluid' ? layout : 'container'}>
@@ -43,7 +46,7 @@ const HeaderSix = ({ layout, headerPaddingClass, headerBgClass }) => {
             <div className='clickable-menu clickable-mainmenu-active'>
               <button
                 className={`${
-                  scroll > headerTop ? 'text-warning' : 'text-dark'
+                  scroll > headerTop ? 'text-warning' : 'text-white'
                 }`}
                 onClick={() => {
                   setOffcanvasActive(true);
@@ -58,23 +61,25 @@ const HeaderSix = ({ layout, headerPaddingClass, headerBgClass }) => {
             <div className='logo text-center logo-hm5'>
               <Link className='sticky-none' to={process.env.PUBLIC_URL + '/'}>
                 {/* <img alt="" src="assets/img/logo/logo-2.png" /> */}
-                <h1
+                {/* <h1
                   className={`logo-text animated-gucci ${
                     scroll > headerTop ? 'text-warning' : 'text-dark'
                   }`}
                   style={{ color: scroll > headerTop ? 'gold' : 'inherit' }}
                 >
                   SNEAKACE
-                </h1>
+                </h1> */}
               </Link>
               <Link className='sticky-block' to={process.env.PUBLIC_URL + '/'}>
                 {/* <img alt="" src="assets/img/logo/logo.png" /> */}
                 <h1
                   className={`logo-text animated-gucci ${
-                    scroll > headerTop ? 'text-warning' : 'text-dark'
+                    scroll > headerTop ? 'text-warning' : 'text-warning'
+                    // scroll > headerTop ? 'text-warning' : 'text-dark'
                   }`}
-                  style={{ color: scroll > headerTop ? 'gold' : 'inherit' }}
+                  style={{ display: 'flex', fontWeight: '600'}}
                 >
+                  <img className='header-logo' src={logo} alt="logo" />
                   SNEAKACE
                 </h1>
               </Link>
@@ -83,9 +88,9 @@ const HeaderSix = ({ layout, headerPaddingClass, headerBgClass }) => {
           <div className='col-xl-5 col-lg-4 col-md-6 col-6'>
             {/* Icon group */}
             {scroll > headerTop ? (
-              <IconGroup iconWhiteClass='header-right-wrap-white' />
+              <IconGroup iconWhiteClass='header-right-wrap-gold' />
             ) : (
-              <IconGroup />
+              <IconGroup iconWhiteClass='header-right-wrap-white'/>
             )}
           </div>
         </div>

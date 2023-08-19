@@ -43,8 +43,12 @@
   animation: 700ms ease-in-out 0s normal none 1 running fadeInDown;
 
   border-bottom: 0 solid #4a90e2;
-  background-color: rgb(60, 9, 108);
-  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.06);
+  // background-color: rgb(60, 9, 108);
+  // background: linear-gradient(rgba(255, 207, 0, .5) 47.19%, rgba(255, 207, 0, .3) 100%);
+  background: linear-gradient(90deg, rgba(2,0,36,0.9669117647058824) 0%, rgba(125,106,27,1) 50%, rgba(0,0,0,0.9669117647058824) 100%);
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0,.7);
+ 
+
 
   .center-menu-logo {
     display: none;
@@ -56,11 +60,36 @@
     }
   }
 
-  .header-right-wrap-white {
+  .header-right-wrap-gold {
    
     .same-style {
       > a {
         color: #000;
+      }
+
+      &.cart-wrap,
+      &.header-compare,
+      &.header-wishlist,
+      &.account-setting,
+      &.header-search {
+        > button,
+        & > a {
+           color: gold !important;
+          span {
+            &.count-style {
+              color: #fff;
+              background-color: #000;
+            }
+          }
+        }
+      }
+    }
+  }
+  .header-right-wrap-white {
+   
+    .same-style {
+      > a {
+        color: #fff;
       }
 
       &.cart-wrap,
@@ -105,6 +134,12 @@
     padding: 20px 0 15px;
   }
 }
+
+.header-logo{
+  height: 2.2rem;
+  margin-right: 1rem;
+}
+
 .logo {
   margin-top: 32px;
   @media #{$md-layout} {

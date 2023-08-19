@@ -11,7 +11,7 @@ const params = {
   modules: [EffectFade],
   loop: true,
   speed: 1000,
-  navigation: true,
+  navigation: false,
   autoHeight: false
 };
 

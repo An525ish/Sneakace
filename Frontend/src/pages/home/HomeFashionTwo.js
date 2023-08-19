@@ -15,6 +15,13 @@ import TestimonialFour from "../../wrappers/testimonial/TestimonialFour";
 import CountDownTwo from "../../wrappers/countdown/CountDownTwo";
 import BannerFive from "../../wrappers/banner/BannerFive";
 import HeroSliderEleven from "../../wrappers/hero-slider/HeroSliderEleven";
+import HeroSliderThirteen from "../../wrappers/hero-slider/HeroSliderThirteen";
+import HeroSliderEight from "../../wrappers/hero-slider/HeroSliderEight";
+import HeroSliderTwo from "../../wrappers/hero-slider/HeroSliderTwo";
+import SliderBanner from "../../wrappers/slider-banner/SliderBanner";
+import HeroSliderSix from "../../wrappers/hero-slider/HeroSliderSix";
+import HeroSliderFive from "../../wrappers/hero-slider/HeroSliderFive";
+import HeroSliderTwentyOne from "../../wrappers/hero-slider/HeroSliderTwentyOne";
 
 const HomeFashionTwo = () => {
   return (
@@ -28,7 +35,8 @@ const HomeFashionTwo = () => {
         headerPaddingClass="header-padding-2"
       >
         {/* hero slider */}
-        <HeroSliderEleven />
+        {/* <HeroSliderEleven /> */}
+        <HeroSliderTwentyOne />
 
         {/* banner */}
         <BannerFive />

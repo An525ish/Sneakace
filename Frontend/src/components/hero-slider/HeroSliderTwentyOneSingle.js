@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import logo from '../../assets/img/logo 3.png'
 
 const HeroSliderTwentyOneSingle = ({ data }) => {
   return (
@@ -9,20 +10,22 @@ const HeroSliderTwentyOneSingle = ({ data }) => {
     >
       <div className="container">
         <div className="row">
-          <div className="col-xl-6 col-lg-7 col-md-8 col-12">
+          <div className="">
             <div className="slider-content-2 slider-content-2--white slider-animated-1">
-              <h3 className="animated no-style">{data.title}</h3>
+              <img src={logo} alt="" />
               <h1
                 className="animated"
                 dangerouslySetInnerHTML={{ __html: data.subtitle }}
               />
+              <h3 className="animated no-style">{data.title}</h3>
+
               <div className="slider-btn btn-hover">
-                <Link
+                {/* <Link
                   className="animated rounden-btn"
                   to={process.env.PUBLIC_URL + data.url}
                 >
                   SHOP NOW
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

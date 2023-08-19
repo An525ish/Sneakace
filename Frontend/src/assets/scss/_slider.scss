@@ -490,9 +490,16 @@
   }
 }
 
+.banner-style{
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
 /* slider style-2 */
 .slider-content-2 {
-  margin-top: -6px;
+  // margin-top: -6px;
+  text-align: center;
+
   @media #{$xs-layout} {
     text-align: center;
   }
