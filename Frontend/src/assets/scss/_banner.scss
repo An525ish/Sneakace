@@ -1,6 +1,11 @@
 /*----- 9. Banner style  -------*/
 
+.category{
+  border-radius: 0 0 198px 198px;
+  background-color: white;
+}
 .single-banner {
+  border-radius: 2rem;
   position: relative;
   overflow: hidden;
   cursor: pointer;
@@ -881,8 +886,10 @@
 /* banner hm4 */
 
 .banner-area-2 {
+  background-color: black;
   .container-fluid {
     padding-right: 10px;
+    
     padding-left: 10px;
     @media #{$md-layout} {
       padding-right: 30px;
@@ -899,6 +906,7 @@
     }
   }
   &.banner-area-2 {
+    background-color: black;
     .single-banner {
       @media #{$xx-layout} {
         .banner-content {
@@ -1255,6 +1263,7 @@
 
 @media #{$xs-layout} {
   .banner-area.pt-80 {
+    background-color: black;
     padding-top: 60px;
     // margin-top: 40px;
   }

@@ -37,6 +37,7 @@ const TestimonialOne = ({
   testimonialClass,
 }) => {
   return (
+    <div className="testimonial">
     <div className={clsx("testimonial-area",  bgColorClass)}>
       {/* <SectionTitle
       className="title"
@@ -70,6 +71,7 @@ const TestimonialOne = ({
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

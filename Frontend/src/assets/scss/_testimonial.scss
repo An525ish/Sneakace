@@ -1,7 +1,13 @@
 /*----- 13. Testimonial style  ------*/
+
+.testimonial {
+  background-color: black;
+}
 .testimonial-container{
   border-radius: 75px;
-background: rgba(254, 254, 254, 0.60);
+// background: rgba(254, 254, 254, 0.60);
+background: #FFF9EC;
+
 padding: .75rem 0;
 }
 .title-cont{
@@ -128,7 +134,8 @@ font-size: 1.15rem;
 
 .testimonial-area {
  border-radius: 205px 203px 0px 0px;
-  background: #FFF9E4;
+  background:#FFFFFF;
+
   padding: 1.5rem 0;
 
   

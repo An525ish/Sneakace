@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const BannerFive = () => {
   return (
-    <div className="banner-area hm9-section-padding mt-5">
-      <div className="container-fluid">
+    <div className="banner-area-2 hm9-section-padding mt-5 ">
+      <div className="container-fluid category p-5">
         <div className="row">
           <div className="col-lg-4 col-md-6 ">
             <div className="row">
