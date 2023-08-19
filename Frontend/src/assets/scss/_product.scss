@@ -8,8 +8,13 @@
 // }
 
 /*------- 6. Product style  --------*/
+
+.inner-slider{
+  background-color: black;
+}
 .product-area {
   position: relative;
+  background-color: black;
   .row {
     &.three-column {
       .col-xl-3 {

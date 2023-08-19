@@ -34,15 +34,14 @@ const HomeFashionTwo = () => {
         <BannerFive />
 
         {/* tab product */}
-        <TabProductFive spaceBottomClass='pb-40' tag='accessories' />
+
 
         {/* cutomized */}
         <CountDownTwo
           spaceTopClass="pt-80"
           spaceBottomClass="pb-95"
-          dateTime="November 13, 2023 12:12:00"
         />
-        
+                <TabProductFive spaceBottomClass='pb-40' tag='accessories' />
         {/* testimonial */}
         <TestimonialOne
           spaceTopClass="pt-100"
