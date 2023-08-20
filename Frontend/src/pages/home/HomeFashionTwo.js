@@ -37,6 +37,7 @@ const HomeFashionTwo = () => {
         {/* hero slider */}
         {/* <HeroSliderEleven /> */}
         <HeroSliderTwentyOne />
+ 
 
         {/* banner */}
         <BannerFive />
