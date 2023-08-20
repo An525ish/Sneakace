@@ -63,15 +63,16 @@ const CountDownTwo = ({ spaceTopClass, spaceBottomClass, dateTime }) => {
         /> */}
        <div className="customize-title">
         <h6>ADD YOUR MAGIC TOUCH</h6>
+        <br></br>
         <h5>Customize</h5>
        </div>
 
         <div className="row align-items-center justify-content-center">
           {/* <h2 className="text-center">Get Your Own Customised laces</h2> */}
           <div className="col-md-6 mt-5">
-            <div className="fruits-deal-img d-flex flex-row align-items-center ">
+            <div className="fruits-deal-img d-flex flex-row align-items-center rounded-circle object-fit-cover">
               <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
-                <img
+                <img className="rounded-circle object-fit-cover "
                   src={process.env.PUBLIC_URL + "/assets/img/banner/deal.png"}
                   alt=""
                 />
@@ -79,7 +80,8 @@ const CountDownTwo = ({ spaceTopClass, spaceBottomClass, dateTime }) => {
             </div>
        
           </div>
-          <p  className="customize-content">When all that inspiration goes into your shoe design, anything feels possible. 
+          <br></br>
+          <p  className="customize-content m-5">When all that inspiration goes into your shoe design, anything feels possible. 
 Voilà! Try your hand at making that so you lace with SneakAce’s co-creation service.</p>
         </div>
       </div>
