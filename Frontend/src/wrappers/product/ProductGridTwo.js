@@ -158,8 +158,8 @@ const ProductGridTwo = ({
 
   return (
     <Fragment>
-      <div className={clsx('slider-area p-4')}>
-        <div className='slider-active nav-style-2 m-4'>
+      <div className={clsx('slider-area')} style={{borderRadius:"55px"}} >
+        <div className='slider-active nav-style-2  ' style={{ paddingTop:"2rem",margin:"1rem 2rem 0 2rem " }}>
           {prods && (
             <Swiper options={settings}>
               {prods.map((product, key) => (
