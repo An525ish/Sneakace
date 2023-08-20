@@ -64,7 +64,7 @@ const CountDownTwo = ({ spaceTopClass, spaceBottomClass, dateTime }) => {
        <div className="customize-title">
         <h6>ADD YOUR MAGIC TOUCH</h6>
         <br></br>
-        <h5>Customize</h5>
+        <h5 >Customize</h5>
        </div>
 
         <div className="row align-items-center justify-content-center">
@@ -81,7 +81,7 @@ const CountDownTwo = ({ spaceTopClass, spaceBottomClass, dateTime }) => {
        
           </div>
           <br></br>
-          <p  className="customize-content m-5">When all that inspiration goes into your shoe design, anything feels possible. 
+          <p  className="customize-content m-5 w-75">When all that inspiration goes into your shoe design, anything feels possible. 
 Voilà! Try your hand at making that so you lace with SneakAce’s co-creation service.</p>
         </div>
       </div>
