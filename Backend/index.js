@@ -19,6 +19,7 @@ const categoriesRouter = require('./routes/Categories');
 const authRouter = require('./routes/AuthRoutes');
 const ordersRouter = require('./routes/Order');
 const usersRouter = require('./routes/Users');
+const AddressRouter= require('./routes/Address');
 const CLIENT_URL=process.env.CLIENT_URL
 
 const opts = {};
@@ -58,6 +59,7 @@ server.use('/users', usersRouter.router);
 server.use('/cart', isAuth(), cartRouter.router);
 server.use('/orders', isAuth(), ordersRouter.router);
 server.use('/categories', isAuth(), categoriesRouter.router);
+server.use("/user/address",isAuth(),AddressRouter.router);
 
 // Passport Strategies
 passport.use(
