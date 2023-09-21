@@ -59,7 +59,7 @@ server.use('/users', usersRouter.router);
 server.use('/cart', isAuth(), cartRouter.router);
 server.use('/orders', isAuth(), ordersRouter.router);
 server.use('/categories', isAuth(), categoriesRouter.router);
-server.use("/user/address",isAuth(),AddressRouter.router);
+server.use('/user/address',isAuth(),AddressRouter.router);
 
 // Passport Strategies
 passport.use(

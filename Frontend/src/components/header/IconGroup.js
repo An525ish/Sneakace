@@ -4,6 +4,8 @@ import { useSelector } from 'react-redux';
 import clsx from 'clsx';
 import MenuCart from './sub-components/MenuCart';
 
+import { HeartSearch } from 'iconsax-react';
+import { ShoppingCart } from 'iconsax-react';
 const IconGroup = ({ iconWhiteClass }) => {
   const handleClick = (e) => {
     e.currentTarget.nextSibling.classList.toggle('active');
@@ -70,7 +72,8 @@ const IconGroup = ({ iconWhiteClass }) => {
       </div> */}
       <div className='same-style header-wishlist'>
         <Link to={process.env.PUBLIC_URL + '/wishlist'}>
-          <i className='pe-7s-like' />
+          {/* <i className='pe-7s-like' /> */}
+          <HeartSearch size="25" color="#FECE00"/>
           <span className='count-style'>
             {wishlistItems && wishlistItems.length ? wishlistItems.length : 0}
           </span>
@@ -78,7 +81,10 @@ const IconGroup = ({ iconWhiteClass }) => {
       </div>
       <div className='same-style cart-wrap d-none d-lg-block'>
         <button className='icon-cart' onClick={(e) => handleClick(e)}>
-          <i className='pe-7s-shopbag' />
+         <ShoppingCart
+ size="25"
+ color="#FECE00"
+/>
           <span className='count-style'>
             {cartItems && cartItems.length ? cartItems.length : 0}
           </span>

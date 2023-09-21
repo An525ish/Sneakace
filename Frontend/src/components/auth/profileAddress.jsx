@@ -48,6 +48,21 @@ const ProfileAddress = () => {
                     </div>
                     <div className="col-lg-6 col-md-6">
                         <div className="billing-info">
+                            <label>City</label>
+                            <input type="string"
+                                {...register('city', {
+                                    required: 'Required field'
+                                })}
+                            />
+                            {errors.city && (
+                                <p className='text-danger'>
+                                    {errors.city.message}
+                                </p>
+                            )}
+                        </div>
+                    </div>
+                    <div className="col-lg-6 col-md-6">
+                        <div className="billing-info">
                             <label>Zipcode</label>
                             <input type="string"
                                 {...register('zipcode',{
@@ -76,17 +91,18 @@ const ProfileAddress = () => {
                             )}
                         </div>
                     </div>
+                 
                     <div className="col-lg-6 col-md-6">
                         <div className="billing-info">
-                            <label>City</label>
+                            <label>Country</label>
                             <input type="string"
-                                {...register('city', {
+                                {...register('country', {
                                     required: 'Required field'
                                 })}
                             />
-                            {errors.city && (
+                            {errors.country && (
                                 <p className='text-danger'>
-                                    {errors.city.message}
+                                    {errors.country.message}
                                 </p>
                             )}
                         </div>
