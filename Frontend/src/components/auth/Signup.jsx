@@ -4,11 +4,15 @@ import { useForm } from 'react-hook-form';
 import GoogleSignIn from '../GoogleOath/GoogleSignIn';
 import { Link, useNavigate, createSearchParams } from 'react-router-dom';
 import MyAccount from '../../pages/other/MyAccount';
+import { useDispatch, useSelector } from 'react-redux';
+import { createUserAsync, loginUserAsync, selectError, } from '../../store/slices/auth-slice';
 
 const Signup = () => {
 
     const navigate=useNavigate();
-
+    const error = useSelector(selectError);
+    // const user = useSelector(selectLoggedInUser);
+    const dispatch = useDispatch()
     const {
         register,
         handleSubmit,
@@ -16,7 +20,10 @@ const Signup = () => {
     } = useForm();
 
     const onSubmit = async (formData) => {
-        const { data } = await postApi('/auth/signup', formData);
+        // const { data } = await postApi('/auth/signup', formData);
+        dispatch(
+            createUserAsync({ email: formData.email, password: formData.password })
+        );
         changePage(formData.email);
     };
 
@@ -28,8 +35,9 @@ const Signup = () => {
     }
 
     const [email,setEmail]=useState("");
+    const [password,setPassword]=useState("");
 
-    const userDetails = { email:email}
+    const userDetails = { email:email,password:password}
     localStorage.setItem('userDetails', JSON.stringify(userDetails));
 
 
@@ -89,6 +97,7 @@ const Signup = () => {
                                     'password not matching',
                             })}
                             placeholder='Confirm Password'
+                            onChange={(e)=>setPassword(e.target.value)}
                         />
                         {errors.confirmPassword && (
                             <p className='text-danger'>

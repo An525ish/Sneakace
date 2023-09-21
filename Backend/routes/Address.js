@@ -3,7 +3,7 @@ const { getAllAddress, PostAddress } = require('../controller/Address');
 
 
 const router = express.Router();
-route.get("/", getAllAddress)
+router.get("/", getAllAddress)
     .post("/", PostAddress)
 
 exports.router = router;

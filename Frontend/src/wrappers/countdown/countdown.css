@@ -1,0 +1,5 @@
+.corousel-item{
+    display: flex !important;
+    justify-content: center;
+    float: none;
+}

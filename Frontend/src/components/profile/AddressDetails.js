@@ -12,6 +12,7 @@ const AddressDetails = () => {
     const [zipcode, setZipcode] = useState("");
     const [state, setState] = useState("");
     const [city, setCity] = useState("");
+    const [country, setCountry] = useState("");
     const {email} = JSON.parse(localStorage.getItem( 'userDetails'));    
 
 
@@ -24,6 +25,7 @@ const AddressDetails = () => {
             setZipcode(result.data.zipcode);
             setState(result.data.state)
             setCity(result.data.city)
+            setCountry(result.data.country);
         };
 
         fetchData();
@@ -58,7 +60,7 @@ const AddressDetails = () => {
                 <div className="profile-edit-fields">
                     <div>
                         <h4 style={{ fontWeight: 'bold' }}>Address:</h4>
-                        <h5>{address}{", "}{city}{", "}{state}{", "}{zipcode}</h5>
+                        <h5>{address}{", "}{city}{", "}{state}{", "}{zipcode}{", "}{country}</h5>
                     </div>
                     <button className="profile-edit-button" onClick={openModal}>Edit</button>
                 </div>
@@ -105,6 +107,16 @@ const AddressDetails = () => {
                                     value={city}
                                         {...register('city')}
                                         onChange={(e)=>setCity(e.target.value)}
+                                    />
+                                </div>
+                            </div>
+                            <div className="col-lg-6 col-md-6">
+                                <div className="billing-info">
+                                    <label>Country</label>
+                                    <input type="string"
+                                    value={country}
+                                        {...register('country')}
+                                        onChange={(e)=>setCountry(e.target.value)}
                                     />
                                 </div>
                             </div>
